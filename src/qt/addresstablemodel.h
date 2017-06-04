@@ -9,9 +9,8 @@
 #include <QStringList>
 
 class AddressTablePriv;
-class WalletModel;
-
 class CWallet;
+class WalletModel;
 
 /**
    Qt model of the address book in the core. This allows views to access and modify the address book.
@@ -84,10 +83,13 @@ private:
     /** Notify listeners that data changed. */
     void emitDataChanged(int index);
 
+signals:
+    void defaultAddressChanged(const QString &address);
+
 public slots:
     /* Update address list from core.
      */
-    void updateEntry(const QString &address, const QString &label, bool isMine, const QString &purpose, int status);
+    void updateEntry(const QString &address, const QString &label, bool isMine, int status);
 
     friend class AddressTablePriv;
 };

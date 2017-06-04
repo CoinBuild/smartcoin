@@ -6,17 +6,12 @@
 #define WALLETFRAME_H
 
 #include <QFrame>
-#include <QMap>
 
 class BitcoinGUI;
 class ClientModel;
-class SendCoinsRecipient;
 class WalletModel;
+class WalletStack;
 class WalletView;
-
-QT_BEGIN_NAMESPACE
-class QStackedWidget;
-QT_END_NAMESPACE
 
 class WalletFrame : public QFrame
 {
@@ -30,20 +25,17 @@ public:
 
     bool addWallet(const QString& name, WalletModel *walletModel);
     bool setCurrentWallet(const QString& name);
-    bool removeWallet(const QString &name);
+
     void removeAllWallets();
 
-    bool handlePaymentRequest(const SendCoinsRecipient& recipient);
+    bool handleURI(const QString &uri);
 
     void showOutOfSyncWarning(bool fShow);
 
 private:
-    QStackedWidget *walletStack;
     BitcoinGUI *gui;
     ClientModel *clientModel;
-    QMap<QString, WalletView*> mapWalletViews;
-
-    bool bOutOfSync;
+    WalletStack *walletStack;
 
     WalletView *currentWalletView();
 
@@ -52,6 +44,8 @@ public slots:
     void gotoOverviewPage();
     /** Switch to history (transactions) page */
     void gotoHistoryPage();
+    /** Switch to address book page */
+    void gotoAddressBookPage();
     /** Switch to receive coins page */
     void gotoReceiveCoinsPage();
     /** Switch to send coins page */
@@ -71,10 +65,11 @@ public slots:
     /** Ask for passphrase to unlock wallet temporarily */
     void unlockWallet();
 
-    /** Show used sending addresses */
-    void usedSendingAddresses();
-    /** Show used receiving addresses */
-    void usedReceivingAddresses();
+    /** Set the encryption status as shown in the UI.
+     @param[in] status            current encryption status
+     @see WalletModel::EncryptionStatus
+     */
+    void setEncryptionStatus();
 };
 
 #endif // WALLETFRAME_H
