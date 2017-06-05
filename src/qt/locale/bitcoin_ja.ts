@@ -66,11 +66,11 @@
         <translation>アドレス受信中</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>これらは支払いを送信するためのあなたの Bitcoin アドレスです。コインを送信する前に、常に額と受信アドレスを確認してください。</translation>
+        <source>These are your Smartcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>これらは支払いを送信するためのあなたの Smartcoin アドレスです。コインを送信する前に、常に額と受信アドレスを確認してください。</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Smartcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>これらは支払いを受け取るためのビットコインアドレスです。トランザクションごとに新しい受け取り用アドレスを作成することが推奨されます。</translation>
     </message>
     <message>
@@ -160,16 +160,16 @@
         <translation>ウォレットの暗号化を確認する</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを失ってしまったなら、&lt;b&gt;あなたの Bitcoin はすべて失われます&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMARTCOINS&lt;/b&gt;!</source>
+        <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを失ってしまったなら、&lt;b&gt;あなたの Smartcoin はすべて失われます&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>本当にウォレットを暗号化しますか?</translation>
     </message>
     <message>
-        <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>暗号化処理を完了させるため Bitcoin Core をいますぐ終了します。ウォレットの暗号化では、コンピュータに感染したマルウェアなどによるビットコインの盗難から完全に守ることはできないことにご注意ください。</translation>
+        <source>Smartcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your smartcoins from being stolen by malware infecting your computer.</source>
+        <translation>暗号化処理を完了させるため Smartcoin をいますぐ終了します。ウォレットの暗号化では、コンピュータに感染したマルウェアなどによるビットコインの盗難から完全に守ることはできないことにご注意ください。</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -295,8 +295,8 @@
         <translation>URI を開く (&amp;U)...</translation>
     </message>
     <message>
-        <source>Bitcoin Core client</source>
-        <translation>Bitcoinコア クライアント</translation>
+        <source>Smartcoin client</source>
+        <translation>Smartcoinコア クライアント</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,8 +307,8 @@
         <translation>ディスク上のブロックのインデックスを再作成中...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Bitcoin アドレスにコインを送る</translation>
+        <source>Send coins to a Smartcoin address</source>
+        <translation>Smartcoin アドレスにコインを送る</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -331,8 +331,8 @@
         <translation>メッセージの検証... (&amp;V)</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -347,8 +347,8 @@
         <translation>受信 (&amp;R)</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Core</source>
-        <translation>Bitcoinコアに関する情報を表示</translation>
+        <source>Show information about Smartcoin</source>
+        <translation>Smartcoinコアに関する情報を表示</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -363,12 +363,12 @@
         <translation>あなたのウォレットの秘密鍵を暗号化します</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>あなたが所有していることを証明するために、あなたの Bitcoin アドレスでメッセージに署名してください</translation>
+        <source>Sign messages with your Smartcoin addresses to prove you own them</source>
+        <translation>あなたが所有していることを証明するために、あなたの Smartcoin アドレスでメッセージに署名してください</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>指定された Bitcoin アドレスで署名されたことを確認するためにメッセージを検証します</translation>
+        <source>Verify messages to ensure they were signed with specified Smartcoin addresses</source>
+        <translation>指定された Smartcoin アドレスで署名されたことを確認するためにメッセージを検証します</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -387,20 +387,20 @@
         <translation>タブツールバー</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin のコア</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin のコア</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>支払いを要求する (QRコードとbitcoin:ではじまるURIを生成する)</translation>
+        <source>Request payments (generates QR codes and smartcoin: URIs)</source>
+        <translation>支払いを要求する (QRコードとsmartcoin:ではじまるURIを生成する)</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
+        <source>&amp;About Smartcoin</source>
         <translation>ビットコインコアについて (&amp;A)</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin Core</source>
-        <translation>Bitcoin Core の設定を編集する</translation>
+        <source>Modify configuration options for Smartcoin</source>
+        <translation>Smartcoin の設定を編集する</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,20 +411,20 @@
         <translation>支払いを受け取るアドレスとラベルのリストを表示する</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>bitcoin: URIまたは支払いリクエストを開く</translation>
+        <source>Open a smartcoin: URI or payment request</source>
+        <translation>smartcoin: URIまたは支払いリクエストを開く</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>コマンドラインオプション (&amp;C)</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>有効な Bitcoin のコマンドライン オプションを見るために Bitcoin Core のヘルプメッセージを表示します。</translation>
+        <source>Show the Smartcoin help message to get a list with possible Smartcoin command-line options</source>
+        <translation>有効な Smartcoin のコマンドライン オプションを見るために Smartcoin のヘルプメッセージを表示します。</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n の Bitcoin ネットワークへのアクティブな接続</numerusform></translation>
+        <source>%n active connection(s) to Smartcoin network</source>
+        <translation><numerusform>%n の Smartcoin ネットワークへのアクティブな接続</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -806,8 +806,8 @@
         <translation>入力されたアドレス "%1" は既にアドレス帳にあります。</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>入力されたアドレス "%1" は無効な Bitcoin アドレスです。</translation>
+        <source>The entered address "%1" is not a valid Smartcoin address.</source>
+        <translation>入力されたアドレス "%1" は無効な Smartcoin アドレスです。</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -844,8 +844,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin のコア</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin のコア</translation>
     </message>
     <message>
         <source>version</source>
@@ -856,8 +856,8 @@
         <translation>(%1ビット)</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>Bitcoinコアについて</translation>
+        <source>About Smartcoin</source>
+        <translation>Smartcoinコアについて</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -879,16 +879,16 @@
         <translation>ようこそ</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
+        <source>Welcome to Smartcoin.</source>
         <translation>ようこそ！</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>これはプログラム最初の起動です。Bitcoin Coreがデータを保存する場所を選択して下さい。</translation>
+        <source>As this is the first time the program is launched, you can choose where Smartcoin will store its data.</source>
+        <translation>これはプログラム最初の起動です。Smartcoinがデータを保存する場所を選択して下さい。</translation>
     </message>
     <message>
-        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Bitcoin Coreは、ビットコインのブロックチェーンのコピーを、ダウンロードして保存します。少なくとも%1ギガバイトのデータが、このディレクトリに保存されます。そしてそれは時間と共に増加します。またウォレットもこのディレクトリに保存されます。</translation>
+        <source>Smartcoin will download and store a copy of the Smartcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Smartcoin Coreは、ビットコインのブロックチェーンのコピーを、ダウンロードして保存します。少なくとも%1ギガバイトのデータが、このディレクトリに保存されます。そしてそれは時間と共に増加します。またウォレットもこのディレクトリに保存されます。</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -899,8 +899,8 @@
         <translation>任意のデータ ディレクトリを使用:</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin のコア</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin のコア</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -981,8 +981,8 @@
         <translation>ウィンドウを閉じる際にアプリケーションを終了するのではなく、最小化します。このオプションが有効化された場合、メニューから終了を選択した場合にのみアプリケーションは閉じられます。</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Core.</source>
-        <translation>ユーザ・インタフェイス言語はここで設定できます。この設定はBitcoin Coreの再起動後に有効となります。</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Smartcoin.</source>
+        <translation>ユーザ・インタフェイス言語はここで設定できます。この設定はSmartcoinの再起動後に有効となります。</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1009,12 +1009,12 @@
         <translation>ネットワーク (&amp;N)</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin Core after logging in to the system.</source>
-        <translation>システムにログインした際、自動的にBitcoin Coreを起動する。</translation>
+        <source>Automatically start Smartcoin after logging in to the system.</source>
+        <translation>システムにログインした際、自動的にSmartcoinを起動する。</translation>
     </message>
     <message>
-        <source>&amp;Start Bitcoin Core on system login</source>
-        <translation>システムへログインした際にBitcoin Coreを起動する (&amp;S)</translation>
+        <source>&amp;Start Smartcoin on system login</source>
+        <translation>システムへログインした際にSmartcoinを起動する (&amp;S)</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1041,16 +1041,16 @@
         <translation>未検証のおつりを使用する (&amp;S)</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自動的にルーター上の Bitcoin クライアントのポートを開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
+        <source>Automatically open the Smartcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自動的にルーター上の Smartcoin クライアントのポートを開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>UPnP を使ってポートを割り当てる (&amp;U)</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>SOCKS5 プロキシ経由でBitcoinネットワークに接続する</translation>
+        <source>Connect to the Smartcoin network through a SOCKS5 proxy.</source>
+        <translation>SOCKS5 プロキシ経由でSmartcoinネットワークに接続する</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1148,8 +1148,8 @@
         <translation>フォーム</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>表示された情報は古いかもしれません。接続が確立されると、あなたのウォレットは Bitcoin ネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Smartcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>表示された情報は古いかもしれません。接続が確立されると、あなたのウォレットは Smartcoin ネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1247,16 +1247,16 @@
         <translation>支払いのリクエストのエラーです</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Bitcoin を起動できません: click-to-pay handler</translation>
+        <source>Cannot start smartcoin: click-to-pay handler</source>
+        <translation>Smartcoin を起動できません: click-to-pay handler</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>支払い要求の取得先URLが無効です: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI を解析できません! これは無効な Bitcoin アドレスあるいや不正な形式の URI パラメーターによって引き起こされる場合があります。</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Smartcoin address or malformed URI parameters.</source>
+        <translation>URI を解析できません! これは無効な Smartcoin アドレスあるいや不正な形式の URI パラメーターによって引き起こされる場合があります。</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1333,8 +1333,8 @@
         <translation>総額</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Bitcoinアドレスを入力してください (例 %1)</translation>
+        <source>Enter a Smartcoin address (e.g. %1)</source>
+        <translation>Smartcoinアドレスを入力してください (例 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1443,8 +1443,8 @@
         <translation>現在のブロック数</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>現在のデータディレクトリからBitcoin Coreのデバッグ用ログファイルを開きます。ログファイルが巨大な場合、数秒かかることがあります。</translation>
+        <source>Open the Smartcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>現在のデータディレクトリからSmartcoinのデバッグ用ログファイルを開きます。ログファイルが巨大な場合、数秒かかることがあります。</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1563,8 +1563,8 @@
         <translation>コンソールをクリア</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
-        <translation>Bitcoin CoreのRPCコンソールへようこそ。</translation>
+        <source>Welcome to the Smartcoin RPC console.</source>
+        <translation>Smartcoin CoreのRPCコンソールへようこそ。</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1638,8 +1638,8 @@
         <translation>既存の受取用アドレスを再利用する (非推奨) (&amp;E)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>支払リクエストが開始された時に表示される、支払リクエストに添える任意のメッセージです。注意：メッセージはBitcoinネットワークを通じて、支払と共に送られるわけではありません。</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Smartcoin network.</source>
+        <translation>支払リクエストが開始された時に表示される、支払リクエストに添える任意のメッセージです。注意：メッセージはSmartcoinネットワークを通じて、支払と共に送られるわけではありません。</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1871,8 +1871,8 @@
         <translation>最小手数料</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation>ブロックの容量に比べてトランザクション流量が少ないうちは最小手数料のみの支払で十分です。しかしながらネットワークが処理しきれないほどbitcoinトランザクションの需要がひとたび生まれてしまった場合には、永遠に検証がされないトランザクションになってしまう可能性があることに注意してください。</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for smartcoin transactions than the network can process.</source>
+        <translation>ブロックの容量に比べてトランザクション流量が少ないうちは最小手数料のみの支払で十分です。しかしながらネットワークが処理しきれないほどsmartcoinトランザクションの需要がひとたび生まれてしまった場合には、永遠に検証がされないトランザクションになってしまう可能性があることに注意してください。</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -1979,6 +1979,10 @@
         <translation>釣り銭をコピー</translation>
     </message>
     <message>
+        <source>Total Amount %1 (= %2)</source>
+        <translation>総送金額 %1 (= %2)</translation>
+    </message>
+    <message>
         <source>or</source>
         <translation>または</translation>
     </message>
@@ -2019,10 +2023,6 @@
         <translation>最小手数料 %1 のみを支払う</translation>
     </message>
     <message>
-        <source>Total Amount %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</source>
-        <translation>総額 %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</translation>
-    </message>
-    <message>
         <source>The recipient address is not valid. Please recheck.</source>
         <translation>受取アドレスが不正です。再チェックしてください。</translation>
     </message>
@@ -2031,8 +2031,8 @@
         <translation>重複したアドレスが見つかりました: アドレスはそれぞれ一度のみ使用することができます。</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>警告：無効なBitcoinアドレスです</translation>
+        <source>Warning: Invalid Smartcoin address</source>
+        <translation>警告：無効なSmartcoinアドレスです</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2082,8 +2082,8 @@
         <translation>これは通常の支払です。</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>支払の送金先Bitcoinアドレス</translation>
+        <source>The Smartcoin address to send the payment to</source>
+        <translation>支払の送金先Smartcoinアドレス</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2102,7 +2102,7 @@
         <translation>この項目を削除する</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less smartcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>送金する金額から手数料が差し引かれます。受取人は数量フィールドで指定した量よりも少ないビットコインを受け取ります。受取人が複数いる場合には、手数料は均等割されます。</translation>
     </message>
     <message>
@@ -2126,8 +2126,8 @@
         <translation>このアドレスに対するラベルを入力することで、使用済みアドレスの一覧に追加することができます</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>bitcoin: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはBitcoinネットワークを通して送信されるわけではありません。</translation>
+        <source>A message that was attached to the smartcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Smartcoin network.</source>
+        <translation>smartcoin: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはSmartcoinネットワークを通して送信されるわけではありません。</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2141,8 +2141,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitcoin Core is shutting down...</source>
-        <translation>Bitcoin Coreをシャットダウンしています。</translation>
+        <source>Smartcoin is shutting down...</source>
+        <translation>Smartcoin Coreをシャットダウンしています。</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2160,12 +2160,12 @@
         <translation>メッセージの署名 (&amp;S)</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive smartcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>あなたの所有しているアドレスによりメッセージや合意書に署名をすることで、それらアドレスに対して送られたビットコインを受け取ることができることを証明できます。フィッシング攻撃により不正にあなたの識別情報を署名させられてしまうことを防ぐために、不明確なものやランダムなものに対して署名しないよう注意してください。合意することが可能な、よく詳細の記された文言にのみ署名するようにしてください。</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>メッセージを署名するBitcoinアドレス</translation>
+        <source>The Smartcoin address to sign the message with</source>
+        <translation>メッセージを署名するSmartcoinアドレス</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2196,8 +2196,8 @@
         <translation>現在の署名をシステムのクリップボードにコピーする</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>この Bitcoin アドレスを所有していることを証明するためにメッセージに署名</translation>
+        <source>Sign the message to prove you own this Smartcoin address</source>
+        <translation>この Smartcoin アドレスを所有していることを証明するためにメッセージに署名</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2220,12 +2220,12 @@
         <translation>受取人のアドレスとメッセージ（改行やスペース、タブなども完全に一致するよう注意してください）および署名を以下に入力し、メッセージの署名を検証してください。中間者攻撃により騙されるのを防ぐため、署名対象のメッセージに書かれていること以上の意味を署名から読み取ろうとしないよう注意してください。これは署名作成者がこのアドレスで受け取ったことを証明するだけであり、トランザクションの送信権限を証明するものではないことに注意してください！</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>メッセージの署名に使われたBitcoinアドレス</translation>
+        <source>The Smartcoin address the message was signed with</source>
+        <translation>メッセージの署名に使われたSmartcoinアドレス</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>指定された Bitcoin アドレスで署名されたことを保証するメッセージを検証</translation>
+        <source>Verify the message to ensure it was signed with the specified Smartcoin address</source>
+        <translation>指定された Smartcoin アドレスで署名されたことを保証するメッセージを検証</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2291,11 +2291,11 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin のコア</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin のコア</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Smartcoin developers</source>
         <translation>ビットコインコアの開発者</translation>
     </message>
     <message>
@@ -2845,16 +2845,8 @@
         <translation>これはリリース前のテストビルドです - 各自の責任で利用すること - 採掘や商取引に使用しないでください</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
-        <translation>このコンピュータの %s にバインドすることができません。おそらく Bitcoin Core は既に実行されています。</translation>
-    </message>
-    <message>
-        <source>WARNING: abnormally high number of blocks generated, %d blocks received in the last %d hours (%d expected)</source>
-        <translation>警告：異常に多くの数のブロックが生成されています。%d ブロックが最近 %d 時間以内に受け取られました。(期待値: %d)</translation>
-    </message>
-    <message>
-        <source>WARNING: check your network connection, %d blocks received in the last %d hours (%d expected)</source>
-        <translation>警告：ネットワーク接続を確認してください。%d ブロックが最近 %d 時間以内にに受け取られました。(期待値: %d)</translation>
+        <source>Unable to bind to %s on this computer. Smartcoin is probably already running.</source>
+        <translation>このコンピュータの %s にバインドすることができません。おそらく Smartcoin は既に実行されています。</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2936,6 +2928,10 @@
     <message>
         <source>Error opening block database</source>
         <translation>ブロック データベースの開始エラー</translation>
+    </message>
+    <message>
+        <source>Error: A fatal internal error occured, see debug.log for details</source>
+        <translation>エラー：致命的な内部エラーが発生しました。詳細はdebug.logを参照してください</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
@@ -3038,8 +3034,8 @@
         <translation>指定されたアドレスに対して JSON-RPC 接続をリッスンしするようバインドします。IPv6の場合には [host]:port 表記を使用してください。このオプションは複数回指定することが可能です (初期値: すべてのインターフェースに対してバインドする)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
-        <translation>データ ディレクトリ %s のロックを取得することができません。おそらく Bitcoin Core は実行中です。</translation>
+        <source>Cannot obtain a lock on data directory %s. Smartcoin is probably already running.</source>
+        <translation>データ ディレクトリ %s のロックを取得することができません。おそらく Smartcoin は実行中です。</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3062,8 +3058,8 @@
         <translation>関連のアラートをもらってもすごく長いのフォークを見てもコマンドを実行 (コマンドの中にあるの%sはメッセージから置き換えさせる)</translation>
     </message>
     <message>
-        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>中継の際、この値未満の手数料 (BTC/Kb単位) はゼロであるとみなす (デフォルト: %s)</translation>
+        <source>Fees (in SMC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>中継の際、この値未満の手数料 (SMC/Kb単位) はゼロであるとみなす (デフォルト: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3106,27 +3102,27 @@
         <translation>この製品はOpenSSLプロジェクトにより開発されたソフトウェアをOpenSSLツールキットとして利用しています &lt;https://www.openssl.org/&gt;。また、Eric Young氏により開発された暗号ソフトウェア、Thomas Bernard氏により書かれたUPnPソフトウェアを用いています。</translation>
     </message>
     <message>
-        <source>To use bitcoind, or the -server option to bitcoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use smartcoind, or the -server option to smartcoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=smartcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Smartcoin Alert" admin@foo.com
 </source>
-        <translation>bitcoindを用いる場合や、-server オプションをbitcoin-qtに指定する場合には、設定ファイルにrpcpasswordを設定しなければなりません:
+        <translation>smartcoindを用いる場合や、-server オプションをsmartcoin-qtに指定する場合には、設定ファイルにrpcpasswordを設定しなければなりません:
 %s
 以下のランダムなパスワードを用いることが推奨されます:
-rpcuser=bitcoinrpc
+rpcuser=smartcoinrpc
 rpcpassword=%s
 (このパスワードを暗記する必要はありません)
 ユーザ名とパスワードは一致してはいけません。
 ファイルが存在しない場合には、所有者のみ読み込み可能なファイルパーミッションでファイルを作成してください。
 またalertnotifyを設定し、問題発生時に通知が行くようにすることをおすすめします;
-例: alertnotify=echo %%s | mail -s "Bitcoinアラート" admin@foo.com
+例: alertnotify=echo %%s | mail -s "Smartcoinアラート" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3134,8 +3130,8 @@ rpcpassword=%s
         <translation>警告: -maxtxfee が非常に高く設定されています！ひとつのトランザクションでこの量の手数料が支払われてしまうことがあります。</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
-        <translation>警告： あなたのPCの日付と時刻が正しいことを確認して下さい！ もしあなたの時計が正しくなければBitcoin Coreが正確に動作しません。</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Smartcoin will not work properly.</source>
+        <translation>警告： あなたのPCの日付と時刻が正しいことを確認して下さい！ もしあなたの時計が正しくなければSmartcoinが正確に動作しません。</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3174,40 +3170,36 @@ rpcpassword=%s
         <translation>SOCKS5 プロキシ経由で接続する</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i Bitcoin Core 開発者</translation>
+        <source>Copyright (C) 2009-%i The Smartcoin Developers</source>
+        <translation>Copyright (C) 2009-%i Smartcoin 開発者</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
         <translation>-rpcbind の値 %s をネットワークアドレスとして解釈できませんでした</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
-        <translation>wallet.dat の読み込みに失敗しました: ウォレットの読み込みにはより新しいバージョンの Bitcoin Core が必要です</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Smartcoin</source>
+        <translation>wallet.dat の読み込みに失敗しました: ウォレットの読み込みにはより新しいバージョンの Smartcoin が必要です</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
         <translation>データベースの読み込みエラー。シャットダウンします。</translation>
     </message>
     <message>
-        <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>エラー：致命的な内部エラーが発生しました。詳細はdebug.logを参照してください</translation>
-    </message>
-    <message>
         <source>Error: Unsupported argument -tor found, use -onion.</source>
         <translation>エラー: サポートされていない引数 -tor が見つかりました。-onion を使用してください。</translation>
     </message>
     <message>
-        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
-        <translation>送信するトランザクションに付加する手数料 (BTC/kB単位) (初期値: %s)</translation>
+        <source>Fee (in SMC/kB) to add to transactions you send (default: %s)</source>
+        <translation>送信するトランザクションに付加する手数料 (SMC/kB単位) (初期値: %s)</translation>
     </message>
     <message>
         <source>Information</source>
         <translation>情報</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Bitcoin Core is shutting down.</source>
-        <translation>初期化時の健全性チェックに失敗しました。Bitcoin Coreを終了します。</translation>
+        <source>Initialization sanity check failed. Smartcoin is shutting down.</source>
+        <translation>初期化時の健全性チェックに失敗しました。Smartcoinを終了します。</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3242,11 +3234,7 @@ rpcpassword=%s
         <translation>ノード中継オプション:</translation>
     </message>
     <message>
-        <source>Pruning blockstore...</source>
-        <translation>ブロックデータを剪定しています……</translation>
-    </message>
-    <message>
-        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the Smartcoin Wiki for SSL setup instructions)</source>
         <translation>RPC SSL オプション: (SSLのセットアップ手順はビットコインWikiを参照してください)</translation>
     </message>
     <message>
@@ -3260,10 +3248,6 @@ rpcpassword=%s
     <message>
         <source>Rebuild block chain index from current blk000??.dat files on startup</source>
         <translation>起動時に現在の blk000??.dat ファイルからブロック チェーンのインデックスを再構築</translation>
-    </message>
-    <message>
-        <source>Receive and display P2P network alerts (default: %u)</source>
-        <translation>P2Pネットワークのアラートの受け取りと表示を行う (デフォルト: %u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3342,8 +3326,8 @@ rpcpassword=%s
         <translation>JSON-RPC 接続のユーザー名</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin Core to complete</source>
-        <translation>ウォレットが書き直される必要がありました: 完了するために Bitcoin Core を再起動します</translation>
+        <source>Wallet needed to be rewritten: restart Smartcoin to complete</source>
+        <translation>ウォレットが書き直される必要がありました: 完了するために Smartcoin を再起動します</translation>
     </message>
     <message>
         <source>Warning</source>

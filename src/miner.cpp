@@ -9,6 +9,7 @@
 #include "chainparams.h"
 #include "consensus/consensus.h"
 #include "consensus/validation.h"
+#include "crypto/scrypt.h"
 #include "hash.h"
 #include "main.h"
 #include "net.h"
@@ -380,30 +381,34 @@ void IncrementExtraNonce(CBlock* pblock, CBlockIndex* pindexPrev, unsigned int& 
 // nonce is 0xffff0000 or above, the block is rebuilt and nNonce starts over at
 // zero.
 //
-bool static ScanHash(const CBlockHeader *pblock, uint32_t& nNonce, uint256 *phash)
+bool static ScanHash(CBlockHeader *pblock, uint32_t& nNonce, uint256 *phash, char *pscratchpad)
 {
     // Write the first 76 bytes of the block header to a double-SHA256 state.
-    CHash256 hasher;
-    CDataStream ss(SER_NETWORK, PROTOCOL_VERSION);
-    ss << *pblock;
-    assert(ss.size() == 80);
-    hasher.Write((unsigned char*)&ss[0], 76);
+    //CHash256 hasher;
+    //CDataStream ss(SER_NETWORK, PROTOCOL_VERSION);
+    //ss << *pblock;
+    //assert(ss.size() == 80);
+    //hasher.Write((unsigned char*)&ss[0], 76);
 
     while (true) {
         nNonce++;
 
         // Write the last 4 bytes of the block header (the nonce) to a copy of
         // the double-SHA256 state, and compute the result.
-        CHash256(hasher).Write((unsigned char*)&nNonce, 4).Finalize((unsigned char*)phash);
+        pblock->nNonce = nNonce;
+        scrypt_1024_1_1_256_sp(BEGIN(pblock->nVersion), (char*)phash, pscratchpad);
 
         // Return the nonce if the hash has at least some zero bits,
         // caller will check if it has enough to reach the target
-        if (((uint16_t*)phash)[15] == 0)
+        // TODO: I don't like having this hard-coded, it's too coarse for regtest, too fine for main
+        if (((uint8_t*)phash)[31] == 0)
             return true;
 
         // If nothing found after trying for a while, return -1
-        if ((nNonce & 0xfff) == 0)
+        if ((nNonce & 0x1fff) == 0)
             return false;
+        if ((nNonce & 0x01ff) == 0)
+            boost::this_thread::interruption_point();
     }
 }
 
@@ -426,7 +431,7 @@ static bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& rese
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != chainActive.Tip()->GetBlockHash())
-            return error("BitcoinMiner: generated block is stale");
+            return error("SmartcoinMiner: generated block is stale");
     }
 
     // Remove key from key pool
@@ -441,16 +446,16 @@ static bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& rese
     // Process this block the same as if we had received it from another node
     CValidationState state;
     if (!ProcessNewBlock(state, NULL, pblock, true, NULL))
-        return error("BitcoinMiner: ProcessNewBlock, block not accepted");
+        return error("SmartcoinMiner: ProcessNewBlock, block not accepted");
 
     return true;
 }
 
 void static BitcoinMiner(CWallet *pwallet)
 {
-    LogPrintf("BitcoinMiner started\n");
+    LogPrintf("SmartcoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("bitcoin-miner");
+    RenameThread("smartcoin-miner");
     const CChainParams& chainparams = Params();
 
     // Each thread has its own key and counter
@@ -483,13 +488,13 @@ void static BitcoinMiner(CWallet *pwallet)
             auto_ptr<CBlockTemplate> pblocktemplate(CreateNewBlockWithKey(reservekey));
             if (!pblocktemplate.get())
             {
-                LogPrintf("Error in BitcoinMiner: Keypool ran out, please call keypoolrefill before restarting the mining thread\n");
+                LogPrintf("Error in SmartcoinMiner: Keypool ran out, please call keypoolrefill before restarting the mining thread\n");
                 return;
             }
             CBlock *pblock = &pblocktemplate->block;
             IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-            LogPrintf("Running BitcoinMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
+            LogPrintf("Running SmartcoinMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
                 ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
             //
@@ -499,18 +504,19 @@ void static BitcoinMiner(CWallet *pwallet)
             arith_uint256 hashTarget = arith_uint256().SetCompact(pblock->nBits);
             uint256 hash;
             uint32_t nNonce = 0;
+            char scratchpad[SCRYPT_SCRATCHPAD_SIZE];
             while (true) {
                 // Check if something found
-                if (ScanHash(pblock, nNonce, &hash))
+                if (ScanHash(pblock, nNonce, &hash, scratchpad))
                 {
                     if (UintToArith256(hash) <= hashTarget)
                     {
                         // Found a solution
                         pblock->nNonce = nNonce;
-                        assert(hash == pblock->GetHash());
+                        assert(hash == pblock->GetPoWHash());
 
                         SetThreadPriority(THREAD_PRIORITY_NORMAL);
-                        LogPrintf("BitcoinMiner:\n");
+                        LogPrintf("SmartcoinMiner:\n");
                         LogPrintf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex(), hashTarget.GetHex());
                         ProcessBlockFound(pblock, *pwallet, reservekey);
                         SetThreadPriority(THREAD_PRIORITY_LOWEST);
@@ -547,12 +553,12 @@ void static BitcoinMiner(CWallet *pwallet)
     }
     catch (const boost::thread_interrupted&)
     {
-        LogPrintf("BitcoinMiner terminated\n");
+        LogPrintf("SmartcoinMiner terminated\n");
         throw;
     }
     catch (const std::runtime_error &e)
     {
-        LogPrintf("BitcoinMiner runtime error: %s\n", e.what());
+        LogPrintf("SmartcoinMiner runtime error: %s\n", e.what());
         return;
     }
 }

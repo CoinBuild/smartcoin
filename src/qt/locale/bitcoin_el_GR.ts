@@ -66,12 +66,12 @@
         <translation>Διευθύνσεις λήψης</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Αυτές είναι οι Bitcoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
+        <source>These are your Smartcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Αυτές είναι οι Smartcoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Αυτές είναι οι Bitcoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
+        <source>These are your Smartcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Αυτές είναι οι Smartcoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -160,18 +160,13 @@
         <translation>Επιβεβαίωσε την κρυπτογραφηση του πορτοφολιού</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Προσοχη: Εαν κρυπτογραφησεις το πορτοφολι σου και χάσεις τον κωδικο σου θα χάσεις &lt;b&gt; ΟΛΑ ΣΟΥ ΤΑ BITCOINS&lt;/b&gt;!
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMARTCOINS&lt;/b&gt;!</source>
+        <translation>Προσοχη: Εαν κρυπτογραφησεις το πορτοφολι σου και χάσεις τον κωδικο σου θα χάσεις &lt;b&gt; ΟΛΑ ΣΟΥ ΤΑ SMARTCOINS&lt;/b&gt;!
 Είσαι σίγουρος ότι θέλεις να κρυπτογραφησεις το πορτοφολι;</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Είστε σίγουροι ότι θέλετε να κρυπτογραφήσετε το πορτοφόλι σας;</translation>
-    </message>
-    <message>
-        <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Το Bitcoin Core θα κλεισει τώρα για να τελειώσει την διαδικασία κρυπτογράφησης. Θυμήσου ότι κρυπτογραφώντας το πορτοφόλι σου δεν μπορείς να προστατέψεις πλήρως τα bitcoins σου από κλοπή στην περίπτωση που μολυνθεί ο υπολογιστής σου με κακόβουλο λογισμικό.
-</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -188,10 +183,6 @@
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Εισάγετε τον νέο κωδικό πρόσβασης στον πορτοφόλι &lt;br/&gt; Παρακαλώ χρησιμοποιείστε ένα κωδικό με &lt;b&gt; 10 ή περισσότερους τυχαίους χαρακτήρες&lt;/b&gt; ή &lt;b&gt; οχτώ ή παραπάνω λέξεις&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Πληκτρολόγησε τον παλιό και τον νέο κωδικό στο πορτοφολι.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -297,8 +288,8 @@
         <translation>'Ανοιγμα &amp;URI</translation>
     </message>
     <message>
-        <source>Bitcoin Core client</source>
-        <translation>Εφαρμογή Bitcoin Core</translation>
+        <source>Smartcoin client</source>
+        <translation>Εφαρμογή Smartcoin</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -309,8 +300,8 @@
         <translation>Φόρτωση ευρετηρίου μπλοκ στον σκληρο δισκο...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Στείλε νομίσματα σε μια διεύθυνση bitcoin</translation>
+        <source>Send coins to a Smartcoin address</source>
+        <translation>Στείλε νομίσματα σε μια διεύθυνση smartcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -333,8 +324,8 @@
         <translation>&amp;Επιβεβαίωση μηνύματος</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -349,8 +340,8 @@
         <translation>&amp;Παραλαβή </translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Core</source>
-        <translation>Σχετικά με το Bitcoin Core</translation>
+        <source>Show information about Smartcoin</source>
+        <translation>Σχετικά με το Smartcoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -365,12 +356,12 @@
         <translation>Κρυπτογραφήστε τα ιδιωτικά κλειδιά που ανήκουν στο πορτοφόλι σας </translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Smartcoin addresses to prove you own them</source>
         <translation>Υπογράψτε ένα μήνυμα για να βεβαιώσετε πως είστε ο κάτοχος αυτής της διεύθυνσης</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση Bitcoin</translation>
+        <source>Verify messages to ensure they were signed with specified Smartcoin addresses</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση Smartcoin</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -389,16 +380,16 @@
         <translation>Εργαλειοθήκη καρτελών</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις bitcoin: )</translation>
+        <source>Request payments (generates QR codes and smartcoin: URIs)</source>
+        <translation>Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις smartcoin: )</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;Σχετικά με το Bitcoin Core</translation>
+        <source>&amp;About Smartcoin</source>
+        <translation>&amp;Σχετικά με το Smartcoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -409,16 +400,16 @@
         <translation>Προβολή της λίστας των χρησιμοποιημένων διευθύνσεων και ετικετών λήψεως</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Άνοιγμα bitcoin: URI αίτησης πληρωμής</translation>
+        <source>Open a smartcoin: URI or payment request</source>
+        <translation>Άνοιγμα smartcoin: URI αίτησης πληρωμής</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Επιλογές γραμμής εντολών</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Εμφανιση του Bitcoin-Qt μήνυματος βοήθειας για να πάρετε μια λίστα με τις πιθανές επιλογές Bitcoin γραμμής εντολών.</translation>
+        <source>Show the Smartcoin help message to get a list with possible Smartcoin command-line options</source>
+        <translation>Εμφανιση του Smartcoin-Qt μήνυματος βοήθειας για να πάρετε μια λίστα με τις πιθανές επιλογές Smartcoin γραμμής εντολών.</translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -459,36 +450,6 @@
     <message>
         <source>Catching up...</source>
         <translation>Ενημέρωση...</translation>
-    </message>
-    <message>
-        <source>Date: %1
-</source>
-        <translation>Ημερομηνία: %1
-</translation>
-    </message>
-    <message>
-        <source>Amount: %1
-</source>
-        <translation>Ποσό: %1
-</translation>
-    </message>
-    <message>
-        <source>Type: %1
-</source>
-        <translation>Τύπος: %1
-</translation>
-    </message>
-    <message>
-        <source>Label: %1
-</source>
-        <translation>Ετικέτα: %1
-</translation>
-    </message>
-    <message>
-        <source>Address: %1
-</source>
-        <translation>Διεύθυνση: %1
-</translation>
     </message>
     <message>
         <source>Sent transaction</source>
@@ -689,18 +650,6 @@
         <translation>κανένα</translation>
     </message>
     <message>
-        <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
-        <translation>Αυτή η ετικέτα γίνεται κόκκινη αν το μέγεθος της συναλλαγής είναι μεγαλύτερο από 1000 bytes.</translation>
-    </message>
-    <message>
-        <source>This label turns red if the priority is smaller than "medium".</source>
-        <translation>Αυτή η ετικέτα γίνεται κόκκινη αν η προτεραιότητα είναι μικρότερη από "μεσαία".</translation>
-    </message>
-    <message>
-        <source>This label turns red if any recipient receives an amount smaller than %1.</source>
-        <translation>Αυτή η ετικέτα γίνεται κόκκινη αν οποιοσδήποτε παραλήπτης λάβει ποσό μικρότερο από %1.</translation>
-    </message>
-    <message>
         <source>yes</source>
         <translation>ναι</translation>
     </message>
@@ -773,8 +722,8 @@
         <translation>Η διεύθυνση "%1" βρίσκεται ήδη στο βιβλίο διευθύνσεων.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Η διεύθυνση "%1" δεν είναι έγκυρη Bitcoin διεύθυνση.</translation>
+        <source>The entered address "%1" is not a valid Smartcoin address.</source>
+        <translation>Η διεύθυνση "%1" δεν είναι έγκυρη Smartcoin διεύθυνση.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -811,8 +760,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -823,8 +772,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>Σχετικά με το Bitcoin Core</translation>
+        <source>About Smartcoin</source>
+        <translation>Σχετικά με το Smartcoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -846,16 +795,16 @@
         <translation>Καλώς ήρθατε</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
-        <translation>Καλώς ήρθατε στο Bitcoin Core.</translation>
+        <source>Welcome to Smartcoin.</source>
+        <translation>Καλώς ήρθατε στο Smartcoin.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>Καθώς αυτή είναι η πρώτη φορά που εκκινείται το πρόγραμμα, μπορείτε να διαλέξετε πού θα αποθηκεύει το Bitcoin Core τα δεδομένα του.</translation>
+        <source>As this is the first time the program is launched, you can choose where Smartcoin will store its data.</source>
+        <translation>Καθώς αυτή είναι η πρώτη φορά που εκκινείται το πρόγραμμα, μπορείτε να διαλέξετε πού θα αποθηκεύει το Smartcoin τα δεδομένα του.</translation>
     </message>
     <message>
-        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>O πυρήνας Bitcoin θα κατεβάσει και να αποθηκεύσει ένα αντίγραφο της αλυσίδας μπλοκ Bitcoin. Τουλάχιστον %1GB δεδομένων θα αποθηκευτούν σε αυτόν τον κατάλογο, και θα αυξηθεί με την πάροδο του χρόνου. Το πορτοφόλι θα αποθηκευτεί σε αυτόν τον κατάλογο.</translation>
+        <source>Smartcoin will download and store a copy of the Smartcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>O πυρήνας Smartcoin θα κατεβάσει και να αποθηκεύσει ένα αντίγραφο της αλυσίδας μπλοκ Smartcoin. Τουλάχιστον %1GB δεδομένων θα αποθηκευτούν σε αυτόν τον κατάλογο, και θα αυξηθεί με την πάροδο του χρόνου. Το πορτοφόλι θα αποθηκευτεί σε αυτόν τον κατάλογο.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -866,8 +815,8 @@
         <translation>Προσαρμογή του φακέλου δεδομένων: </translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -877,15 +826,7 @@
         <source>Error</source>
         <translation>Σφάλμα</translation>
     </message>
-    <message numerus="yes">
-        <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB ελεύθερου χώρου διαθέσιμα</numerusform><numerusform>%n GB ελεύθερου χώρου διαθέσιμα</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>(of %n GB needed)</source>
-        <translation><numerusform>(από το %n GB που απαιτείται)</numerusform><numerusform>(από τα %n GB που απαιτούνται)</numerusform></translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -944,10 +885,6 @@
         <translation>Διεύθυνση IP του διαμεσολαβητή (π.χ. 127.0.0.1  / IPv6: ::1)</translation>
     </message>
     <message>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Ελαχιστοποίηση αντί για έξοδο κατά το κλείσιμο του παραθύρου. Όταν αυτή η επιλογή είναι ενεργοποιημένη, η εφαρμογή θα κλείνει μόνο αν επιλεχθεί η Έξοδος στο μενού.</translation>
-    </message>
-    <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
         <translation>URLs από τρίτους (π.χ. ένας εξερευνητής μπλοκ) τα οποία εμφανίζονται στην καρτέλα συναλλαγών ως στοιχεία μενού. Το %s στα URL αντικαθιστάται από την τιμή της κατατεμαχισμένης συναλλαγής.</translation>
     </message>
@@ -996,16 +933,16 @@
         <translation>&amp;Ξόδεμα μη επικυρωμένων ρέστων</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Αυτόματο άνοιγμα των θυρών Bitcoin στον δρομολογητή. Λειτουργεί μόνο αν ο δρομολογητής σας υποστηρίζει τη λειτουργία UPnP.</translation>
+        <source>Automatically open the Smartcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Αυτόματο άνοιγμα των θυρών Smartcoin στον δρομολογητή. Λειτουργεί μόνο αν ο δρομολογητής σας υποστηρίζει τη λειτουργία UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Απόδοση θυρών με χρήστη &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Σύνδεση στο Bitcoin δίκτυο μέσω διαμεσολαβητή SOCKS5 (π.χ. για σύνδεση μέσω Tor)</translation>
+        <source>Connect to the Smartcoin network through a SOCKS5 proxy.</source>
+        <translation>Σύνδεση στο Smartcoin δίκτυο μέσω διαμεσολαβητή SOCKS5 (π.χ. για σύνδεση μέσω Tor)</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1100,8 +1037,8 @@
         <translation>Φόρμα</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Οι πληροφορίες που εμφανίζονται μπορεί να είναι ξεπερασμένες. Το πορτοφόλι σας συγχρονίζεται αυτόματα με το δίκτυο Bitcoin μετά από μια σύνδεση, αλλά αυτή η διαδικασία δεν έχει ακόμη ολοκληρωθεί. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Smartcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Οι πληροφορίες που εμφανίζονται μπορεί να είναι ξεπερασμένες. Το πορτοφόλι σας συγχρονίζεται αυτόματα με το δίκτυο Smartcoin μετά από μια σύνδεση, αλλά αυτή η διαδικασία δεν έχει ακόμη ολοκληρωθεί. </translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1195,8 +1132,8 @@
         <translation>Σφάλμα αιτήματος πληρωμής</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Δεν είναι δυνατή η εκκίνηση του Bitcoin: click-to-pay handler</translation>
+        <source>Cannot start smartcoin: click-to-pay handler</source>
+        <translation>Δεν είναι δυνατή η εκκίνηση του Smartcoin: click-to-pay handler</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1245,8 +1182,8 @@
         <translation>Ποσό</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Εισάγετε μια διεύθυνση Bitcoin (π.χ. %1)</translation>
+        <source>Enter a Smartcoin address (e.g. %1)</source>
+        <translation>Εισάγετε μια διεύθυνση Smartcoin (π.χ. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1719,14 +1656,6 @@
         <translation>ανά kilobyte</translation>
     </message>
     <message>
-        <source>Hide</source>
-        <translation>Απόκρυψη</translation>
-    </message>
-    <message>
-        <source>total at least</source>
-        <translation>συνολικά τουλάχιστον</translation>
-    </message>
-    <message>
         <source>Recommended:</source>
         <translation>Προτεινόμενο: </translation>
     </message>
@@ -1819,6 +1748,10 @@
         <translation>Αντιγραφή των ρέστων</translation>
     </message>
     <message>
+        <source>Total Amount %1 (= %2)</source>
+        <translation>Ολικό Ποσό %1 (= %2)</translation>
+    </message>
+    <message>
         <source>or</source>
         <translation>ή</translation>
     </message>
@@ -1839,8 +1772,8 @@
         <translation>Η δημιουργία της συναλλαγής απέτυχε!</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Προειδοποίηση: Μη έγκυρη διεύθυνση Bitcoin</translation>
+        <source>Warning: Invalid Smartcoin address</source>
+        <translation>Προειδοποίηση: Μη έγκυρη διεύθυνση Smartcoin</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1886,8 +1819,8 @@
         <translation>Αυτή είναι μια απλή πληρωμή.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Η διεύθυνση Bitcoin που θα σταλεί η πληρωμή</translation>
+        <source>The Smartcoin address to send the payment to</source>
+        <translation>Η διεύθυνση Smartcoin που θα σταλεί η πληρωμή</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1925,8 +1858,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitcoin Core is shutting down...</source>
-        <translation>Το Bitcoin Core τερματίζεται...</translation>
+        <source>Smartcoin is shutting down...</source>
+        <translation>Το Smartcoin τερματίζεται...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1944,8 +1877,8 @@
         <translation>&amp;Υπογραφή Μηνύματος</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>Διεύθυνση Bitcoin που θα σταλεί το μήνυμα</translation>
+        <source>The Smartcoin address to sign the message with</source>
+        <translation>Διεύθυνση Smartcoin που θα σταλεί το μήνυμα</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1976,8 +1909,8 @@
         <translation>Αντέγραφη της επιλεγμενης διεύθυνσης στο πρόχειρο του συστηματος</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση Bitcoin</translation>
+        <source>Sign the message to prove you own this Smartcoin address</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση Smartcoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1996,12 +1929,12 @@
         <translation>&amp;Επιβεβαίωση μηνύματος</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>Διεύθυνση Bitcoin η οποία το μήνυμα έχει υπογραφεί</translation>
+        <source>The Smartcoin address the message was signed with</source>
+        <translation>Διεύθυνση Smartcoin η οποία το μήνυμα έχει υπογραφεί</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως υπογραφθηκε απο μια συγκεκριμένη διεύθυνση Bitcoin</translation>
+        <source>Verify the message to ensure it was signed with the specified Smartcoin address</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως υπογραφθηκε απο μια συγκεκριμένη διεύθυνση Smartcoin</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2067,12 +2000,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
-        <translation>Οι προγραμματιστές του Bitcoin Core</translation>
+        <source>The Smartcoin developers</source>
+        <translation>Οι προγραμματιστές του Smartcoin</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2625,6 +2558,10 @@
         <translation>Σφάλμα φορτωσης της βασης δεδομενων των μπλοκ</translation>
     </message>
     <message>
+        <source>Error: A fatal internal error occured, see debug.log for details</source>
+        <translation>Σφάλμα: Παρουσιάστηκε ανεπανόρθωτο εσωτερικό σφάλμα, δείτε debug.log για λεπτομέρειες</translation>
+    </message>
+    <message>
         <source>Error: Disk space is low!</source>
         <translation>Προειδοποίηση: Χαμηλός χώρος στο δίσκο  </translation>
     </message>
@@ -2673,12 +2610,12 @@
         <translation>Εισαγωγή μπλοκ από εξωτερικό αρχείο blk000?.dat</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
-        <translation>Αδυναμία κλειδώματος του φακέλου δεδομένων %s. Πιθανώς το Bitcoin να είναι ήδη ενεργό.</translation>
+        <source>Cannot obtain a lock on data directory %s. Smartcoin is probably already running.</source>
+        <translation>Αδυναμία κλειδώματος του φακέλου δεδομένων %s. Πιθανώς το Smartcoin να είναι ήδη ενεργό.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
-        <translation>Προειδοποίηση: Παρακαλώ ελέγξτε ότι η ημερομηνία και ώρα του υπολογιστή σας είναι σωστά ρυθμισμένες! Εάν το ρολόι σας είναι λάθος το Bitcoin Core δεν θα λειτουργήσει σωστά. </translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Smartcoin will not work properly.</source>
+        <translation>Προειδοποίηση: Παρακαλώ ελέγξτε ότι η ημερομηνία και ώρα του υπολογιστή σας είναι σωστά ρυθμισμένες! Εάν το ρολόι σας είναι λάθος το Smartcoin δεν θα λειτουργήσει σωστά. </translation>
     </message>
     <message>
         <source>Choose data directory on startup (default: 0)</source>
@@ -2693,8 +2630,8 @@
         <translation>Δεν μπόρεσε να αναλυθεί η παράμετρος -rpcbind value %s ως διεύθυνση δικτύου</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
-        <translation>Σφάλμα φόρτωσης wallet.dat: Το Πορτοφόλι απαιτεί μια νεότερη έκδοση του Bitcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Smartcoin</source>
+        <translation>Σφάλμα φόρτωσης wallet.dat: Το Πορτοφόλι απαιτεί μια νεότερη έκδοση του Smartcoin</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -2709,12 +2646,8 @@
         <translation>Πληροφορία</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Bitcoin Core is shutting down.</source>
-        <translation>Η εκκίνηση ελέγχου ορθότητας απέτυχε.  Γίνεται τερματισμός του Bitcoin Core.</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Μη έγκυρο ποσό για την παράμετρο -maxtxfee=&lt;amount&gt;: '%s'</translation>
+        <source>Initialization sanity check failed. Smartcoin is shutting down.</source>
+        <translation>Η εκκίνηση ελέγχου ορθότητας απέτυχε.  Γίνεται τερματισμός του Smartcoin.</translation>
     </message>
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
@@ -2729,8 +2662,8 @@
         <translation>Επιλογές αναμετάδοσης κόμβου: </translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Ρυθμίσεις SSL: (ανατρέξτε στο Bitcoin Wiki για οδηγίες ρυθμίσεων SSL)</translation>
+        <source>RPC SSL options: (see the Smartcoin Wiki for SSL setup instructions)</source>
+        <translation>Ρυθμίσεις SSL: (ανατρέξτε στο Smartcoin Wiki για οδηγίες ρυθμίσεων SSL)</translation>
     </message>
     <message>
         <source>RPC server options:</source>

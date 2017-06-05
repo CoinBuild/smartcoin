@@ -6,20 +6,8 @@
         <translation>Tạo một địa chỉ mới</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>Tạo mới</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Sao chép các địa chỉ đã được chọn vào bộ nhớ tạm thời của hệ thống</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>Sao chép</translation>
-    </message>
-    <message>
-        <source>&amp;Copy Address</source>
-        <translation>Sao chép địa chỉ</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -57,10 +45,6 @@
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <source>Amount:</source>
-        <translation>Số lượng:</translation>
-    </message>
-    <message>
         <source>Amount</source>
         <translation>Số lượng</translation>
     </message>
@@ -71,14 +55,6 @@
     </context>
 <context>
     <name>EditAddressDialog</name>
-    <message>
-        <source>&amp;Label</source>
-        <translation>Nhãn dữ liệu</translation>
-    </message>
-    <message>
-        <source>&amp;Address</source>
-        <translation>Địa chỉ</translation>
-    </message>
     </context>
 <context>
     <name>FreespaceChecker</name>
@@ -123,10 +99,6 @@
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>Sao chép địa chỉ</translation>
-    </message>
-    <message>
         <source>Address</source>
         <translation>Địa chỉ</translation>
     </message>
@@ -156,10 +128,6 @@
     </context>
 <context>
     <name>SendCoinsDialog</name>
-    <message>
-        <source>Amount:</source>
-        <translation>Số lượng:</translation>
-    </message>
     <message>
         <source>(no label)</source>
         <translation>(chưa có nhãn)</translation>

@@ -66,12 +66,12 @@
         <translation>Přijímací adresy</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tohle jsou tvé Bitcoinové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
+        <source>These are your Smartcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Tohle jsou tvé Smartcoinové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Tohle jsou tvé Bitcoinové adresy pro příjem plateb. Je doporučené používat pokaždé novou adresu pro každou transakci.</translation>
+        <source>These are your Smartcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Tohle jsou tvé Smartcoinové adresy pro příjem plateb. Je doporučené používat pokaždé novou adresu pro každou transakci.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -160,16 +160,12 @@
         <translation>Potvrď zašifrování peněženky</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Upozornění: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY BITCOINY&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMARTCOINS&lt;/b&gt;!</source>
+        <translation>Upozornění: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY SMARTCOINY&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Jsi si jistý, že chceš peněženku zašifrovat?</translation>
-    </message>
-    <message>
-        <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin Core se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky nemůže zabránit krádeži tvých bitcoinů malwarem, kterým se může počítač nakazit.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -186,10 +182,6 @@
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Zadej nové heslo k peněžence.&lt;br/&gt;Použij &lt;b&gt;alespoň deset náhodných znaků&lt;/b&gt; nebo &lt;b&gt;alespoň osm slov&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Zadej staré a nové heslo k peněžence.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -295,8 +287,8 @@
         <translation>Načíst &amp;URI...</translation>
     </message>
     <message>
-        <source>Bitcoin Core client</source>
-        <translation>Bitcoin Core klient</translation>
+        <source>Smartcoin client</source>
+        <translation>Smartcoin klient</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,8 +299,8 @@
         <translation>Vytvářím nový index bloků na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Pošli mince na Bitcoinovou adresu</translation>
+        <source>Send coins to a Smartcoin address</source>
+        <translation>Pošli mince na Smartcoinovou adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -331,8 +323,8 @@
         <translation>&amp;Ověř zprávu...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -347,8 +339,8 @@
         <translation>Při&amp;jmi</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Core</source>
-        <translation>Zobraz informace o Bitcoin Core</translation>
+        <source>Show information about Smartcoin</source>
+        <translation>Zobraz informace o Smartcoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -363,12 +355,12 @@
         <translation>Zašifruj soukromé klíče ve své peněžence</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Podepiš zprávy svými Bitcoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
+        <source>Sign messages with your Smartcoin addresses to prove you own them</source>
+        <translation>Podepiš zprávy svými Smartcoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými Bitcoinovými adresami</translation>
+        <source>Verify messages to ensure they were signed with specified Smartcoin addresses</source>
+        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými Smartcoinovými adresami</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -387,20 +379,16 @@
         <translation>Panel s listy</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Požaduj platby (generuje QR kódy a bitcoin: URI)</translation>
+        <source>Request payments (generates QR codes and smartcoin: URIs)</source>
+        <translation>Požaduj platby (generuje QR kódy a smartcoin: URI)</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>O &amp;Bitcoin Core</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for Bitcoin Core</source>
-        <translation>Uprav nastavení Bitcoin Core</translation>
+        <source>&amp;About Smartcoin</source>
+        <translation>O &amp;Smartcoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,28 +399,24 @@
         <translation>Ukaž seznam použitých přijímacích adres a jejich označení</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Načti bitcoin: URI nebo platební požadavek</translation>
+        <source>Open a smartcoin: URI or payment request</source>
+        <translation>Načti smartcoin: URI nebo platební požadavek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Ar&amp;gumenty z příkazové řádky</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Seznam argumentů Bitcoinu pro příkazovou řádku získáš v nápovědě Bitcoinu Core</translation>
+        <source>Show the Smartcoin help message to get a list with possible Smartcoin command-line options</source>
+        <translation>Seznam argumentů Smartcoinu pro příkazovou řádku získáš v nápovědě Smartcoinu</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktivní spojení do Bitcoinové sítě</numerusform><numerusform>%n aktivní spojení do Bitcoinové sítě</numerusform><numerusform>%n aktivních spojení do Bitcoinové sítě</numerusform></translation>
+        <source>%n active connection(s) to Smartcoin network</source>
+        <translation><numerusform>%n aktivní spojení do Smartcoinové sítě</numerusform><numerusform>%n aktivní spojení do Smartcoinové sítě</numerusform><numerusform>%n aktivních spojení do Smartcoinové sítě</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
         <translation>Není dostupný žádný zdroj bloků...</translation>
-    </message>
-    <message numerus="yes">
-        <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>Zpracován %n blok transakční historie.</numerusform><numerusform>Zpracovány %n bloky transakční historie.</numerusform><numerusform>Zpracováno %n bloků transakční historie.</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -485,36 +469,6 @@
     <message>
         <source>Catching up...</source>
         <translation>Stahuji...</translation>
-    </message>
-    <message>
-        <source>Date: %1
-</source>
-        <translation>Datum: %1
-</translation>
-    </message>
-    <message>
-        <source>Amount: %1
-</source>
-        <translation>Částka: %1
-</translation>
-    </message>
-    <message>
-        <source>Type: %1
-</source>
-        <translation>Typ: %1
-</translation>
-    </message>
-    <message>
-        <source>Label: %1
-</source>
-        <translation>Označení: %1
-</translation>
-    </message>
-    <message>
-        <source>Address: %1
-</source>
-        <translation>Adresa: %1
-</translation>
     </message>
     <message>
         <source>Sent transaction</source>
@@ -715,18 +669,6 @@
         <translation>žádná</translation>
     </message>
     <message>
-        <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
-        <translation>Popisek zčervená, pokud je velikost transakce větší než 1000 bajtů.</translation>
-    </message>
-    <message>
-        <source>This label turns red if the priority is smaller than "medium".</source>
-        <translation>Popisek zčervená, pokud je priorita menší než „střední“.</translation>
-    </message>
-    <message>
-        <source>This label turns red if any recipient receives an amount smaller than %1.</source>
-        <translation>Popisek zčervená, pokud má některý příjemce obdržet částku menší než %1.</translation>
-    </message>
-    <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
         <translation>Může se lišit o +/– %1 satoshi na každý vstup.</translation>
     </message>
@@ -806,8 +748,8 @@
         <translation>Zadaná adresa "%1" už v adresáři je.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Zadaná adresa "%1" není platná Bitcoinová adresa.</translation>
+        <source>The entered address "%1" is not a valid Smartcoin address.</source>
+        <translation>Zadaná adresa "%1" není platná Smartcoinová adresa.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -844,8 +786,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -856,8 +798,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>O Bitcoin Core</translation>
+        <source>About Smartcoin</source>
+        <translation>O Smartcoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -879,16 +821,16 @@
         <translation>Vítej</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
-        <translation>Vítej v Bitcoin Core.</translation>
+        <source>Welcome to Smartcoin.</source>
+        <translation>Vítej v Smartcoin.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>Tohle je poprvé, co spouštíš Bitcoin Core, takže si můžeš zvolit, kam bude ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Smartcoin will store its data.</source>
+        <translation>Tohle je poprvé, co spouštíš Smartcoin, takže si můžeš zvolit, kam bude ukládat svá data.</translation>
     </message>
     <message>
-        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Bitcoin Core bude stahovat kopii řetězce bloků. Proto bude potřeba do tohoto adresáře uložit nejméně %1 GB dat – toto číslo bude navíc v průběhu času pomalu růst. Tvá peněženka bude rovněž uložena v tomto adresáři.</translation>
+        <source>Smartcoin will download and store a copy of the Smartcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Smartcoin bude stahovat kopii řetězce bloků. Proto bude potřeba do tohoto adresáře uložit nejméně %1 GB dat – toto číslo bude navíc v průběhu času pomalu růst. Tvá peněženka bude rovněž uložena v tomto adresáři.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -899,8 +841,8 @@
         <translation>Použij tento adresář pro data:</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -977,14 +919,6 @@
         <translation>IP adresa proxy (např. IPv4: 127.0.0.1/IPv6: ::1)</translation>
     </message>
     <message>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Zavřením se aplikace minimalizuje. Pokud je tato volba zaškrtnuta, tak se aplikace ukončí pouze zvolením Konec v menu.</translation>
-    </message>
-    <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Core.</source>
-        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování Bitcoin Core.</translation>
-    </message>
-    <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
         <translation>URL třetích stran (např. block exploreru), které se zobrazí v kontextovém menu v záložce Transakce. %s v URL se nahradí hashem transakce. Více URL odděl svislítkem |.</translation>
     </message>
@@ -1007,14 +941,6 @@
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Síť</translation>
-    </message>
-    <message>
-        <source>Automatically start Bitcoin Core after logging in to the system.</source>
-        <translation>Automaticky spustí Bitcoin Core po přihlášení do systému.</translation>
-    </message>
-    <message>
-        <source>&amp;Start Bitcoin Core on system login</source>
-        <translation>S&amp;pustit Bitcoin Core po přihlášení do systému</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1041,7 +967,7 @@
         <translation>&amp;Utrácet i ještě nepotvrzené drobné</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Smartcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automaticky otevře potřebný port na routeru. Tohle funguje jen za předpokladu, že tvůj router podporuje UPnP a že je UPnP povolené.</translation>
     </message>
     <message>
@@ -1049,8 +975,8 @@
         <translation>Namapovat port přes &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Připojí se do Bitcoinové sítě přes SOCKS5 proxy.</translation>
+        <source>Connect to the Smartcoin network through a SOCKS5 proxy.</source>
+        <translation>Připojí se do Smartcoinové sítě přes SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1129,10 +1055,6 @@
         <translation>K aktivaci změn je potřeba restartovat klienta.</translation>
     </message>
     <message>
-        <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Klient se vypne, chceš pokračovat?</translation>
-    </message>
-    <message>
         <source>This change would require a client restart.</source>
         <translation>Tahle změna bude chtít restartovat klienta.</translation>
     </message>
@@ -1148,8 +1070,8 @@
         <translation>Formulář</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s Bitcoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Smartcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s Smartcoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1247,16 +1169,16 @@
         <translation>Chyba platebního požadavku</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Nemůžu spustit bitcoin: obsluha click-to-pay</translation>
+        <source>Cannot start smartcoin: click-to-pay handler</source>
+        <translation>Nemůžu spustit smartcoin: obsluha click-to-pay</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>Zdrojová URL platebního požadavku není platná: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná Bitcoinová adresa nebo poškozené parametry URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Smartcoin address or malformed URI parameters.</source>
+        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná Smartcoinová adresa nebo poškozené parametry URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1267,16 +1189,8 @@
         <translation>Soubor platebního požadavku nejde přečíst nebo zpracovat! Příčinou může být špatný soubor platebního požadavku.</translation>
     </message>
     <message>
-        <source>Payment request expired.</source>
-        <translation>Platební požadavek vypršel.</translation>
-    </message>
-    <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>Neověřené platební požadavky k uživatelským platebním skriptům nejsou podporované.</translation>
-    </message>
-    <message>
-        <source>Invalid payment request.</source>
-        <translation>Neplatný platební požadavek.</translation>
     </message>
     <message>
         <source>Refund from %1</source>
@@ -1318,10 +1232,6 @@
         <translation>Typ klienta</translation>
     </message>
     <message>
-        <source>Node/Service</source>
-        <translation>Uzel/Služba</translation>
-    </message>
-    <message>
         <source>Ping Time</source>
         <translation>Odezva</translation>
     </message>
@@ -1333,8 +1243,8 @@
         <translation>Částka</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Zadej Bitcoinovou adresu (např. %1)</translation>
+        <source>Enter a Smartcoin address (e.g. %1)</source>
+        <translation>Zadej Smartcoinovou adresu (např. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1443,10 +1353,6 @@
         <translation>Aktuální počet bloků</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otevři soubor s ladicími záznamy Bitcoin Core z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
-    </message>
-    <message>
         <source>Received</source>
         <translation>Přijato</translation>
     </message>
@@ -1515,10 +1421,6 @@
         <translation>Odezva</translation>
     </message>
     <message>
-        <source>Time Offset</source>
-        <translation>Časový posun</translation>
-    </message>
-    <message>
         <source>Last block time</source>
         <translation>Čas posledního bloku</translation>
     </message>
@@ -1561,10 +1463,6 @@
     <message>
         <source>Clear console</source>
         <translation>Vyčistit konzoli</translation>
-    </message>
-    <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
-        <translation>Vítej v RPC konzoli Bitcoin Core.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1638,8 +1536,8 @@
         <translation>&amp;Recyklovat již existující adresy (nedoporučeno)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Volitelná zpráva, která se připojí k platebnímu požadavku a která se zobrazí, když se požadavek otevře. Poznámka: Tahle zpráva se neposílá s platbou po Bitcoinové síti.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Smartcoin network.</source>
+        <translation>Volitelná zpráva, která se připojí k platebnímu požadavku a která se zobrazí, když se požadavek otevře. Poznámka: Tahle zpráva se neposílá s platbou po Smartcoinové síti.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1863,16 +1761,12 @@
         <translation>Pokud je vlastní poplatek nastavený na 1000 satoshi a transakce má pouze 250 bajtů, tak „za kilobajt“ zaplatí poplatek jen 250 satoshi, zatímco „přinejmenším“ zaplatí 1000 satoshi. Pro transakce větší než kilobajt obě možnosti platí za kilobajt.</translation>
     </message>
     <message>
-        <source>Hide</source>
-        <translation>Skryj</translation>
-    </message>
-    <message>
         <source>total at least</source>
         <translation>přinejmenším</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation>Platit jen minimální poplatek je v pořádku, pokud je zrovna méně transakcí než místa v blocích. Ale počítej s tím, že to také může skončit transakcí, která nikdy nebude potvrzena, pokud je větší poptávka po bitcoinových transakcích, než síť zvládne zpracovat.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for smartcoin transactions than the network can process.</source>
+        <translation>Platit jen minimální poplatek je v pořádku, pokud je zrovna méně transakcí než místa v blocích. Ale počítej s tím, že to také může skončit transakcí, která nikdy nebude potvrzena, pokud je větší poptávka po smartcoinových transakcích, než síť zvládne zpracovat.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -1979,6 +1873,10 @@
         <translation>Kopíruj drobné</translation>
     </message>
     <message>
+        <source>Total Amount %1 (= %2)</source>
+        <translation>Celková částka %1 (= %2)</translation>
+    </message>
+    <message>
         <source>or</source>
         <translation>nebo</translation>
     </message>
@@ -2003,36 +1901,12 @@
         <translation>Transakce byla odmítnuta! Tohle může nastat, pokud nějaké mince z tvé peněženky už jednou byly utraceny, například pokud používáš kopii souboru wallet.dat a mince byly utraceny v druhé kopii, ale nebyly označeny jako utracené v této.</translation>
     </message>
     <message>
-        <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation>Poplatek vyšší než %1 je považován za absurdně vysoký.</translation>
-    </message>
-    <message>
-        <source>Payment request expired.</source>
-        <translation>Platební požadavek vypršel.</translation>
-    </message>
-    <message numerus="yes">
-        <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Potvrzování by podle odhadu mělo začít během %n bloku.</numerusform><numerusform>Potvrzování by podle odhadu mělo začít během %n bloků.</numerusform><numerusform>Potvrzování by podle odhadu mělo začít během %n bloků.</numerusform></translation>
-    </message>
-    <message>
         <source>Pay only the minimum fee of %1</source>
         <translation>Zaplatit pouze minimální poplatek %1</translation>
     </message>
     <message>
-        <source>Total Amount %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</source>
-        <translation>Celková částka %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</translation>
-    </message>
-    <message>
-        <source>The recipient address is not valid. Please recheck.</source>
-        <translation>Adresa příjemce je neplatná – překontroluj ji prosím.</translation>
-    </message>
-    <message>
-        <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>Zaznamenána duplicitní adresa: každá adresa by ale měla být použita vždy jen jednou.</translation>
-    </message>
-    <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Upozornění: Neplatná Bitcoinová adresa</translation>
+        <source>Warning: Invalid Smartcoin address</source>
+        <translation>Upozornění: Neplatná Smartcoinová adresa</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2082,8 +1956,8 @@
         <translation>Tohle je normální platba.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Bitcoinová adresa příjemce</translation>
+        <source>The Smartcoin address to send the payment to</source>
+        <translation>Smartcoinová adresa příjemce</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2102,32 +1976,16 @@
         <translation>Smaž tento záznam</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Poplatek se odečte od posílané částky. Příjemce tak dostane méně bitcoinů, než zadáš do pole Částka. Pokud vybereš více příjemců, tak se poplatek rovnoměrně rozloží.</translation>
-    </message>
-    <message>
-        <source>S&amp;ubtract fee from amount</source>
-        <translation>&amp;Odečíst poplatek od částky</translation>
-    </message>
-    <message>
         <source>Message:</source>
         <translation>Zpráva:</translation>
-    </message>
-    <message>
-        <source>This is an unauthenticated payment request.</source>
-        <translation>Tohle je neověřený platební požadavek.</translation>
-    </message>
-    <message>
-        <source>This is an authenticated payment request.</source>
-        <translation>Tohle je ověřený platební požadavek.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
         <translation>Zadej označení této adresy; obojí se ti pak uloží do adresáře</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Zpráva, která byla připojena k bitcoin: URI a která se ti pro přehled uloží k transakci. Poznámka: Tahle zpráva se neposílá s platbou po Bitcoinové síti.</translation>
+        <source>A message that was attached to the smartcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Smartcoin network.</source>
+        <translation>Zpráva, která byla připojena k smartcoin: URI a která se ti pro přehled uloží k transakci. Poznámka: Tahle zpráva se neposílá s platbou po Smartcoinové síti.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2141,8 +1999,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitcoin Core is shutting down...</source>
-        <translation>Bitcoin Core se ukončuje...</translation>
+        <source>Smartcoin is shutting down...</source>
+        <translation>Smartcoin se ukončuje...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2160,12 +2018,8 @@
         <translation>&amp;Podepiš zprávu</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Podepsáním zprávy/smlouvy svými adresami můžeš prokázat, že jsi na ně schopen přijmout bitcoiny. Buď opatrný a nepodepisuj nic vágního nebo náhodného; například při phishingových útocích můžeš být lákán, abys něco takového podepsal. Podepisuj pouze naprosto úplná a detailní prohlášení, se kterými souhlasíš.</translation>
-    </message>
-    <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>Bitcoinová adresa, kterou se zpráva podepíše</translation>
+        <source>The Smartcoin address to sign the message with</source>
+        <translation>Smartcoinová adresa, kterou se zpráva podepíše</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2196,8 +2050,8 @@
         <translation>Zkopíruj aktuálně vybraný podpis do systémové schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této Bitcoinové adresy</translation>
+        <source>Sign the message to prove you own this Smartcoin address</source>
+        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této Smartcoinové adresy</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2216,16 +2070,12 @@
         <translation>&amp;Ověř zprávu</translation>
     </message>
     <message>
-        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>K ověření podpisu zprávy zadej adresu příjemce, zprávu (ověř si, že správně kopíruješ zalomení řádků, mezery, tabulátory apod.) a podpis. Dávej pozor na to, abys nezkopíroval do podpisu víc, než co je v samotné podepsané zprávě, abys nebyl napálen man-in-the-middle útokem. Poznamenejme však, že takto lze pouze prokázat, že podepisující je schopný na dané adrese přijmout platbu, ale není možnéprokázat, že odeslal jakoukoli transakci!</translation>
+        <source>The Smartcoin address the message was signed with</source>
+        <translation>Smartcoinová adresa, kterou je zpráva podepsána</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>Bitcoinová adresa, kterou je zpráva podepsána</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Bitcoinovou adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Smartcoin address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Smartcoinovou adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2291,12 +2141,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
-        <translation>Vývojáři Bitcoin Core</translation>
+        <source>The Smartcoin developers</source>
+        <translation>Vývojáři Smartcoin</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2571,10 +2421,6 @@
         <translation>Zda tato transakce zahrnuje i některou sledovanou adresu.</translation>
     </message>
     <message>
-        <source>User-defined intent/purpose of the transaction.</source>
-        <translation>Uživatelsky určený účel transakce.</translation>
-    </message>
-    <message>
         <source>Amount removed from or added to balance.</source>
         <translation>Částka odečtená z nebo přičtená k účtu.</translation>
     </message>
@@ -2794,7 +2640,7 @@
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Udej svou veřejnou adresu</translation>
+        <translation>Specifikuj svou veřejnou adresu</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2829,14 +2675,6 @@
         <translation>Spustit příkaz, když se objeví transakce týkající se peněženky (%s se v příkazu nahradí za TxID)</translation>
     </message>
     <message>
-        <source>Maximum total fees to use in a single wallet transaction; setting this too low may abort large transactions (default: %s)</source>
-        <translation>Horní hranice pro celkový poplatek za jednu transakci z peněženky; příliš nízká hodnota může zmařit velké transakce (výchozí: %s)</translation>
-    </message>
-    <message>
-        <source>Reduce storage requirements by pruning (deleting) old blocks. This mode disables wallet support and is incompatible with -txindex. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, &gt;%u = target size in MiB to use for block files)</source>
-        <translation>Omezit nároky na úložný prostor prořezáváním (mazáním) starých bloků. V tomto režimu chybí peněženka a rovněž tento režim není slučitelný s -txindex. Upozornění: opětovná změna tohoto nastavení bude vyžadovat nové stažení celého řetězce bloků. (výchozí: 0 = bloky neprořezávat, &gt;%u = cílová velikost souborů s bloky, v MiB)</translation>
-    </message>
-    <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
         <translation>Nastavení počtu vláken pro verifikaci skriptů (%u až %d, 0 = automaticky, &lt;0 = nechat daný počet jader volný, výchozí: %d)</translation>
     </message>
@@ -2845,16 +2683,8 @@
         <translation>Tohle je testovací verze – používej ji jen na vlastní riziko, ale rozhodně ji nepoužívej k těžbě nebo pro obchodní aplikace</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
-        <translation>Nedaří se mi připojit na %s na tomhle počítači. Bitcoin Core už pravděpodobně jednou běží.</translation>
-    </message>
-    <message>
-        <source>WARNING: abnormally high number of blocks generated, %d blocks received in the last %d hours (%d expected)</source>
-        <translation>UPOZORNĚNÍ: vygenerováno nezvykle mnoho bloků – přijato %d bloků jen za posledních %d hodin (očekáváno %d)</translation>
-    </message>
-    <message>
-        <source>WARNING: check your network connection, %d blocks received in the last %d hours (%d expected)</source>
-        <translation>UPOZORNĚNÍ: zkontroluj své spojení do sítě – bylo přijato %d bloků za posledních %d hodin (očekáváno %d)</translation>
+        <source>Unable to bind to %s on this computer. Smartcoin is probably already running.</source>
+        <translation>Nedaří se mi připojit na %s na tomhle počítači. Smartcoin už pravděpodobně jednou běží.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2894,7 +2724,7 @@
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Možnosti vytváření bloku:</translation>
+        <translation>Možnosti vytvoření bloku:</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
@@ -2937,6 +2767,10 @@
         <translation>Chyba při otevírání databáze bloků</translation>
     </message>
     <message>
+        <source>Error: A fatal internal error occured, see debug.log for details</source>
+        <translation>Chyba: Stala se fatální vnitřní chyba. detaily viz v debug.log</translation>
+    </message>
+    <message>
         <source>Error: Disk space is low!</source>
         <translation>Problém: Na disku je málo místa!</translation>
     </message>
@@ -2969,14 +2803,6 @@
         <translation>Připojovat se pouze k uzlům v &lt;net&gt; síti (ipv4, ipv6 nebo onion)</translation>
     </message>
     <message>
-        <source>Prune cannot be configured with a negative value.</source>
-        <translation>Prořezávání nemůže být zkonfigurováno s negativní hodnotou.</translation>
-    </message>
-    <message>
-        <source>Prune mode is incompatible with -txindex.</source>
-        <translation>Prořezávací režim není kompatibilní s -txindex.</translation>
-    </message>
-    <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
         <translation>Nastavit velikost databázové vyrovnávací paměti v megabajtech (%d až %d, výchozí: %d)</translation>
     </message>
@@ -2994,7 +2820,7 @@
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>Ověřuji bloky...</translation>
+        <translation>Ověřuji bloky... </translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
@@ -3007,10 +2833,6 @@
     <message>
         <source>Wallet options:</source>
         <translation>Možnosti peněženky:</translation>
-    </message>
-    <message>
-        <source>Warning: This version is obsolete; upgrade required!</source>
-        <translation>Upozornění: tahle verze je zastaralá, měl bys ji aktualizovat!</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
@@ -3037,16 +2859,12 @@
         <translation>Čekat na zadané adrese na JSON-RPC spojení. Pro zápis IPv6 adresy použij notaci [adresa]:port. Tuto volbu lze použít i vícekrát (výchozí: poslouchat na všech rozhraních)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
-        <translation>Nedaří se mi získat zámek na datový adresář %s. Bitcoin Core pravděpodobně už jednou běží.</translation>
+        <source>Cannot obtain a lock on data directory %s. Smartcoin is probably already running.</source>
+        <translation>Nedaří se mi získat zámek na datový adresář %s. Smartcoin pravděpodobně už jednou běží.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
         <translation>Vytvářet nové soubory s výchozími systémovými právy namísto umask 077 (uplatní se, pouze pokud je vypnutá funkce peněženky)</translation>
-    </message>
-    <message>
-        <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
-        <translation>Zjistit vlastní IP adresu (výchozí: 1, pokud naslouchá a není zadáno -externalip nebo -proxy)</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3061,32 +2879,20 @@
         <translation>Spustit příkaz, když přijde relevantní upozornění nebo když dojde k opravdu dlouhému rozštěpení řetezce bloků (%s se v příkazu nahradí zprávou)</translation>
     </message>
     <message>
-        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Poplatky (v BTC/kB) menší než tato hodnota jsou považovány za nulové pro účely přeposílání transakcí (výchozí: %s)</translation>
+        <source>Fees (in SMC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Poplatky (v SMC/Kb) menší než tato hodnota jsou považovány za nulové pro účely přeposílání transakcí (výchozí: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
-        <translation>Pokud paytxfee není nastaveno, platit dostatečný poplatek na to, aby začaly být transakce potvrzovány v průměru během n bloků (výchozí: %u)</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Neplatná částka pro -maxtxfee=&lt;amount&gt;: '%s' (musí být alespoň jako poplatek minrelay %s, aby transakce nezůstávaly trčet)</translation>
+        <translation>Pokud paytxfee není nastaveno, platit dostatečný poplatek na to, aby byly transakce potvrzeny v průměru během n bloků (výchozí: %u)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
         <translation>Maximální velikost dat v transakcích nesoucích data, se kterou jsme ochotni je ještě přeposílat a těžit (výchozí: %u)</translation>
     </message>
     <message>
-        <source>Prune configured below the minimum of %d MB.  Please use a higher number.</source>
-        <translation>Prořezávání je nastaveno pod minimum %d MB.  Použij prosím nějaké vyšší číslo.</translation>
-    </message>
-    <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Při nedostatku adres získat další protějšky z DNS (výchozí: 1, pokud není použito -connect)</translation>
-    </message>
-    <message>
-        <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
-        <translation>Použít náhodné údaje pro každé proxy spojení. To umožní izolovat nesouvisející datové toky v Toru (výchozí: %u)</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
@@ -3097,68 +2903,16 @@
         <translation>Nastavení počtu vláken pro těžení, je-li zapnuté (-1 = všechna jádra, výchozí: %d)</translation>
     </message>
     <message>
-        <source>The transaction amount is too small to send after the fee has been deducted</source>
-        <translation>Částka v transakci po odečtení poplatku je příliš malá na odeslání</translation>
-    </message>
-    <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v OpenSSL Toolkitu &lt;https://www.openssl.org/&gt; a kryptografický program od Erika Younga a program UPnP od Thomase Bernarda.</translation>
     </message>
     <message>
-        <source>To use bitcoind, or the -server option to bitcoin-qt, you must set an rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
-</source>
-        <translation>K používání bitcoind nebo volby -server u bitcoin-qt musíš nastavit rpcpassword v konfiguračním souboru:
-%s
-Je vhodné použít následující náhodné heslo:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(není potřeba si ho pamatovat)
-rpcuser a rpcpassword NESMÍ být stejné.
-Pokud konfigurační soubor ještě neexistuje, vytvoř ho tak, aby ho mohl číst pouze vlastník.
-Je také doporučeno si nastavit alertnotify, abys byl upozorněn na případné problémy;
-například: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
-</translation>
-    </message>
-    <message>
-        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>Upozornění: -maxtxfee je nastaveno velmi vysoko! Takto vysoký poplatek může být zaplacen v jednotlivé transakci.</translation>
-    </message>
-    <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
-        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, Bitcoin Core nebude fungovat správně.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Smartcoin will not work properly.</source>
+        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, Smartcoin nebude fungovat správně.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>Na protějšky na bílé listině se nevztahuje DoS klatba a jejich transakce jsou vždy přeposílány, i když už třeba jsou v mempoolu, což je užitečné např. pro bránu</translation>
-    </message>
-    <message>
-        <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
-        <translation>K návratu k neprořezávacímu režimu je potřeba přestavět databázi použitím -reindex.  Také se znovu stáhne celý řetězec bloků</translation>
-    </message>
-    <message>
-        <source>(default: %u)</source>
-        <translation>(výchozí: %u)</translation>
-    </message>
-    <message>
-        <source>Accept public REST requests (default: %u)</source>
-        <translation>Přijímat veřejné REST požadavky (výchozí: %u)</translation>
-    </message>
-    <message>
-        <source>Activating best chain...</source>
-        <translation>Aktivuji nejlepší řetězec...</translation>
-    </message>
-    <message>
-        <source>Can't run with a wallet in prune mode.</source>
-        <translation>V prořezávacím režimu se s pěněženkou nemůžu spustit.</translation>
     </message>
     <message>
         <source>Cannot resolve -whitebind address: '%s'</source>
@@ -3173,44 +2927,36 @@ například: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Připojit se přes SOCKS5 proxy</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i Vývojáři Bitcoin Core</translation>
+        <source>Copyright (C) 2009-%i The Smartcoin Developers</source>
+        <translation>Copyright (C) 2009-%i Vývojáři Smartcoin</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
         <translation>Nejde mi přečíst hodnotu -rpcbind %s jako síťovou adresu</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
-        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi Bitcoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Smartcoin</source>
+        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi Smartcoin</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
         <translation>Chyba při čtení z databáze, ukončuji se.</translation>
     </message>
     <message>
-        <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Chyba: Přihodila se závažná vnitřní chyba, podrobnosti viz v debug.log.</translation>
-    </message>
-    <message>
         <source>Error: Unsupported argument -tor found, use -onion.</source>
         <translation>Chyba: Argument -tor již není podporovaný, použij -onion.</translation>
     </message>
     <message>
-        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Poplatek (v BTC/kB), který se přidá ke každé odeslané transakci (výchozí: %s)</translation>
+        <source>Fee (in SMC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Poplatek (v SMC/kB), který se přidá ke každé odeslané transakci (výchozí: %s)</translation>
     </message>
     <message>
         <source>Information</source>
         <translation>Informace</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Bitcoin Core is shutting down.</source>
-        <translation>Selhala úvodní zevrubná prověrka. Bitcoin Core se ukončuje.</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Neplatná částka pro -maxtxfee=&lt;amount&gt;: '%s'</translation>
+        <source>Initialization sanity check failed. Smartcoin is shutting down.</source>
+        <translation>Selhala úvodní zevrubná prověrka. Smartcoin se ukončuje.</translation>
     </message>
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
@@ -3241,28 +2987,12 @@ například: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Možnosti přeposílání:</translation>
     </message>
     <message>
-        <source>Pruning blockstore...</source>
-        <translation>Prořezávám úložiště bloků...</translation>
-    </message>
-    <message>
-        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Možnosti SSL pro RPC: (viz instrukce nastavení SSL na Bitcoin Wiki)</translation>
+        <source>RPC SSL options: (see the Smartcoin Wiki for SSL setup instructions)</source>
+        <translation>Možnosti SSL pro RPC: (viz instrukce nastavení SSL na Smartcoin Wiki)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
         <translation>Možnosti RPC serveru:</translation>
-    </message>
-    <message>
-        <source>RPC support for HTTP persistent connections (default: %d)</source>
-        <translation>Podpora RPC pro perzistentní HTTP spojení (výchozí: %d)</translation>
-    </message>
-    <message>
-        <source>Rebuild block chain index from current blk000??.dat files on startup</source>
-        <translation>Při startu znovu vytvořit index řetězce bloků z aktuálních blk000??.dat souborů</translation>
-    </message>
-    <message>
-        <source>Receive and display P2P network alerts (default: %u)</source>
-        <translation>Přijímat a zobrazovat poplachy z P2P sítě (výchozí: %u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3278,7 +3008,7 @@ například: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Nastavit jazyk, například „de_DE“ (výchozí: systémové nastavení)</translation>
+        <translation>Nastavit jazyk, například "de_DE" (výchozí: systémové nastavení)</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
@@ -3301,10 +3031,6 @@ například: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Nastartovat minimalizovaně</translation>
     </message>
     <message>
-        <source>The transaction amount is too small to pay the fee</source>
-        <translation>Částka v transakci je příliš malá na pokrytí poplatku</translation>
-    </message>
-    <message>
         <source>This is experimental software.</source>
         <translation>Tohle je experimentální program.</translation>
     </message>
@@ -3325,10 +3051,6 @@ například: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Transakce je příliš velká</translation>
     </message>
     <message>
-        <source>UI Options:</source>
-        <translation>Možnosti UI:</translation>
-    </message>
-    <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
         <translation>Nedaří se mi připojit na %s na tomhle počítači (operace bind vrátila chybu %s)</translation>
     </message>
@@ -3341,8 +3063,8 @@ například: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
         <translation>Uživatelské jméno pro JSON-RPC spojení</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin Core to complete</source>
-        <translation>Soubor s peněženkou potřeboval přepsat: restartuj Bitcoin Core, aby se operace dokončila</translation>
+        <source>Wallet needed to be rewritten: restart Smartcoin to complete</source>
+        <translation>Soubor s peněženkou potřeboval přepsat: restartuj Smartcoin, aby se operace dokončila</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -3471,10 +3193,6 @@ například: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
         <translation>Povolit nejvýše &lt;n&gt; protějšků (výchozí: %u)</translation>
-    </message>
-    <message>
-        <source>Make the wallet broadcast transactions</source>
-        <translation>Transakce z peněženky rozesílat</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>

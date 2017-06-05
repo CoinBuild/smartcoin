@@ -85,12 +85,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your Smartcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your Smartcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Smartcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -104,7 +104,7 @@
         <translation>&amp;Edit</translation>
     </message>
     <message>
-        <location line="+193"/>
+        <location line="+194"/>
         <source>Export Address List</source>
         <translation type="unfinished"></translation>
     </message>
@@ -201,8 +201,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMARTCOINS&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMARTCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -211,7 +211,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Smartcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your smartcoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -377,7 +377,7 @@
     </message>
     <message>
         <location line="+176"/>
-        <source>Bitcoin Core client</source>
+        <source>Smartcoin client</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -392,8 +392,8 @@
     </message>
     <message>
         <location line="-417"/>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Send coins to a Bitcoin address</translation>
+        <source>Send coins to a Smartcoin address</source>
+        <translation>Send coins to a Smartcoin address</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -422,8 +422,8 @@
     </message>
     <message>
         <location line="+440"/>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <location line="-654"/>
@@ -442,7 +442,7 @@
     </message>
     <message>
         <location line="+40"/>
-        <source>Show information about Bitcoin Core</source>
+        <source>Show information about Smartcoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -462,13 +462,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Sign messages with your Bitcoin addresses to prove you own them</translation>
+        <source>Sign messages with your Smartcoin addresses to prove you own them</source>
+        <translation>Sign messages with your Smartcoin addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Bitcoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Smartcoin addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Smartcoin addresses</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -492,22 +492,22 @@
     </message>
     <message>
         <location line="-311"/>
-        <source>Bitcoin Core</source>
-        <translation type="unfinished">Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation type="unfinished">Smartcoin</translation>
     </message>
     <message>
         <location line="+164"/>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and smartcoin: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+38"/>
-        <source>&amp;About Bitcoin Core</source>
+        <source>&amp;About Smartcoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Modify configuration options for Bitcoin Core</source>
+        <source>Modify configuration options for Smartcoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -522,7 +522,7 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>Open a bitcoin: URI or payment request</source>
+        <source>Open a smartcoin: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -532,15 +532,15 @@
     </message>
     <message>
         <location line="+2"/>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the Smartcoin help message to get a list with possible Smartcoin command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+310"/>
-        <source>%n active connection(s) to Bitcoin network</source>
+        <source>%n active connection(s) to Smartcoin network</source>
         <translation>
-            <numerusform>%n active connection to Bitcoin network</numerusform>
-            <numerusform>%n active connections to Bitcoin network</numerusform>
+            <numerusform>%n active connection to Smartcoin network</numerusform>
+            <numerusform>%n active connections to Smartcoin network</numerusform>
         </translation>
     </message>
     <message>
@@ -1028,8 +1028,8 @@
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Bitcoin address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Smartcoin address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Smartcoin address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1074,8 +1074,8 @@
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+33"/>
-        <source>Bitcoin Core</source>
-        <translation type="unfinished">Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation type="unfinished">Smartcoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1090,7 +1090,7 @@
     </message>
     <message>
         <location line="+5"/>
-        <source>About Bitcoin Core</source>
+        <source>About Smartcoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1118,17 +1118,17 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Bitcoin Core.</source>
+        <source>Welcome to Smartcoin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Smartcoin will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Smartcoin will download and store a copy of the Smartcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1143,8 +1143,8 @@
     </message>
     <message>
         <location filename="../intro.cpp" line="+82"/>
-        <source>Bitcoin Core</source>
-        <translation type="unfinished">Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation type="unfinished">Smartcoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1250,7 +1250,7 @@
     </message>
     <message>
         <location line="+45"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Core.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Smartcoin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1286,12 +1286,12 @@
     </message>
     <message>
         <location line="-153"/>
-        <source>Automatically start Bitcoin Core after logging in to the system.</source>
+        <source>Automatically start Smartcoin after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Bitcoin Core on system login</source>
+        <source>&amp;Start Smartcoin on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1326,8 +1326,8 @@
     </message>
     <message>
         <location line="+30"/>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Smartcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Smartcoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1336,7 +1336,7 @@
     </message>
     <message>
         <location line="+17"/>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the Smartcoin network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1461,8 +1461,8 @@
     <message>
         <location line="+59"/>
         <location line="+386"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Smartcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Smartcoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-139"/>
@@ -1595,7 +1595,7 @@
     </message>
     <message>
         <location line="-408"/>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start smartcoin: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1605,7 +1605,7 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Smartcoin address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1702,7 +1702,7 @@
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+110"/>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a Smartcoin address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1862,7 +1862,7 @@
     </message>
     <message>
         <location line="+72"/>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Smartcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2014,7 +2014,7 @@
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-36"/>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
+        <source>Welcome to the Smartcoin RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2110,7 +2110,7 @@
     <message>
         <location line="+14"/>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Smartcoin network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2404,7 +2404,7 @@
     <message>
         <location line="+30"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for smartcoin transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2541,7 +2541,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+246"/>
+        <location line="+244"/>
+        <source>Total Amount %1 (= %2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>or</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2594,12 +2599,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-309"/>
-        <source>Total Amount %1&lt;span style=&apos;font-size:10pt;font-weight:normal;&apos;&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+195"/>
+        <location line="-114"/>
         <source>The recipient address is not valid. Please recheck.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2610,7 +2610,7 @@
     </message>
     <message>
         <location line="+231"/>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid Smartcoin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2675,7 +2675,7 @@
     </message>
     <message>
         <location line="+39"/>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The Smartcoin address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2702,7 +2702,7 @@
     </message>
     <message>
         <location line="-1021"/>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less smartcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2732,7 +2732,7 @@
     </message>
     <message>
         <location line="+47"/>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the smartcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Smartcoin network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2752,7 +2752,7 @@
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+81"/>
-        <source>Bitcoin Core is shutting down...</source>
+        <source>Smartcoin is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2775,12 +2775,12 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive smartcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The Smartcoin address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2822,8 +2822,8 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Sign the message to prove you own this Bitcoin address</translation>
+        <source>Sign the message to prove you own this Smartcoin address</source>
+        <translation>Sign the message to prove you own this Smartcoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2853,13 +2853,13 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The Smartcoin address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified Bitcoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified Smartcoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified Smartcoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2947,12 +2947,12 @@
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+41"/>
-        <source>Bitcoin Core</source>
-        <translation type="unfinished">Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation type="unfinished">Smartcoin</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>The Bitcoin Core developers</source>
+        <source>The Smartcoin developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3583,27 +3583,27 @@
         <translation>Options:</translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+31"/>
         <source>Specify data directory</source>
         <translation>Specify data directory</translation>
     </message>
     <message>
-        <location line="-88"/>
+        <location line="-86"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>Connect to a node to retrieve peer addresses, and disconnect</translation>
     </message>
     <message>
-        <location line="+91"/>
+        <location line="+89"/>
         <source>Specify your own public address</source>
         <translation>Specify your own public address</translation>
     </message>
     <message>
-        <location line="-110"/>
+        <location line="-108"/>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Accept command line and JSON-RPC commands</translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+87"/>
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Run in the background as a daemon and accept commands</translation>
     </message>
@@ -3613,7 +3613,7 @@
         <translation>Use the test network</translation>
     </message>
     <message>
-        <location line="-127"/>
+        <location line="-125"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>Accept connections from outside (default: 1 if no -proxy or -connect)</translation>
     </message>
@@ -3659,7 +3659,7 @@
     </message>
     <message>
         <location line="+20"/>
-        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Smartcoin is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3773,7 +3773,12 @@
         <translation>Error opening block database</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+3"/>
+        <source>Error: A fatal internal error occured, see debug.log for details</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Error: Disk space is low!</source>
         <translation>Error: Disk space is low!</translation>
     </message>
@@ -3823,7 +3828,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+15"/>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3873,7 +3878,7 @@
         <translation>You need to rebuild the database using -reindex to change -txindex</translation>
     </message>
     <message>
-        <location line="-93"/>
+        <location line="-91"/>
         <source>Imports blocks from external blk000??.dat file</source>
         <translation>Imports blocks from external blk000??.dat file</translation>
     </message>
@@ -3899,7 +3904,7 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Smartcoin is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3929,7 +3934,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in SMC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3984,16 +3989,16 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>To use bitcoind, or the -server option to bitcoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use smartcoind, or the -server option to smartcoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=smartcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Smartcoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
@@ -4004,7 +4009,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+6"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Smartcoin will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4054,7 +4059,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <source>Copyright (C) 2009-%i The Smartcoin Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4064,7 +4069,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+10"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Smartcoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4073,18 +4078,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Error: Unsupported argument -tor found, use -onion.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in SMC/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4094,7 +4094,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Bitcoin Core is shutting down.</source>
+        <source>Initialization sanity check failed. Smartcoin is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4139,12 +4139,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+8"/>
-        <source>Pruning blockstore...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the Smartcoin Wiki for SSL setup instructions)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4160,11 +4155,6 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+1"/>
         <source>Rebuild block chain index from current blk000??.dat files on startup</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Receive and display P2P network alerts (default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4264,7 +4254,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+4"/>
-        <source>Wallet needed to be rewritten: restart Bitcoin Core to complete</source>
+        <source>Wallet needed to be rewritten: restart Smartcoin to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4298,7 +4288,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <translation>wallet.dat corrupt, salvage failed</translation>
     </message>
     <message>
-        <location line="-67"/>
+        <location line="-65"/>
         <source>Password for JSON-RPC connections</source>
         <translation>Password for JSON-RPC connections</translation>
     </message>
@@ -4308,7 +4298,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <translation>Execute command when the best block changes (%s in cmd is replaced by block hash)</translation>
     </message>
     <message>
-        <location line="+242"/>
+        <location line="+240"/>
         <source>Upgrade wallet to latest format</source>
         <translation>Upgrade wallet to latest format</translation>
     </message>
@@ -4328,7 +4318,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <translation>This help message</translation>
     </message>
     <message>
-        <location line="-108"/>
+        <location line="-106"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Allow DNS lookups for -addnode, -seednode and -connect</translation>
     </message>
@@ -4448,7 +4438,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+7"/>
         <source>Relay and mine data carrier transactions (default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4513,7 +4503,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <translation>Unknown network specified in -onlynet: &apos;%s&apos;</translation>
     </message>
     <message>
-        <location line="-111"/>
+        <location line="-109"/>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
         <translation>Cannot resolve -bind address: &apos;%s&apos;</translation>
     </message>
@@ -4558,12 +4548,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
         <translation>Cannot write default address</translation>
     </message>
     <message>
-        <location line="+73"/>
+        <location line="+71"/>
         <source>Rescanning...</source>
         <translation>Rescanning...</translation>
     </message>
     <message>
-        <location line="-61"/>
+        <location line="-59"/>
         <source>Done loading</source>
         <translation>Done loading</translation>
     </message>

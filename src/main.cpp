@@ -1,5 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin Core developers
+// Copyright (c) 2014-2015 The Smartcoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -35,7 +36,7 @@
 using namespace std;
 
 #if defined(NDEBUG)
-# error "Bitcoin cannot be compiled without assertions."
+# error "Smartcoin cannot be compiled without assertions."
 #endif
 
 /**
@@ -64,7 +65,7 @@ uint64_t nPruneTarget = 0;
 bool fAlerts = DEFAULT_ALERTS;
 
 /** Fees smaller than this (in satoshi) are considered zero fee (for relaying and mining) */
-CFeeRate minRelayTxFee = CFeeRate(5000);
+CFeeRate minRelayTxFee = CFeeRate(CENT);
 
 CTxMemPool mempool(::minRelayTxFee);
 
@@ -86,7 +87,7 @@ static void CheckBlockIndex();
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Bitcoin Signed Message:\n";
+const string strMessageMagic = "Smartcoin Signed Message:\n";
 
 // Internal stuff
 namespace {
@@ -1222,7 +1223,7 @@ bool ReadBlockFromDisk(CBlock& block, const CDiskBlockPos& pos)
     }
 
     // Check the header
-    if (!CheckProofOfWork(block.GetHash(), block.nBits, Params().GetConsensus()))
+    if (!CheckProofOfWork(block.GetPoWHash(), block.nBits, Params().GetConsensus()))
         return error("ReadBlockFromDisk: Errors in block header at %s", pos.ToString());
 
     return true;
@@ -1240,14 +1241,23 @@ bool ReadBlockFromDisk(CBlock& block, const CBlockIndex* pindex)
 
 CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
 {
-    int halvings = nHeight / consensusParams.nSubsidyHalvingInterval;
-    // Force block reward to zero when right shift is undefined.
-    if (halvings >= 64)
-        return 0;
-
-    CAmount nSubsidy = 50 * COIN;
-    // Subsidy is cut in half every 210,000 blocks which will occur approximately every 4 years.
-    nSubsidy >>= halvings;
+	CAmount nSubsidy = 64 * COIN;
+    if (nHeight < 2) { // Premine is 400,000
+        nSubsidy = 400000 * COIN;
+    } // Low reward for the first 1,000 blocks
+    else if (2 <= nHeight && nHeight < 1000) {
+        nSubsidy = 1 * COIN;
+    } // 64 coins until block 200,000
+    else if (1000 <= nHeight && nHeight < forkBlock2) {
+        nSubsidy = 64 * COIN;
+    } // 32 coins until block 300,000
+	else if (forkBlock2 <= nHeight && nHeight < forkBlock3) {
+        nSubsidy = (32 / ((nHeight + 400000) / 400000)) * COIN;
+    } // 16 coins with yearly halving thereafter; total expected: ~24.5 million (24,547,798)
+	else if (forkBlock3 <= nHeight) {
+		nSubsidy = 16 * COIN;
+		nSubsidy >>= (nHeight / (forkBlock3 + 262800));
+	}
     return nSubsidy;
 }
 
@@ -1281,12 +1291,12 @@ void CheckForkWarningConditions()
     if (IsInitialBlockDownload())
         return;
 
-    // If our best fork is no longer within 72 blocks (+/- 12 hours if no one mines it)
+    // If our best fork is no longer within 360 blocks (+/- 12 hours if no one mines it)
     // of our head, drop it
-    if (pindexBestForkTip && chainActive.Height() - pindexBestForkTip->nHeight >= 72)
+    if (pindexBestForkTip && chainActive.Height() - pindexBestForkTip->nHeight >= 360)
         pindexBestForkTip = NULL;
 
-    if (pindexBestForkTip || (pindexBestInvalid && pindexBestInvalid->nChainWork > chainActive.Tip()->nChainWork + (GetBlockProof(*chainActive.Tip()) * 6)))
+    if (pindexBestForkTip || (pindexBestInvalid && pindexBestInvalid->nChainWork > chainActive.Tip()->nChainWork + (GetBlockProof(*chainActive.Tip()) * 30)))
     {
         if (!fLargeWorkForkFound && pindexBestForkBase)
         {
@@ -1751,7 +1761,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck() {
-    RenameThread("bitcoin-scriptch");
+    RenameThread("smartcoin-scriptch");
     scriptcheckqueue.Thread();
 }
 
@@ -2454,7 +2464,7 @@ bool ActivateBestChain(CValidationState &state, CBlock *pblock) {
                         pnode->PushInventory(CInv(MSG_BLOCK, hashNewTip));
             }
             // Notify external listeners about the new tip.
-            uiInterface.NotifyBlockTip(hashNewTip);
+            uiInterface.NotifyBlockTip(hashNewTip, pindexNewTip->nHeight);
         }
     } while(pindexMostWork != chainActive.Tip());
     CheckBlockIndex();
@@ -2634,7 +2644,7 @@ bool FindBlockPos(CValidationState &state, CDiskBlockPos &pos, unsigned int nAdd
         pos.nPos = vinfoBlockFile[nFile].nSize;
     }
 
-    if (nFile != nLastBlockFile) {
+    if (nFile != (unsigned)nLastBlockFile) {
         if (!fKnown) {
             LogPrintf("Leaving block file %i: %s\n", nFile, vinfoBlockFile[nFile].ToString());
         }
@@ -2705,7 +2715,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 bool CheckBlockHeader(const CBlockHeader& block, CValidationState& state, bool fCheckPOW)
 {
     // Check proof of work matches claimed amount
-    if (fCheckPOW && !CheckProofOfWork(block.GetHash(), block.nBits, Params().GetConsensus()))
+    if (fCheckPOW && !CheckProofOfWork(block.GetPoWHash(), block.nBits, Params().GetConsensus()))
         return state.DoS(50, error("CheckBlockHeader(): proof of work failed"),
                          REJECT_INVALID, "high-hash");
 
@@ -2791,7 +2801,7 @@ bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationState& sta
 
     // Check proof of work
     if (block.nBits != GetNextWorkRequired(pindexPrev, &block, consensusParams))
-        return state.DoS(100, error("%s: incorrect proof of work", __func__),
+        return state.DoS(100, error("%s: incorrect proof of work at height %d", __func__, nHeight),
                          REJECT_INVALID, "bad-diffbits");
 
     // Check timestamp against prev
@@ -4728,6 +4738,15 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
         // See https://bitcoin.org/en/alert/2016-11-01-alert-retirement
     }
 
+    else if (!fBloomFilters &&
+             (strCommand == "filterload" ||
+              strCommand == "filteradd" ||
+              strCommand == "filterclear"))
+    {
+        pfrom->CloseSocketDisconnect();
+        return error("peer %s attempted to set a bloom filter even though we do not advertise that service",
+                     pfrom->addr.ToString().c_str());
+    }
 
     else if (strCommand == "filterload")
     {

@@ -2,10 +2,6 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation>Манзил ёки ёрлиқни таҳрирлаш учун икки марта босинг</translation>
-    </message>
-    <message>
         <source>Create a new address</source>
         <translation>Янги манзил яратинг</translation>
     </message>
@@ -66,12 +62,12 @@
         <translation>Қабул қилинадиган манзиллар</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Улар тўловларни жўнатиш учун сизнинг Bitcoin манзилларингиз. Доимо тангаларни жўнатишдан олдин сумма ва қабул қилувчи манзилни текшириб кўринг. </translation>
+        <source>These are your Smartcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Улар тўловларни жўнатиш учун сизнинг Smartcoin манзилларингиз. Доимо тангаларни жўнатишдан олдин сумма ва қабул қилувчи манзилни текшириб кўринг. </translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Улар тўловларни қабул қилиш учун сизнинг Bitcoin манзилларингиз. Ҳар бир ўтказма учун янги қабул қилувчи манзилдан фойдаланиш тавсия қилинади.</translation>
+        <source>These are your Smartcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Улар тўловларни қабул қилиш учун сизнинг Smartcoin манзилларингиз. Ҳар бир ўтказма учун янги қабул қилувчи манзилдан фойдаланиш тавсия қилинади.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -160,8 +156,8 @@
         <translation>Ҳамённи кодлашни тасдиқлаш</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Диққат: Агар сиз ҳамёнингизни кодласангиз ва махфий сўзингизни унутсангиз, сиз &lt;b&gt;БАРЧА BITCOIN ПУЛЛАРИНГИЗНИ ЙЎҚОТАСИЗ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMARTCOINS&lt;/b&gt;!</source>
+        <translation>Диққат: Агар сиз ҳамёнингизни кодласангиз ва махфий сўзингизни унутсангиз, сиз &lt;b&gt;БАРЧА SMARTCOIN ПУЛЛАРИНГИЗНИ ЙЎҚОТАСИЗ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -287,8 +283,8 @@
         <translation>Интернет манзилни очиш</translation>
     </message>
     <message>
-        <source>Bitcoin Core client</source>
-        <translation>Bitcoin асос мижози</translation>
+        <source>Smartcoin client</source>
+        <translation>Smartcoin асос мижози</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -299,8 +295,8 @@
         <translation>Дискдаги блоклар қайта индексланмоқда...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Тангаларни Bitcoin манзилига жўнатиш</translation>
+        <source>Send coins to a Smartcoin address</source>
+        <translation>Тангаларни Smartcoin манзилига жўнатиш</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -323,8 +319,8 @@
         <translation>Хабарни &amp;тасдиқлаш...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -339,8 +335,8 @@
         <translation>&amp;Қабул қилиш</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Core</source>
-        <translation>Bitcoin Core ҳақидаги маълумотларни кўрсатиш</translation>
+        <source>Show information about Smartcoin</source>
+        <translation>Smartcoin ҳақидаги маълумотларни кўрсатиш</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,12 +351,12 @@
         <translation>Ҳамёнингизга тегишли махфий калитларни кодлаш</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Bitcoin манзилидан унинг эгаси эканлигингизни исботлаш учун хабарлар ёзинг</translation>
+        <source>Sign messages with your Smartcoin addresses to prove you own them</source>
+        <translation>Smartcoin манзилидан унинг эгаси эканлигингизни исботлаш учун хабарлар ёзинг</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Хабарларни махсус Bitcoin манзилларингиз билан ёзилганлигига ишонч ҳосил қилиш учун уларни тасдиқланг</translation>
+        <source>Verify messages to ensure they were signed with specified Smartcoin addresses</source>
+        <translation>Хабарларни махсус Smartcoin манзилларингиз билан ёзилганлигига ишонч ҳосил қилиш учун уларни тасдиқланг</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -379,16 +375,16 @@
         <translation>Ички ойналар асбоблар панели</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Тўловлар (QR кодлари ва bitcoin ёрдамида яратишлар: URI’лар) сўраш</translation>
+        <source>Request payments (generates QR codes and smartcoin: URIs)</source>
+        <translation>Тўловлар (QR кодлари ва smartcoin ёрдамида яратишлар: URI’лар) сўраш</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>Bitcoin Core &amp;ҳақида</translation>
+        <source>&amp;About Smartcoin</source>
+        <translation>Smartcoin &amp;ҳақида</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -399,20 +395,20 @@
         <translation>Фойдаланилган қабул қилинган манзиллар ва ёрлиқлар рўйхатини кўрсатиш</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Bitcoin’ни очиш: URI ёки тўлов сўрови</translation>
+        <source>Open a smartcoin: URI or payment request</source>
+        <translation>Smartcoin’ни очиш: URI ёки тўлов сўрови</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Буйруқлар сатри мосламалари</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Мавжуд Bitcoin буйруқлар матни мосламалари билан  Bitcoin Core ёрдам хабарларини олиш рўйхатини кўрсатиш</translation>
+        <source>Show the Smartcoin help message to get a list with possible Smartcoin command-line options</source>
+        <translation>Мавжуд Smartcoin буйруқлар матни мосламалари билан  Smartcoin ёрдам хабарларини олиш рўйхатини кўрсатиш</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n та Bitcoin тармоғига фаол уланиш мавжуд</numerusform></translation>
+        <source>%n active connection(s) to Smartcoin network</source>
+        <translation><numerusform>%n та Smartcoin тармоғига фаол уланиш мавжуд</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -736,8 +732,8 @@
         <translation>Киритилган "%1" манзили аллақачон манзил китобида.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Киритилган "%1" манзили тўғри Bitcoin манзили эмас.</translation>
+        <source>The entered address "%1" is not a valid Smartcoin address.</source>
+        <translation>Киритилган "%1" манзили тўғри Smartcoin манзили эмас.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -774,8 +770,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -786,12 +782,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>Bitcoin Core ҳақида</translation>
-    </message>
-    <message>
-        <source>Command-line options</source>
-        <translation>Буйруқлар сатри мосламалари</translation>
+        <source>About Smartcoin</source>
+        <translation>Smartcoin ҳақида</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -809,16 +801,16 @@
         <translation>Хуш келибсиз</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
-        <translation>"Bitcoin Core"га хуш келибсиз.</translation>
+        <source>Welcome to Smartcoin.</source>
+        <translation>"Smartcoin"га хуш келибсиз.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>Биринчи марта дастур ишга тушгани каби сиз Bitcoin Core маълумотларини жойлаштирадиган жойни танлашингиз мумкин.</translation>
+        <source>As this is the first time the program is launched, you can choose where Smartcoin will store its data.</source>
+        <translation>Биринчи марта дастур ишга тушгани каби сиз Smartcoin маълумотларини жойлаштирадиган жойни танлашингиз мумкин.</translation>
     </message>
     <message>
-        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Bitcoin Core юклаб олинади ва Bitcoin блок занжири нусхаси жойлаштирилади. Камида %1GB  маълумот ушбу директорияга жойлаштирилади ва вақт давомида ўсиб боради. Ҳамён ҳам ушбу директорияда жойлашади.</translation>
+        <source>Smartcoin will download and store a copy of the Smartcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Smartcoin юклаб олинади ва Smartcoin блок занжири нусхаси жойлаштирилади. Камида %1GB  маълумот ушбу директорияга жойлаштирилади ва вақт давомида ўсиб боради. Ҳамён ҳам ушбу директорияда жойлашади.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -829,8 +821,8 @@
         <translation>Бошқа маълумотлар директориясида фойдаланинг:</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -901,14 +893,6 @@
     <message>
         <source>Third party transaction URLs</source>
         <translation>Бегона тараф ўтказмалари URL манзиллари</translation>
-    </message>
-    <message>
-        <source>&amp;Network</source>
-        <translation>Тармоқ</translation>
-    </message>
-    <message>
-        <source>W&amp;allet</source>
-        <translation>Ҳамён</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -990,8 +974,8 @@
         <translation>Шакл</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Кўрсатилган маълумот эскирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан сўнг Bitcoin тармоқ билан автоматик тарзда синхронланади, аммо жараён ҳалигача тугалланмади.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Smartcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Кўрсатилган маълумот эскирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан сўнг Smartcoin тармоқ билан автоматик тарзда синхронланади, аммо жараён ҳалигача тугалланмади.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1045,44 +1029,12 @@
         <source>Recent transactions</source>
         <translation>Сўнгги пул ўтказмалари</translation>
     </message>
-    <message>
-        <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Тасдиқланмаган ўтказмалар-фақат манзилларини кўриш</translation>
-    </message>
-    <message>
-        <source>Current total balance in watch-only addresses</source>
-        <translation>Жорий умумий баланс фақат кўринадиган манзилларда</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>PaymentServer</name>
-    <message>
-        <source>URI handling</source>
-        <translation>URI осилиб қолмоқда</translation>
-    </message>
-    <message>
-        <source>Invalid payment address %1</source>
-        <translation>Нотўғри тўлов манзили %1</translation>
-    </message>
-    <message>
-        <source>Payment request rejected</source>
-        <translation>Тўлов сўрови инкор этилди</translation>
-    </message>
-    <message>
-        <source>Payment request network doesn't match client network.</source>
-        <translation>Тўлов сўрови тармоғи мижоз тармоғига мос келмайди.</translation>
-    </message>
-    <message>
-        <source>Payment request error</source>
-        <translation>Тўлов сўрови хато</translation>
-    </message>
     </context>
 <context>
     <name>PeerTableModel</name>
-    <message>
-        <source>User Agent</source>
-        <translation>Фойдаланувчи вакил</translation>
-    </message>
     <message>
         <source>Ping Time</source>
         <translation>Ping вақти</translation>
@@ -1093,10 +1045,6 @@
     <message>
         <source>Amount</source>
         <translation>Миқдори</translation>
-    </message>
-    <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Bitcoin манзилини киритинг (масалан.  %1)</translation>
     </message>
     <message>
         <source>%1 m</source>
@@ -1191,22 +1139,6 @@
     <message>
         <source>Select a peer to view detailed information.</source>
         <translation>Батафсил маълумотларни кўриш учун уламни танланг.</translation>
-    </message>
-    <message>
-        <source>Direction</source>
-        <translation>Йўналиш</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation>Версия</translation>
-    </message>
-    <message>
-        <source>User Agent</source>
-        <translation>Фойдаланувчи вакил</translation>
-    </message>
-    <message>
-        <source>Services</source>
-        <translation>Хизматлар</translation>
     </message>
     <message>
         <source>Starting Height</source>
@@ -1321,14 +1253,6 @@
         <translation>ҳеч қачон</translation>
     </message>
     <message>
-        <source>Inbound</source>
-        <translation>Ички йўналиш</translation>
-    </message>
-    <message>
-        <source>Outbound</source>
-        <translation>Ташқи йўналиш</translation>
-    </message>
-    <message>
         <source>Unknown</source>
         <translation>Номаълум</translation>
     </message>
@@ -1415,28 +1339,8 @@
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>QR Code</source>
-        <translation>QR Коди</translation>
-    </message>
-    <message>
-        <source>Copy &amp;Address</source>
-        <translation>Нусҳалаш &amp; Манзил</translation>
-    </message>
-    <message>
         <source>&amp;Save Image...</source>
         <translation>Расмни &amp;сақлаш</translation>
-    </message>
-    <message>
-        <source>Request payment to %1</source>
-        <translation> %1 дан Тўловни сўраш</translation>
-    </message>
-    <message>
-        <source>Payment information</source>
-        <translation>Тўлов маълумоти</translation>
-    </message>
-    <message>
-        <source>URI</source>
-        <translation>URI</translation>
     </message>
     <message>
         <source>Address</source>
@@ -1450,10 +1354,6 @@
         <source>Label</source>
         <translation>Ёрлик</translation>
     </message>
-    <message>
-        <source>Message</source>
-        <translation>Хабар</translation>
-    </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
@@ -1466,10 +1366,6 @@
         <translation>Ёрлик</translation>
     </message>
     <message>
-        <source>Message</source>
-        <translation>Хабар</translation>
-    </message>
-    <message>
         <source>Amount</source>
         <translation>Миқдори</translation>
     </message>
@@ -1477,32 +1373,12 @@
         <source>(no label)</source>
         <translation>(Ёрлик мавжуд эмас)</translation>
     </message>
-    <message>
-        <source>(no message)</source>
-        <translation>(Хабар йўқ)</translation>
-    </message>
-    <message>
-        <source>(no amount)</source>
-        <translation>(Миқдор мавжуд эмас)</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
         <translation>Тангаларни жунат</translation>
-    </message>
-    <message>
-        <source>Coin Control Features</source>
-        <translation>Танга бошқаруви ҳусусиятлари</translation>
-    </message>
-    <message>
-        <source>automatically selected</source>
-        <translation>автоматик тарзда танланган</translation>
-    </message>
-    <message>
-        <source>Insufficient funds!</source>
-        <translation>Кам миқдор</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -1541,34 +1417,6 @@
         <translation>Бошқа ўзгартирилган манзил</translation>
     </message>
     <message>
-        <source>Transaction Fee:</source>
-        <translation>Ўтказма тўлови</translation>
-    </message>
-    <message>
-        <source>Choose...</source>
-        <translation>Танлов</translation>
-    </message>
-    <message>
-        <source>per kilobyte</source>
-        <translation>Хар килобайтига</translation>
-    </message>
-    <message>
-        <source>Recommended:</source>
-        <translation>Тавсия этилган</translation>
-    </message>
-    <message>
-        <source>Confirmation time:</source>
-        <translation>Тасдиқ вақти</translation>
-    </message>
-    <message>
-        <source>normal</source>
-        <translation>Нормал</translation>
-    </message>
-    <message>
-        <source>fast</source>
-        <translation>Тезкор</translation>
-    </message>
-    <message>
         <source>Send to multiple recipients at once</source>
         <translation>Бирданига бир нечта қабул қилувчиларга жўнатиш</translation>
     </message>
@@ -1581,10 +1429,6 @@
         <translation>Ахлат қутиси:</translation>
     </message>
     <message>
-        <source>Clear &amp;All</source>
-        <translation>Барчасини &amp; Тозалаш</translation>
-    </message>
-    <message>
         <source>Balance:</source>
         <translation>Баланс</translation>
     </message>
@@ -1593,16 +1437,8 @@
         <translation>Жўнатиш амалини тасдиқлаш</translation>
     </message>
     <message>
-        <source>S&amp;end</source>
-        <translation>Жў&amp;натиш</translation>
-    </message>
-    <message>
         <source>Confirm send coins</source>
         <translation>Тангалар жўнаишни тасдиқлаш</translation>
-    </message>
-    <message>
-        <source>%1 to %2</source>
-        <translation>%1 дан %2</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -1633,16 +1469,12 @@
         <translation>Нусха қайтими</translation>
     </message>
     <message>
-        <source>or</source>
-        <translation>ёки</translation>
-    </message>
-    <message>
         <source>The amount to pay must be larger than 0.</source>
         <translation>Тўлов миқдори 0. дан катта бўлиши керак. </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Диққат: Нотўғр Bitcoin манзили</translation>
+        <source>Warning: Invalid Smartcoin address</source>
+        <translation>Диққат: Нотўғр Smartcoin манзили</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1684,14 +1516,6 @@
         <translation>&amp;Ёрлиқ:</translation>
     </message>
     <message>
-        <source>Choose previously used address</source>
-        <translation>Олдин фойдаланилган манзилни танла</translation>
-    </message>
-    <message>
-        <source>This is a normal payment.</source>
-        <translation>Бу нормал тўлов.</translation>
-    </message>
-    <message>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -1703,24 +1527,12 @@
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
-    <message>
-        <source>Message:</source>
-        <translation>Хабар</translation>
-    </message>
-    <message>
-        <source>Pay To:</source>
-        <translation>Тўлов олувчи:</translation>
-    </message>
     </context>
 <context>
     <name>ShutdownWindow</name>
     </context>
 <context>
     <name>SignVerifyMessageDialog</name>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Олдин фойдаланилган манзилни танла</translation>
-    </message>
     <message>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
@@ -1737,24 +1549,16 @@
         <source>Signature</source>
         <translation>Имзо</translation>
     </message>
-    <message>
-        <source>Clear &amp;All</source>
-        <translation>Барчасини &amp; Тозалаш</translation>
-    </message>
-    <message>
-        <source>Message verified.</source>
-        <translation>Хабар тасдиқланди.</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
-        <translation>Bitcoin Core дастурчилари</translation>
+        <source>The Smartcoin developers</source>
+        <translation>Smartcoin дастурчилари</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -1783,76 +1587,12 @@
         <translation>Сана</translation>
     </message>
     <message>
-        <source>Source</source>
-        <translation>Манба</translation>
-    </message>
-    <message>
-        <source>Generated</source>
-        <translation>Яратилган</translation>
-    </message>
-    <message>
-        <source>From</source>
-        <translation>Дан</translation>
-    </message>
-    <message>
-        <source>To</source>
-        <translation>Га</translation>
-    </message>
-    <message>
-        <source>own address</source>
-        <translation>ўз манзили</translation>
-    </message>
-    <message>
-        <source>label</source>
-        <translation>ёрлиқ</translation>
-    </message>
-    <message>
-        <source>Credit</source>
-        <translation>Кредит (қарз)</translation>
-    </message>
-    <message>
-        <source>not accepted</source>
-        <translation>қабул қилинмади</translation>
-    </message>
-    <message>
-        <source>Transaction fee</source>
-        <translation>Ўтказма тўлови</translation>
-    </message>
-    <message>
-        <source>Net amount</source>
-        <translation>Умумий миқдор</translation>
-    </message>
-    <message>
-        <source>Message</source>
-        <translation>Хабар</translation>
-    </message>
-    <message>
-        <source>Comment</source>
-        <translation>Шарҳ</translation>
-    </message>
-    <message>
         <source>Transaction ID</source>
         <translation>ID</translation>
     </message>
     <message>
-        <source>Merchant</source>
-        <translation>Савдо</translation>
-    </message>
-    <message>
-        <source>Transaction</source>
-        <translation>Ўтказма</translation>
-    </message>
-    <message>
         <source>Amount</source>
         <translation>Миқдори</translation>
-    </message>
-    <message>
-        <source>true</source>
-        <translation>рост</translation>
-    </message>
-    <message>
-        <source>false</source>
-        <translation>ёлғон</translation>
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
@@ -1901,24 +1641,12 @@
         <translation>Яратилди, аммо қабул қилинмади</translation>
     </message>
     <message>
-        <source>Offline</source>
-        <translation>Оффлайн</translation>
-    </message>
-    <message>
         <source>Label</source>
         <translation>Ёрлиқ</translation>
     </message>
     <message>
-        <source>Unconfirmed</source>
-        <translation>Тасдиқланмаган</translation>
-    </message>
-    <message>
         <source>Received with</source>
         <translation>Ёрдамида қабул қилиш</translation>
-    </message>
-    <message>
-        <source>Received from</source>
-        <translation>Дан қабул қилиш</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -2032,24 +1760,8 @@
         <translation>Ёрликни тахрирлаш</translation>
     </message>
     <message>
-        <source>Show transaction details</source>
-        <translation>Ўтказма тафсилотларини кўрсатиш </translation>
-    </message>
-    <message>
-        <source>Export Transaction History</source>
-        <translation>Ўтказмалар тарихини экспорт қилиш</translation>
-    </message>
-    <message>
-        <source>Watch-only</source>
-        <translation>Фақат кўришга</translation>
-    </message>
-    <message>
         <source>Exporting Failed</source>
         <translation>Экспорт қилиб бўлмади</translation>
-    </message>
-    <message>
-        <source>The transaction history was successfully saved to %1.</source>
-        <translation>Ўтказмалар тарихи %1 га муваффаққиятли сақланди.</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
@@ -2093,11 +1805,7 @@
     </context>
 <context>
     <name>WalletFrame</name>
-    <message>
-        <source>No wallet has been loaded.</source>
-        <translation>Хали бирорта хамён юкланмади</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>WalletModel</name>
     <message>
@@ -2139,10 +1847,6 @@
         <translation>Синов тармоғидан фойдаланинг</translation>
     </message>
     <message>
-        <source>Connection options:</source>
-        <translation>Уланиш кўрсаткичлари:</translation>
-    </message>
-    <message>
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Ишга тушиш вақтида маълумотлар директориясини танлаш (стандарт: 0)</translation>
     </message>
@@ -2181,10 +1885,6 @@
     <message>
         <source>Loading addresses...</source>
         <translation>Манзиллар юкланмоқда...</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation>Кам миқдор</translation>
     </message>
     <message>
         <source>Loading block index...</source>

@@ -2,10 +2,6 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation>Dekstre-klaku por redakti adreson aŭ etikedon</translation>
-    </message>
-    <message>
         <source>Create a new address</source>
         <translation>Krei novan adreson</translation>
     </message>
@@ -66,11 +62,11 @@
         <translation>Ricevaj adresoj</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Smartcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Jen viaj Bitmon-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Smartcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Jen viaj bitmonaj adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
     </message>
     <message>
@@ -93,11 +89,7 @@
         <source>Exporting Failed</source>
         <translation>ekspotado malsukcesinta</translation>
     </message>
-    <message>
-        <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Okazis eraron dum konservo de adreslisto al %1. Bonvolu provi denove.</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -160,7 +152,7 @@
         <translation>Konfirmo de ĉifrado de la monujo</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMARTCOINS&lt;/b&gt;!</source>
         <translation>Atentu! Se vi ĉifras vian monujon kaj perdas la pasfrazon, vi &lt;b&gt;PERDOS LA TUTON DE VIA BITMONO&lt;b&gt;!</translation>
     </message>
     <message>
@@ -178,10 +170,6 @@
     <message>
         <source>Wallet encrypted</source>
         <translation>La monujo estas ĉifrita</translation>
-    </message>
-    <message>
-        <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Tajpu la malnovan pasvorton kaj la novan pasvorton por la monujo.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -287,7 +275,7 @@
         <translation>Malfermi &amp;URI-on...</translation>
     </message>
     <message>
-        <source>Bitcoin Core client</source>
+        <source>Smartcoin client</source>
         <translation>kliento de bitmon-kerno</translation>
     </message>
     <message>
@@ -299,7 +287,7 @@
         <translation>Reindeksado de blokoj sur disko...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Smartcoin address</source>
         <translation>Sendi monon al Bitmon-adreso</translation>
     </message>
     <message>
@@ -323,7 +311,7 @@
         <translation>&amp;Kontroli mesaĝon...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
+        <source>Smartcoin</source>
         <translation>Bitmono</translation>
     </message>
     <message>
@@ -339,10 +327,6 @@
         <translation>&amp;Ricevi</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Core</source>
-        <translation>Vidigi informon pri Bitmona Kerno</translation>
-    </message>
-    <message>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Montri / Kaŝi</translation>
     </message>
@@ -355,11 +339,11 @@
         <translation>Ĉifri la privatajn ŝlosilojn de via monujo</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Smartcoin addresses to prove you own them</source>
         <translation>Subskribi mesaĝojn per via Bitmon-adresoj por pravigi, ke vi estas la posedanto</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Smartcoin addresses</source>
         <translation>Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Bitmon-adresoj</translation>
     </message>
     <message>
@@ -379,15 +363,15 @@
         <translation>Langeto-breto</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
+        <source>Smartcoin</source>
         <translation>Kerno de Bitmono</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso bitcoin:)</translation>
+        <source>Request payments (generates QR codes and smartcoin: URIs)</source>
+        <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso smartcoin:)</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
+        <source>&amp;About Smartcoin</source>
         <translation>&amp;Pri la Bitmona Kerno</translation>
     </message>
     <message>
@@ -399,8 +383,8 @@
         <translation>Vidigi la liston de uzitaj ricevaj adresoj kaj etikedoj</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Malfermi bitcoin:-URI-on aŭ pagpeton</translation>
+        <source>Open a smartcoin: URI or payment request</source>
+        <translation>Malfermi smartcoin:-URI-on aŭ pagpeton</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -445,30 +429,6 @@
     <message>
         <source>Catching up...</source>
         <translation>Ĝisdatigante...</translation>
-    </message>
-    <message>
-        <source>Amount: %1
-</source>
-        <translation>Sumo: %1
-</translation>
-    </message>
-    <message>
-        <source>Type: %1
-</source>
-        <translation>Tipo: %1
-</translation>
-    </message>
-    <message>
-        <source>Label: %1
-</source>
-        <translation>Etikedo: %1
-</translation>
-    </message>
-    <message>
-        <source>Address: %1
-</source>
-        <translation>Adreso: %1
-</translation>
     </message>
     <message>
         <source>Sent transaction</source>
@@ -517,10 +477,6 @@
         <translation>Krompago:</translation>
     </message>
     <message>
-        <source>Dust:</source>
-        <translation>Polvo:</translation>
-    </message>
-    <message>
         <source>After Fee:</source>
         <translation>Post krompago:</translation>
     </message>
@@ -543,14 +499,6 @@
     <message>
         <source>Amount</source>
         <translation>Sumo</translation>
-    </message>
-    <message>
-        <source>Received with label</source>
-        <translation>Ricevita kun etikedo</translation>
-    </message>
-    <message>
-        <source>Received with address</source>
-        <translation>Ricevita kun adreso</translation>
     </message>
     <message>
         <source>Date</source>
@@ -611,10 +559,6 @@
     <message>
         <source>Copy priority</source>
         <translation>Kopii prioritaton</translation>
-    </message>
-    <message>
-        <source>Copy dust</source>
-        <translation>Kopii polvon</translation>
     </message>
     <message>
         <source>Copy change</source>
@@ -740,7 +684,7 @@
         <translation>La adreso enigita "%1" jam ekzistas en la adresaro.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid Smartcoin address.</source>
         <translation>La adreso enigita "%1" ne estas valida Bitmon-adreso.</translation>
     </message>
     <message>
@@ -778,7 +722,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>Smartcoin</source>
         <translation>Kerno de Bitmono</translation>
     </message>
     <message>
@@ -786,7 +730,7 @@
         <translation>versio</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
+        <source>About Smartcoin</source>
         <translation>Pri la Bitmona Kerno</translation>
     </message>
     <message>
@@ -809,16 +753,16 @@
         <translation>Bonvenon</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
-        <translation>Bonvenon al la bitmona kerno, Bitcoin Core.</translation>
+        <source>Welcome to Smartcoin.</source>
+        <translation>Bonvenon al la bitmona kerno, Smartcoin.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>Dum tiu ĉi unua uzo de la programo, vi povas elekti lokon, kie Bitcoin Core stokos siajn datumojn.</translation>
+        <source>As this is the first time the program is launched, you can choose where Smartcoin will store its data.</source>
+        <translation>Dum tiu ĉi unua uzo de la programo, vi povas elekti lokon, kie Smartcoin stokos siajn datumojn.</translation>
     </message>
     <message>
-        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Bitcoin Core elŝutos kaj konservos kopion de la bitmona blokĉeno. Almenaŭ %1GB da datumoj konserviĝos en tiu loko, kaj tio poiome kreskos. Ankaŭ via monujo konserviĝos en tiu dosierujo.</translation>
+        <source>Smartcoin will download and store a copy of the Smartcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Smartcoin elŝutos kaj konservos kopion de la bitmona blokĉeno. Almenaŭ %1GB da datumoj konserviĝos en tiu loko, kaj tio poiome kreskos. Ankaŭ via monujo konserviĝos en tiu dosierujo.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -829,7 +773,7 @@
         <translation>Uzi alian dosierujon por datumoj:</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
+        <source>Smartcoin</source>
         <translation>Kerno de Bitmono</translation>
     </message>
     <message>
@@ -879,14 +823,6 @@
         <translation>MB</translation>
     </message>
     <message>
-        <source>Accept connections from outside</source>
-        <translation>Akcepti konektojn el ekstere</translation>
-    </message>
-    <message>
-        <source>Allow incoming connections</source>
-        <translation>Permesi envenantajn konektojn</translation>
-    </message>
-    <message>
         <source>Reset all client options to default.</source>
         <translation>Reagordi ĉion al defaŭlataj valoroj.</translation>
     </message>
@@ -899,15 +835,7 @@
         <translation>&amp;Reto</translation>
     </message>
     <message>
-        <source>W&amp;allet</source>
-        <translation>Monujo</translation>
-    </message>
-    <message>
-        <source>Expert</source>
-        <translation>Fakulo</translation>
-    </message>
-    <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Smartcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Aŭtomate malfermi la kursilan pordon por Bitmono. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
     </message>
     <message>
@@ -994,7 +922,7 @@
         <translation>Formularo</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Smartcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la bitmona reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
     </message>
     <message>
@@ -1014,24 +942,12 @@
         <translation>Minita saldo, kiu ankoraŭ ne maturiĝis</translation>
     </message>
     <message>
-        <source>Balances</source>
-        <translation>Saldoj</translation>
-    </message>
-    <message>
         <source>Total:</source>
         <translation>Totalo:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
         <translation>via aktuala totala saldo</translation>
-    </message>
-    <message>
-        <source>Spendable:</source>
-        <translation>Elspezebla:</translation>
-    </message>
-    <message>
-        <source>Recent transactions</source>
-        <translation>Lastaj transakcioj</translation>
     </message>
     </context>
 <context>
@@ -1053,7 +969,7 @@
         <translation>Eraro dum pagopeto</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start smartcoin: click-to-pay handler</source>
         <translation>Ne eblas lanĉi la ilon 'klaki-por-pagi'</translation>
     </message>
     <message>
@@ -1079,10 +995,6 @@
 </context>
 <context>
     <name>PeerTableModel</name>
-    <message>
-        <source>User Agent</source>
-        <translation>Uzanto Agento</translation>
-    </message>
     </context>
 <context>
     <name>QObject</name>
@@ -1097,10 +1009,6 @@
     <message>
         <source>%1 m</source>
         <translation>%1 m</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation>Neniu</translation>
     </message>
     <message>
         <source>N/A</source>
@@ -1179,34 +1087,6 @@
     <message>
         <source>Current number of blocks</source>
         <translation>Aktuala nombro de blokoj</translation>
-    </message>
-    <message>
-        <source>Received</source>
-        <translation>Ricevita</translation>
-    </message>
-    <message>
-        <source>Sent</source>
-        <translation>Sendita</translation>
-    </message>
-    <message>
-        <source>&amp;Peers</source>
-        <translation>&amp;Samuloj</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation>Versio</translation>
-    </message>
-    <message>
-        <source>User Agent</source>
-        <translation>Uzanto Agento</translation>
-    </message>
-    <message>
-        <source>Services</source>
-        <translation>Servoj</translation>
-    </message>
-    <message>
-        <source>Bytes Sent</source>
-        <translation>Bajtoj Senditaj:</translation>
     </message>
     <message>
         <source>Last block time</source>
@@ -1461,10 +1341,6 @@
         <translation>Restmono:</translation>
     </message>
     <message>
-        <source>Transaction Fee:</source>
-        <translation>Krompago:</translation>
-    </message>
-    <message>
         <source>Send to multiple recipients at once</source>
         <translation>Sendi samtempe al pluraj ricevantoj</translation>
     </message>
@@ -1475,10 +1351,6 @@
     <message>
         <source>Clear all fields of the form.</source>
         <translation>Malplenigi ĉiujn kampojn de la formularo.</translation>
-    </message>
-    <message>
-        <source>Dust:</source>
-        <translation>Polvo:</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1533,6 +1405,10 @@
         <translation>Kopii restmonon</translation>
     </message>
     <message>
+        <source>Total Amount %1 (= %2)</source>
+        <translation>Totala Sumo %1 (= %2)</translation>
+    </message>
+    <message>
         <source>or</source>
         <translation>aŭ</translation>
     </message>
@@ -1553,16 +1429,12 @@
         <translation>Kreo de transakcio fiaskis!</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid Smartcoin address</source>
         <translation>Averto: Nevalida Bitmon-adreso</translation>
     </message>
     <message>
         <source>(no label)</source>
         <translation>(neniu etikedo)</translation>
-    </message>
-    <message>
-        <source>Copy dust</source>
-        <translation>Kopii polvon</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -1678,7 +1550,7 @@
         <translation>Kopii la aktualan subskribon al la tondejo</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Smartcoin address</source>
         <translation>Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Bitmon-adreso</translation>
     </message>
     <message>
@@ -1698,7 +1570,7 @@
         <translation>&amp;Kontroli Mesaĝon</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Smartcoin address</source>
         <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Bitmon-adreso</translation>
     </message>
     <message>
@@ -1765,11 +1637,11 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>Smartcoin</source>
         <translation>Kerno de Bitmono</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Smartcoin developers</source>
         <translation>La programistoj de Bitmona Kerno</translation>
     </message>
     <message>
@@ -2319,20 +2191,12 @@
         <translation>Plenumi komandon kiam rilata alerto riceviĝas, aŭ kiam ni vidas tre longan forkon (%s en cms anstataŭiĝas per mesaĝo)</translation>
     </message>
     <message>
-        <source>Cannot resolve -whitebind address: '%s'</source>
-        <translation>Ne eblas trovi la adreson -whitebind: '%s'</translation>
-    </message>
-    <message>
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Elekti dosierujon por datumoj dum lanĉo (defaŭlte: 0)</translation>
     </message>
     <message>
         <source>Information</source>
         <translation>Informoj</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Nevalida sumo por -maxtxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
@@ -2381,10 +2245,6 @@
     <message>
         <source>Transaction too large</source>
         <translation>Transakcio estas tro granda</translation>
-    </message>
-    <message>
-        <source>UI Options:</source>
-        <translation>Uzantinterfaco ebloj:</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>

@@ -66,12 +66,12 @@
         <translation>Fogadó címek</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ezekről a címekről küldhetsz bitcoint. Mindig ellenőrizd a fogadó címet és a fizetendő összeget, mielőtt elküldöd.</translation>
+        <source>These are your Smartcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ezekről a címekről küldhetsz smartcoint. Mindig ellenőrizd a fogadó címet és a fizetendő összeget, mielőtt elküldöd.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ezekkel a címekkel fogadhatsz bitcoint. Ajánlott minden tranzakcióhoz egy új fogadó címet használni.</translation>
+        <source>These are your Smartcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ezekkel a címekkel fogadhatsz smartcoint. Ajánlott minden tranzakcióhoz egy új fogadó címet használni.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -160,8 +160,8 @@
         <translation>Biztosan titkosítani akarod a tárcát?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Figyelem: ha titkosítod a tárcát és elveszted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES BITCOINOD ELVESZIK!&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMARTCOINS&lt;/b&gt;!</source>
+        <translation>Figyelem: ha titkosítod a tárcát és elveszted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES SMARTCOINOD ELVESZIK!&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -182,10 +182,6 @@
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Add meg a tárca új jelszavát.&lt;br/&gt;Olyan jelszót válassz, ami &lt;b&gt;legalább tíz véletlenszerű karakterből&lt;/b&gt; vagy &lt;b&gt;legalább 8 véletlenszerű szóból&lt;/b&gt; áll.</translation>
-    </message>
-    <message>
-        <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Add meg a tárcához a régi jelszavad és az új jelszavad.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -291,8 +287,8 @@
         <translation>&amp;URI azonosító megnyitása...</translation>
     </message>
     <message>
-        <source>Bitcoin Core client</source>
-        <translation>Bitcoin Core kliens</translation>
+        <source>Smartcoin client</source>
+        <translation>Smartcoin kliens</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -303,8 +299,8 @@
         <translation>Lemezen lévő blokkok újraindexelése...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Bitcoin küldése megadott címre</translation>
+        <source>Send coins to a Smartcoin address</source>
+        <translation>Smartcoin küldése megadott címre</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -327,8 +323,8 @@
         <translation>Üzenet &amp;valódiságának ellenőrzése</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -343,8 +339,8 @@
         <translation>&amp;Fogadás</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Core</source>
-        <translation>Bitcoin Core információ megjelenítése</translation>
+        <source>Show information about Smartcoin</source>
+        <translation>Smartcoin információ megjelenítése</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -359,12 +355,12 @@
         <translation>A tárcádhoz tartozó privát kulcsok titkosítása</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Üzenetek aláírása a Bitcoin-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
+        <source>Sign messages with your Smartcoin addresses to prove you own them</source>
+        <translation>Üzenetek aláírása a Smartcoin-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Bitcoin-címekkel vannak-e aláírva</translation>
+        <source>Verify messages to ensure they were signed with specified Smartcoin addresses</source>
+        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Smartcoin-címekkel vannak-e aláírva</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -383,20 +379,16 @@
         <translation>Fül eszköztár</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Fizetési kérelem (QR-kódot és "bitcoin:" URI azonosítót hoz létre)</translation>
+        <source>Request payments (generates QR codes and smartcoin: URIs)</source>
+        <translation>Fizetési kérelem (QR-kódot és "smartcoin:" URI azonosítót hoz létre)</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;A Bitcoin Core-ról</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for Bitcoin Core</source>
-        <translation>Konfigurációs opciók módosítása a Bitcoin Core-hoz</translation>
+        <source>&amp;About Smartcoin</source>
+        <translation>&amp;A Smartcoin-ról</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -407,48 +399,24 @@
         <translation>A használt fogadó címek és címkék megtekintése</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>"bitcoin:" URI azonosító vagy fizetési kérelem megnyitása</translation>
+        <source>Open a smartcoin: URI or payment request</source>
+        <translation>"smartcoin:" URI azonosító vagy fizetési kérelem megnyitása</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Paran&amp;cssor kapcsolók</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>A Bitcoin Core súgóüzenet megjelenítése a Bitcoin lehetséges parancssori kapcsolóival.</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktív kapcsolat a Bitcoin hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Bitcoin hálózathoz</numerusform></translation>
+        <source>Show the Smartcoin help message to get a list with possible Smartcoin command-line options</source>
+        <translation>A Smartcoin súgóüzenet megjelenítése a Smartcoin lehetséges parancssori kapcsolóival.</translation>
     </message>
     <message>
         <source>No block source available...</source>
         <translation>Blokk forrása ismeretlen...</translation>
     </message>
-    <message numerus="yes">
-        <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>%n blokk feldolgozva a tranzakció előzményből.</numerusform><numerusform>%n blokk feldolgozva a tranzakció előzményből.</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n óra</numerusform><numerusform>%n óra</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n nap</numerusform><numerusform>%n nap</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n hét</numerusform><numerusform>%n hét</numerusform></translation>
-    </message>
     <message>
         <source>%1 and %2</source>
         <translation>%1 és %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n év</numerusform><numerusform>%n év</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -483,36 +451,6 @@
         <translation>Frissítés...</translation>
     </message>
     <message>
-        <source>Date: %1
-</source>
-        <translation>Dátum:  %1
-</translation>
-    </message>
-    <message>
-        <source>Amount: %1
-</source>
-        <translation>Összeg: %1
-</translation>
-    </message>
-    <message>
-        <source>Type: %1
-</source>
-        <translation>Típus: %1
-</translation>
-    </message>
-    <message>
-        <source>Label: %1
-</source>
-        <translation>Címke: %1
-</translation>
-    </message>
-    <message>
-        <source>Address: %1
-</source>
-        <translation>Cím: %1
-</translation>
-    </message>
-    <message>
         <source>Sent transaction</source>
         <translation>Tranzakció elküldve.</translation>
     </message>
@@ -539,10 +477,6 @@
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <source>Coin Selection</source>
-        <translation>Érme Választás</translation>
-    </message>
-    <message>
         <source>Quantity:</source>
         <translation>Mennyiség:</translation>
     </message>
@@ -560,7 +494,7 @@
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Díj:</translation>
+        <translation>Díjak:</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -589,14 +523,6 @@
     <message>
         <source>Amount</source>
         <translation>Összeg</translation>
-    </message>
-    <message>
-        <source>Received with label</source>
-        <translation>Címkével érkezett</translation>
-    </message>
-    <message>
-        <source>Received with address</source>
-        <translation>Címmel érkezett</translation>
     </message>
     <message>
         <source>Date</source>
@@ -711,18 +637,6 @@
         <translation>semmi</translation>
     </message>
     <message>
-        <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
-        <translation>Ez a címke pirosra változik, ha a tranzakció mérete nagyobb mint 1000 bájt.</translation>
-    </message>
-    <message>
-        <source>This label turns red if the priority is smaller than "medium".</source>
-        <translation>Ez a címke pirosra változik, ha a prioritás kisebb mint "közepes".</translation>
-    </message>
-    <message>
-        <source>This label turns red if any recipient receives an amount smaller than %1.</source>
-        <translation>Ez a címke pirosra változik, ha bármely fogadónak %1-nál kevesebb összeg érkezik.</translation>
-    </message>
-    <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
         <translation>Bemenetenként  +/- %1 satoshi-val változhat</translation>
     </message>
@@ -802,8 +716,8 @@
         <translation>A megadott "%1" cím már szerepel a címjegyzékben.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>A megadott "%1" cím nem egy érvényes Bitcoin-cím.</translation>
+        <source>The entered address "%1" is not a valid Smartcoin address.</source>
+        <translation>A megadott "%1" cím nem egy érvényes Smartcoin-cím.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -836,8 +750,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -848,8 +762,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>A Bitcoin Core-ról</translation>
+        <source>About Smartcoin</source>
+        <translation>A Smartcoin-ról</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -871,12 +785,8 @@
         <translation>Üdvözlünk</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
-        <translation>Üdvözlünk a Bitcoin Core-ban.</translation>
-    </message>
-    <message>
-        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>A Bitcoin Core le fogja tölteni és tárolni fogja a Bitcoin blokklánc egy másolatát. Legalább %1GB adat lesz tárolva ebben a mappában, és ez folyamatosan nőni fog. A tárca szintén itt lesz tárolva.</translation>
+        <source>Welcome to Smartcoin.</source>
+        <translation>Üdvözlünk a Smartcoin-ban.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -887,8 +797,8 @@
         <translation>Saját adatkönyvtár használata:</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -897,10 +807,6 @@
     <message>
         <source>Error</source>
         <translation>Hiba</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB elérhető szabad hely</numerusform><numerusform>%n GB elérhető szabad hely</numerusform></translation>
     </message>
     </context>
 <context>
@@ -937,10 +843,6 @@
         <translation>&amp;Fő</translation>
     </message>
     <message>
-        <source>Size of &amp;database cache</source>
-        <translation>A&amp;datbázis gyorsítótár mérete</translation>
-    </message>
-    <message>
         <source>MB</source>
         <translation>MB</translation>
     </message>
@@ -957,14 +859,6 @@
         <translation>A proxy IP címe (pl.: IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Core.</source>
-        <translation>Itt beállíthatod a kezelőfelület nyelvét. A beállítás a Bitcoin újraindítása után lép érvénybe.</translation>
-    </message>
-    <message>
-        <source>Third party transaction URLs</source>
-        <translation>Harmadik fél tranzakció URL-ek</translation>
-    </message>
-    <message>
         <source>Reset all client options to default.</source>
         <translation>Minden kliensbeállítás alapértelmezettre állítása.</translation>
     </message>
@@ -977,28 +871,12 @@
         <translation>&amp;Hálózat</translation>
     </message>
     <message>
-        <source>&amp;Start Bitcoin Core on system login</source>
-        <translation>A Bitcoin elindítása bejelentkezéskor</translation>
-    </message>
-    <message>
-        <source>W&amp;allet</source>
-        <translation>T&amp;árca</translation>
-    </message>
-    <message>
-        <source>Expert</source>
-        <translation>Szakértő</translation>
-    </message>
-    <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A Bitcoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <source>Automatically open the Smartcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>A Smartcoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>&amp;UPnP port-feltérképezés</translation>
-    </message>
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Csatlakozás a Bitcoin hálózatához SOCKS5 proxyn keresztül</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1080,12 +958,8 @@
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Bitcoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
-    </message>
-    <message>
-        <source>Watch-only:</source>
-        <translation>Csak megfigyelés</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Smartcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Smartcoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1112,10 +986,6 @@
         <translation>Bányászott egyenleg amely még nem érett be.</translation>
     </message>
     <message>
-        <source>Balances</source>
-        <translation>Egyenlegek</translation>
-    </message>
-    <message>
         <source>Total:</source>
         <translation>Összesen:</translation>
     </message>
@@ -1139,24 +1009,12 @@
         <translation>URI kezelés</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>A bitcoint nem lehet elindítani: click-to-pay handler</translation>
-    </message>
-    <message>
-        <source>Payment request expired.</source>
-        <translation>A fizetési kérelem lejárt</translation>
-    </message>
-    <message>
-        <source>Invalid payment request.</source>
-        <translation>Érvénytelen fizetési kérelem</translation>
+        <source>Cannot start smartcoin: click-to-pay handler</source>
+        <translation>A smartcoint nem lehet elindítani: click-to-pay handler</translation>
     </message>
     </context>
 <context>
     <name>PeerTableModel</name>
-    <message>
-        <source>User Agent</source>
-        <translation>User Agent</translation>
-    </message>
     <message>
         <source>Ping Time</source>
         <translation>Ping idő</translation>
@@ -1167,10 +1025,6 @@
     <message>
         <source>Amount</source>
         <translation>Összeg</translation>
-    </message>
-    <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Ad meg egy Bitcoin címet (pl: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1189,18 +1043,10 @@
         <translation>%1 mp</translation>
     </message>
     <message>
-        <source>None</source>
-        <translation>Semmi</translation>
-    </message>
-    <message>
         <source>N/A</source>
         <translation>Nem elérhető</translation>
     </message>
-    <message>
-        <source>%1 ms</source>
-        <translation>%1 ms</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>QRImageWidget</name>
     <message>
@@ -1251,10 +1097,6 @@
         <translation>Használt OpenSSL verzió</translation>
     </message>
     <message>
-        <source>Using BerkeleyDB version</source>
-        <translation>Használt BerkeleyDB verzió</translation>
-    </message>
-    <message>
         <source>Startup time</source>
         <translation>Bekapcsolás ideje</translation>
     </message>
@@ -1291,40 +1133,12 @@
         <translation>&amp;Peerek</translation>
     </message>
     <message>
-        <source>Select a peer to view detailed information.</source>
-        <translation>Peer kijelölése a részletes információkért</translation>
-    </message>
-    <message>
         <source>Version</source>
         <translation>Verzió</translation>
     </message>
     <message>
-        <source>User Agent</source>
-        <translation>User Agent</translation>
-    </message>
-    <message>
         <source>Services</source>
         <translation>Szolgáltatások</translation>
-    </message>
-    <message>
-        <source>Connection Time</source>
-        <translation>Csatlakozás ideje</translation>
-    </message>
-    <message>
-        <source>Last Send</source>
-        <translation>Legutóbbi küldés</translation>
-    </message>
-    <message>
-        <source>Last Receive</source>
-        <translation>Legutóbbi fogadás</translation>
-    </message>
-    <message>
-        <source>Bytes Sent</source>
-        <translation>Küldött bájtok</translation>
-    </message>
-    <message>
-        <source>Bytes Received</source>
-        <translation>Fogadott bájtok</translation>
     </message>
     <message>
         <source>Ping Time</source>
@@ -1345,10 +1159,6 @@
     <message>
         <source>&amp;Network Traffic</source>
         <translation>&amp;Hálózati forgalom</translation>
-    </message>
-    <message>
-        <source>&amp;Clear</source>
-        <translation>&amp;Törlés</translation>
     </message>
     <message>
         <source>Totals</source>
@@ -1399,67 +1209,23 @@
         <translation>%1 GB</translation>
     </message>
     <message>
-        <source>via %1</source>
-        <translation>%1 által</translation>
-    </message>
-    <message>
         <source>never</source>
         <translation>soha</translation>
     </message>
-    <message>
-        <source>Inbound</source>
-        <translation>Bejövő</translation>
-    </message>
-    <message>
-        <source>Outbound</source>
-        <translation>Kimenő</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation>Ismeretlen</translation>
-    </message>
-    <message>
-        <source>Fetching...</source>
-        <translation>Begyüjtés</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
-        <source>&amp;Amount:</source>
-        <translation>&amp;Összeg:</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>Címke:</translation>
-    </message>
-    <message>
-        <source>&amp;Message:</source>
-        <translation>&amp;Üzenet:</translation>
-    </message>
-    <message>
-        <source>Clear all fields of the form.</source>
-        <translation>Minden mező törlése</translation>
     </message>
     <message>
         <source>Clear</source>
         <translation>Törlés</translation>
     </message>
     <message>
-        <source>Requested payments history</source>
-        <translation>A kért kifizetések története</translation>
-    </message>
-    <message>
-        <source>&amp;Request payment</source>
-        <translation>&amp;Fizetés kérése</translation>
-    </message>
-    <message>
         <source>Show</source>
         <translation>Mutat</translation>
-    </message>
-    <message>
-        <source>Remove the selected entries from the list</source>
-        <translation>A kijelölt elemek törlése a listáról</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -1495,14 +1261,6 @@
     <message>
         <source>&amp;Save Image...</source>
         <translation>&amp;Kép mentése</translation>
-    </message>
-    <message>
-        <source>Request payment to %1</source>
-        <translation>Fizetés kérése a %1-hez</translation>
-    </message>
-    <message>
-        <source>Payment information</source>
-        <translation>Kifizetés információ</translation>
     </message>
     <message>
         <source>URI</source>
@@ -1555,15 +1313,7 @@
         <source>(no label)</source>
         <translation>(nincs címke)</translation>
     </message>
-    <message>
-        <source>(no message)</source>
-        <translation>(nincs üzenet)</translation>
-    </message>
-    <message>
-        <source>(no amount)</source>
-        <translation>(nincs összeg)</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
@@ -1573,14 +1323,6 @@
     <message>
         <source>Inputs...</source>
         <translation>Bemenetek...</translation>
-    </message>
-    <message>
-        <source>automatically selected</source>
-        <translation>automatikusan kiválasztva</translation>
-    </message>
-    <message>
-        <source>Insufficient funds!</source>
-        <translation>Fedezethiány!</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -1611,48 +1353,12 @@
         <translation>Visszajáró:</translation>
     </message>
     <message>
-        <source>Transaction Fee:</source>
-        <translation>Tranzakciós díj</translation>
-    </message>
-    <message>
-        <source>Choose...</source>
-        <translation>Válassz...</translation>
-    </message>
-    <message>
-        <source>per kilobyte</source>
-        <translation>kilobájtonként</translation>
-    </message>
-    <message>
-        <source>Hide</source>
-        <translation>Elrejtés</translation>
-    </message>
-    <message>
-        <source>Recommended:</source>
-        <translation>Ajánlott:</translation>
-    </message>
-    <message>
-        <source>Custom:</source>
-        <translation>Egyéni:</translation>
-    </message>
-    <message>
-        <source>normal</source>
-        <translation>normál</translation>
-    </message>
-    <message>
-        <source>fast</source>
-        <translation>gyors</translation>
-    </message>
-    <message>
         <source>Send to multiple recipients at once</source>
         <translation>Küldés több címzettnek egyszerre</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
         <translation>&amp;Címzett hozzáadása</translation>
-    </message>
-    <message>
-        <source>Clear all fields of the form.</source>
-        <translation>Minden mező törlése</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -1716,19 +1422,11 @@
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>Nincs ennyi bitcoin az egyenlegeden.</translation>
+        <translation>Nincs ennyi smartcoin az egyenlegeden.</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
         <translation>A küldeni kívánt összeg és a %1 tranzakciós díj együtt meghaladja az egyenlegeden rendelkezésedre álló összeget.</translation>
-    </message>
-    <message>
-        <source>Payment request expired.</source>
-        <translation>A fizetési kérelem lejárt</translation>
-    </message>
-    <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Figyelmeztetés: Érvénytelen Bitcoin cím</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1737,10 +1435,6 @@
     <message>
         <source>Copy dust</source>
         <translation>Visszajáró másolása</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to send?</source>
-        <translation>Biztos, hogy el akarod küldeni?</translation>
     </message>
     </context>
 <context>
@@ -1763,10 +1457,6 @@
         <translation>Címke:</translation>
     </message>
     <message>
-        <source>Choose previously used address</source>
-        <translation>Válassz egy korábban már használt címet</translation>
-    </message>
-    <message>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
@@ -1779,16 +1469,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Remove this entry</source>
-        <translation>Ez a bejegyzés eltávolítása</translation>
-    </message>
-    <message>
         <source>Message:</source>
         <translation>Üzenet:</translation>
-    </message>
-    <message>
-        <source>Pay To:</source>
-        <translation>Címzett:</translation>
     </message>
     <message>
         <source>Memo:</source>
@@ -1798,14 +1480,10 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitcoin Core is shutting down...</source>
-        <translation>A Bitcoin Core leáll...</translation>
+        <source>Smartcoin is shutting down...</source>
+        <translation>A Smartcoin leáll...</translation>
     </message>
-    <message>
-        <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Ne állítsd le a számítógépet amíg ez az ablak el nem tűnik.</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
@@ -1815,10 +1493,6 @@
     <message>
         <source>&amp;Sign Message</source>
         <translation>Üzenet aláírása...</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Válassz egy korábban már használt címet</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1845,7 +1519,7 @@
         <translation>A jelenleg kiválasztott aláírás másolása a rendszer-vágólapra</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Smartcoin address</source>
         <translation>Üzenet </translation>
     </message>
     <message>
@@ -1858,10 +1532,6 @@
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>Üzenet ellenőrzése</translation>
-    </message>
-    <message>
-        <source>Verify &amp;Message</source>
         <translation>Üzenet ellenőrzése</translation>
     </message>
     <message>
@@ -1904,12 +1574,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
-        <translation>A Bitcoin Core fejlesztői</translation>
+        <source>The Smartcoin developers</source>
+        <translation>A Smartcoin fejlesztői</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2080,10 +1750,6 @@
         <translation>Címke</translation>
     </message>
     <message>
-        <source>Unconfirmed</source>
-        <translation>Megerősítetlen:</translation>
-    </message>
-    <message>
         <source>Received with</source>
         <translation>Erre a címre</translation>
     </message>
@@ -2207,16 +1873,8 @@
         <translation>Tranzakciós részletek megjelenítése</translation>
     </message>
     <message>
-        <source>Watch-only</source>
-        <translation>Csak megfigyelés</translation>
-    </message>
-    <message>
         <source>Exporting Failed</source>
         <translation>Az exportálás sikertelen volt</translation>
-    </message>
-    <message>
-        <source>Exporting Successful</source>
-        <translation>Sikeres exportálás</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
@@ -2399,36 +2057,16 @@
         <translation>Tárca ellenőrzése...</translation>
     </message>
     <message>
-        <source>Wallet options:</source>
-        <translation>Tárca beállítások:</translation>
-    </message>
-    <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>Az adatbázist újra kell építeni -reindex használatával (módosítás -tindex).</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -whitebind address: '%s'</source>
-        <translation>Külső cím (-whitebind address) feloldása nem sikerült: '%s'</translation>
     </message>
     <message>
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Adatkönyvtár kiválasztása induláskor (alapbeállítás: 0)</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i A Bitcoin Core Fejlesztői</translation>
-    </message>
-    <message>
-        <source>Error reading from database, shutting down.</source>
-        <translation>Hiba az adatbázis olvasásakor, leállítás</translation>
-    </message>
-    <message>
         <source>Information</source>
         <translation>Információ</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Érvénytelen -maxtxfee=&lt;amount&gt;: '%s' összeg</translation>
     </message>
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
@@ -2478,10 +2116,6 @@
     <message>
         <source>Transaction too large</source>
         <translation>Túl nagy tranzakció</translation>
-    </message>
-    <message>
-        <source>UI Options:</source>
-        <translation>Kezelőfelület beállításai:</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
@@ -2562,7 +2196,7 @@
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Nincs elég bitcoinod.</translation>
+        <translation>Nincs elég smartcoinod.</translation>
     </message>
     <message>
         <source>Loading block index...</source>

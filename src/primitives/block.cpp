@@ -6,6 +6,8 @@
 #include "primitives/block.h"
 
 #include "hash.h"
+#include "crypto/scrypt.h"
+#include "crypto/hash_x11.h"
 #include "tinyformat.h"
 #include "utilstrencodings.h"
 #include "crypto/common.h"
@@ -13,6 +15,17 @@
 uint256 CBlockHeader::GetHash() const
 {
     return SerializeHash(*this);
+}
+
+uint256 CBlockHeader::GetPoWHash() const
+{
+	uint256 thash;
+    if (nTime <= 1406160000) {
+		scrypt_1024_1_1_256(BEGIN(nVersion), BEGIN(thash));
+	} else { // Use the X11 algorithm starting on July 24, 2014
+		thash = Hash11(BEGIN(nVersion), END(nNonce));
+	}
+    return thash;
 }
 
 uint256 CBlock::BuildMerkleTree(bool* fMutated) const

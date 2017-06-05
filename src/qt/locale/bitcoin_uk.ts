@@ -66,12 +66,12 @@
         <translation>Адреси для отримання</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Це ваші Bitcoin-адреси для відправлення платежів. Перед відправленням монет завжди перевіряйте суму та адресу прийому.</translation>
+        <source>These are your Smartcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Це ваші Smartcoin-адреси для відправлення платежів. Перед відправленням монет завжди перевіряйте суму та адресу прийому.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Це ваша нова Bitcoin адреса для отримання платежів. Рекомендовано використовувати нову адресу для кожної транзакції.</translation>
+        <source>These are your Smartcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Це ваша нова Smartcoin адреса для отримування платежів. Рекомендовано використовувати нову адресу для кожної транзакції.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -160,7 +160,7 @@
         <translation>Підтвердити шифрування гаманця</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMARTCOINS&lt;/b&gt;!</source>
         <translation>УВАГА: Якщо ви зашифруєте гаманець і забудете пароль, ви &lt;b&gt;ВТРАТИТЕ ВСІ СВОЇ БІТКОІНИ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -168,8 +168,8 @@
         <translation>Ви дійсно хочете зашифрувати свій гаманець?</translation>
     </message>
     <message>
-        <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Клієнт «Bitcoin Core» буде закрито для завершення процесу шифрування. Пам'ятайте, що шифрування гаманця не зможе повністю захистити ваші біткоїни від крадіжки якщо ваш комп'ютер буде інфіковано шкідливими програмами.</translation>
+        <source>Smartcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your smartcoins from being stolen by malware infecting your computer.</source>
+        <translation>Клієнт «Smartcoin» буде закрито для завершення процесу шифрування. Пам'ятайте, що шифрування гаманця не зможе повністю захистити ваші біткоїни від крадіжки якщо ваш комп'ютер буде інфіковано шкідливими програмами.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -244,7 +244,7 @@
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Транзакції</translation>
+        <translation>Транзакції</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
@@ -295,8 +295,8 @@
         <translation>Відкрити &amp;URI</translation>
     </message>
     <message>
-        <source>Bitcoin Core client</source>
-        <translation>Клієнт «Bitcoin Core»</translation>
+        <source>Smartcoin client</source>
+        <translation>Клієнт «Smartcoin»</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,7 +307,7 @@
         <translation>Переіндексація блоків на диску ...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Smartcoin address</source>
         <translation>Відправити монети на вказану адресу</translation>
     </message>
     <message>
@@ -331,8 +331,8 @@
         <translation>П&amp;еревірити повідомлення...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -347,8 +347,8 @@
         <translation>&amp;Отримати</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Core</source>
-        <translation>Показати інформацію про Bitcoin Core</translation>
+        <source>Show information about Smartcoin</source>
+        <translation>Показати інформацію про Smartcoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -363,12 +363,12 @@
         <translation>Зашифрувати закриті ключі, що знаходяться у вашому гаманці</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Підтвердіть, що Ви є власником повідомлення підписавши його Вашою Bitcoin-адресою </translation>
+        <source>Sign messages with your Smartcoin addresses to prove you own them</source>
+        <translation>Підтвердіть, що Ви є власником повідомлення підписавши його Вашою Smartcoin-адресою </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною Bitcoin-адресою</translation>
+        <source>Verify messages to ensure they were signed with specified Smartcoin addresses</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною Smartcoin-адресою</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -387,20 +387,20 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Створити запит платежу (генерує QR-код та bitcoin: URI)</translation>
+        <source>Request payments (generates QR codes and smartcoin: URIs)</source>
+        <translation>Створити запит платежу (генерує QR-код та smartcoin: URI)</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>П&amp;ро Bitcoin Core</translation>
+        <source>&amp;About Smartcoin</source>
+        <translation>&amp;Про Smartcoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin Core</source>
-        <translation>Редагувати параметри Bitcoin Core</translation>
+        <source>Modify configuration options for Smartcoin</source>
+        <translation>Редагувати параметри Smartcoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,20 +411,20 @@
         <translation>Показати список адрес і міток, що були використані для отримання</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Відкрити bitcoin: URI чи запит платежу</translation>
+        <source>Open a smartcoin: URI or payment request</source>
+        <translation>Відкрити smartcoin: URI чи запит платежу</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>П&amp;араметри командного рядка</translation>
+        <translation>Параметри командного рядка</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Показати довідку Bitcoin Core для отримання переліку можливих параметрів командного рядка.</translation>
+        <source>Show the Smartcoin help message to get a list with possible Smartcoin command-line options</source>
+        <translation>Показати довідку Smartcoin для отримання переліку можливих параметрів командного рядка.</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n активне з'єднання з мережею Bitcoin</numerusform><numerusform>%n активні з'єднання з мережею Bitcoin</numerusform><numerusform>%n активних з'єднань з мережею Bitcoin</numerusform></translation>
+        <source>%n active connection(s) to Smartcoin network</source>
+        <translation><numerusform>%n активне з'єднання з мережею</numerusform><numerusform>%n активні з'єднання з мережею</numerusform><numerusform>%n активних з'єднань з мережею Smartcoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -556,7 +556,7 @@
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Сума:</translation>
+        <translation>Кількість:</translation>
     </message>
     <message>
         <source>Priority:</source>
@@ -628,11 +628,11 @@
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Скопіювати суму</translation>
+        <translation>Копіювати кількість</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Скопіювати ID транзакції </translation>
+        <translation>Копіювати ID транзакції </translation>
     </message>
     <message>
         <source>Lock unspent</source>
@@ -644,31 +644,31 @@
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Скопіювати кількість</translation>
+        <translation>Копіювати кількість</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Скопіювати комісію</translation>
+        <translation>Копіювати комісію</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Скопіювати після комісії</translation>
+        <translation>Копіювати після комісії</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Скопіювати байти</translation>
+        <translation>Копіювати байти</translation>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation>Скопіювати пріорітет</translation>
+        <translation>Копіювати пріорітет</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Скопіювати пил</translation>
+        <translation>Копіювати пил</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Скопіювати решту</translation>
+        <translation>Копіювати решту</translation>
     </message>
     <message>
         <source>highest</source>
@@ -716,7 +716,7 @@
     </message>
     <message>
         <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
-        <translation>Ця позначка стане червоною, якщо розмір транзакції перевищить 1000 байтів.</translation>
+        <translation>Ця позначка стане червоною, якщо розмір транзакції перевищить 1000 байт.</translation>
     </message>
     <message>
         <source>This label turns red if the priority is smaller than "medium".</source>
@@ -806,8 +806,8 @@
         <translation>Введена адреса «%1» вже присутня в адресній книзі.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Введена адреса «%1» не є коректною адресою в мережі Bitcoin.</translation>
+        <source>The entered address "%1" is not a valid Smartcoin address.</source>
+        <translation>Введена адреса «%1» не є коректною адресою в мережі Smartcoin.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -844,8 +844,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -856,8 +856,8 @@
         <translation>(%1-бітний)</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>Про Bitcoin Core</translation>
+        <source>About Smartcoin</source>
+        <translation>Про Smartcoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -879,16 +879,16 @@
         <translation>Вітання</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
-        <translation>Ласкаво просимо в Bitcoin Core.</translation>
+        <source>Welcome to Smartcoin.</source>
+        <translation>Ласкаво просимо в Smartcoin.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>Оскільки це перший запуск програми, ви можете обрати де Bitcoin Core буде зберігати дані.</translation>
+        <source>As this is the first time the program is launched, you can choose where Smartcoin will store its data.</source>
+        <translation>Оскільки це перший запуск програми, ви можете обрати де Smartcoin буде зберігати дані.</translation>
     </message>
     <message>
-        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Bitcoin Core завантажить та збереже копію ланцюжка блоків Bitcoin. Щонайменше %1ГБ даних буде збережено в цьому каталозі. Гаманець теж буде збережено в цьому каталозі.</translation>
+        <source>Smartcoin will download and store a copy of the Smartcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Smartcoin завантажить та збереже копію ланцюжка блоків Smartcoin. Щонайменше %1ГБ даних буде збережено в цьому каталозі. Гаманець теж буде збережено в цьому каталозі.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -899,8 +899,8 @@
         <translation>Використовувати свій каталог даних:</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -962,7 +962,7 @@
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Кількість потоків &amp;сценарію перевірки</translation>
+        <translation>Кількість потоків сценарію перевірки</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -981,8 +981,8 @@
         <translation>Згортати замість закриття. Якщо ця опція включена, програма закриється лише після вибору відповідного пункту в меню.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Core.</source>
-        <translation>Встановлює мову інтерфейсу. Зміни набудуть чинності після перезапуску Bitcoin Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Smartcoin.</source>
+        <translation>Встановлює мову інтерфейсу. Зміни набудуть чинності після перезапуску Smartcoin.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1002,19 +1002,19 @@
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>С&amp;кинути параметри</translation>
+        <translation>Скинути параметри</translation>
     </message>
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Мережа</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin Core after logging in to the system.</source>
-        <translation>Автоматично запускати Bitcoin Core при вході до системи.</translation>
+        <source>Automatically start Smartcoin after logging in to the system.</source>
+        <translation>Автоматично запускати Smartcoin при вході до системи.</translation>
     </message>
     <message>
-        <source>&amp;Start Bitcoin Core on system login</source>
-        <translation>&amp;Запускати Bitcoin Core при вході до системи</translation>
+        <source>&amp;Start Smartcoin on system login</source>
+        <translation>&amp;Запускати Smartcoin при вході до системи</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1041,7 +1041,7 @@
         <translation>&amp;Витрачати непідтверджену решту</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Smartcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Автоматично відкривати порт для клієнту біткоін на роутері. Працює лише якщо ваш роутер підтримує UPnP і ця функція увімкнена.</translation>
     </message>
     <message>
@@ -1049,8 +1049,8 @@
         <translation>Відображення порту через &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Підключення до мережі Bitcoin через SOCKS5 проксі.</translation>
+        <source>Connect to the Smartcoin network through a SOCKS5 proxy.</source>
+        <translation>Підключення до мережі Smartcoin через SOCKS5 проксі.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1148,8 +1148,8 @@
         <translation>Форма</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Показана інформація вже може бути застарілою. Ваш гаманець буде автоматично синхронізовано з мережею Bitcoin після встановлення підключення, але цей процес ще не завершено.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Smartcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Показана інформація вже може бути застарілою. Ваш гаманець буде автоматично синхронізовано з мережею Smartcoin після встановлення підключення, але цей процес ще не завершено.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1247,16 +1247,16 @@
         <translation>Помилка запиту платежу</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Неможливо запустити bitcoin: обробник click-to-pay</translation>
+        <source>Cannot start smartcoin: click-to-pay handler</source>
+        <translation>Неможливо запустити smartcoin: обробник click-to-pay</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>URL запиту платежу є некоректним: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>Неможливо обробити URI! Причиною цього може бути некоректна Bitcoin-адреса або неправильні параметри URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Smartcoin address or malformed URI parameters.</source>
+        <translation>Неможливо обробити URI! Причиною цього може бути некоректна Smartcoin-адреса або неправильні параметри URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1333,8 +1333,8 @@
         <translation>Кількість</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Введіть адресу Bitcoin (наприклад %1)</translation>
+        <source>Enter a Smartcoin address (e.g. %1)</source>
+        <translation>Введіть адресу Smartcoin (наприклад %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1443,8 +1443,8 @@
         <translation>Поточне число блоків</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Відкрити файл журналу налагодження Bitcoin Core з поточного каталогу даних. Це може зайняти кілька секунд для великих файлів журналів.</translation>
+        <source>Open the Smartcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Відкрити файл журналу налагодження Smartcoin з поточного каталогу даних. Це може зайняти кілька секунд для великих файлів журналів.</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1524,11 +1524,11 @@
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Відкрити</translation>
+        <translation>Відкрити</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;Консоль</translation>
+        <translation>Консоль</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
@@ -1563,8 +1563,8 @@
         <translation>Очистити консоль</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
-        <translation>Вітаємо у RPC-консолі Bitcoin Core.</translation>
+        <source>Welcome to the Smartcoin RPC console.</source>
+        <translation>Вітаємо у RPC-консолі Smartcoin.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1638,8 +1638,8 @@
         <translation>По&amp;вторно використати адресу для отримання (не рекомендується)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Необов'язкове повідомлення на додаток до запиту платежу, котре буде показане під час відкриття запиту. Примітка: Це повідомлення не буде відправлено з платежем через мережу Bitcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Smartcoin network.</source>
+        <translation>Необов'язкове повідомлення на додаток до запиту платежу, котре буде показане під час відкриття запиту. Примітка: Це повідомлення не буде відправлено з платежем через мережу Smartcoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1706,11 +1706,11 @@
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>&amp;Скопіювати URI</translation>
+        <translation>Скопіювати URI</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>Скопіювати &amp;адресу</translation>
+        <translation>Скопіювати адресу</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
@@ -1860,7 +1860,7 @@
     </message>
     <message>
         <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Якщо комісія встановлюється в 1000 сатоші і розмір транзакції лише 250 байтів, то опція "за кілобайт" встановлює комісію в 250 сатоші, в той час, як "всього щонайменше" - в 1000 сатоші. Для транзакцій більших за кілобайт в обох випадках буде знято комісію за кілобайт.</translation>
+        <translation>Якщо оплата користувача встановлюється в 1000 Satoshi і розмір передачі всього 250 байт, то "за кілобайт" платить тільки 250 Satoshi, в той час як "всього щонайменше" платить 1000 satoshis. Для передач більших, ніж кілобайт обоє платять за кілобайт.</translation>
     </message>
     <message>
         <source>Hide</source>
@@ -1871,8 +1871,8 @@
         <translation>всього щонайменше</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation>Оплата тільки мінімальної комісії є прийнятною, допоки обсяг транзакцій є меншим простору в блоках. Але майте на увазі, що це може анулювати транзакцію, якщо попит на Bitcoin транзакції стане більшим, ніж мережа зможе обробити.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for smartcoin transactions than the network can process.</source>
+        <translation>Оплата тільки мінімальних зборів є прийнятною до тих пір, як обсяг транзакцій там є меншим аніж простору в блоках. Але майте на увазі, що це може анулювати транзакцію, якщо попит на Smartcoin транзакції стане значно більшим, ніж мережа зможе обробити.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -1888,7 +1888,7 @@
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Розумну оплату ще не ініціалізовано. Це, зазвичай, триває кілька блоків...)</translation>
+        <translation>(Розумна оплата ще не ініціалізована. Це звичайно займає кілька блоків...)</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
@@ -1956,7 +1956,7 @@
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Копіювати суму</translation>
+        <translation>Копіювати кількість</translation>
     </message>
     <message>
         <source>Copy fee</source>
@@ -1977,6 +1977,10 @@
     <message>
         <source>Copy change</source>
         <translation>Копіювати решту</translation>
+    </message>
+    <message>
+        <source>Total Amount %1 (= %2)</source>
+        <translation>Всього %1 (= %2)</translation>
     </message>
     <message>
         <source>or</source>
@@ -2016,11 +2020,7 @@
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
-        <translation>Платити тільки мінімальну комісію у розмірі %1</translation>
-    </message>
-    <message>
-        <source>Total Amount %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</source>
-        <translation>Всього %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</translation>
+        <translation>Платити тільки мінімальний збір у розмірі %1</translation>
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
@@ -2031,8 +2031,8 @@
         <translation>Знайдено адресу, що дублюється: кожна адреса має бути вказана не більше одного разу.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Увага: Неправильна Bitcoin-адреса</translation>
+        <source>Warning: Invalid Smartcoin address</source>
+        <translation>Увага: Неправильна Smartcoin-адреса</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2082,8 +2082,8 @@
         <translation>Це звичайний платіж.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Адреса Bitcoin для відправлення платежу</translation>
+        <source>The Smartcoin address to send the payment to</source>
+        <translation>Адреса Smartcoin для відправлення платежу</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2102,7 +2102,7 @@
         <translation>Видалити цей запис</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less smartcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>Комісію буде знято зі вказаної суми. До отримувача надійде менше біткоінів, ніж було вказано в полі кількості. Якщо ж отримувачів декілька - комісію буде розподілено між ними.</translation>
     </message>
     <message>
@@ -2126,8 +2126,8 @@
         <translation>Введіть мітку для цієї адреси для додавання її в список використаних адрес</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Повідомлення, що було додане до bitcoin:URI та буде збережено разом з транзакцією для довідки. Примітка: Це повідомлення не буде відправлено в мережу Bitcoin.</translation>
+        <source>A message that was attached to the smartcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Smartcoin network.</source>
+        <translation>Повідомлення, що було додане до smartcoin:URI та буде збережено разом з транзакцією для довідки. Примітка: Це повідомлення не буде відправлено в мережу Smartcoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2141,8 +2141,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitcoin Core is shutting down...</source>
-        <translation>Bitcoin Core вимикається...</translation>
+        <source>Smartcoin is shutting down...</source>
+        <translation>Smartcoin вимикається...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2160,12 +2160,12 @@
         <translation>&amp;Підписати повідомлення</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive smartcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Ви можете підписувати повідомлення/угоди своїми адресами, щоб довести можливість отримання біткоінів, що будуть надіслані на них. Остерігайтеся підписувати будь-що нечітке чи неочікуване, так як за допомогою фішинг-атаки вас можуть спробувати ввести в оману для отримання вашого підпису під чужими словами. Підписуйте лише чіткі твердження, з якими ви повністю згодні.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>Адреса Bitcoin для підпису цього повідомлення</translation>
+        <source>The Smartcoin address to sign the message with</source>
+        <translation>Адреса Smartcoin для підпису цього повідомлення</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2196,7 +2196,7 @@
         <translation>Копіювати поточну сигнатуру до системного буферу обміну</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Smartcoin address</source>
         <translation>Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
     </message>
     <message>
@@ -2213,23 +2213,23 @@
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>П&amp;еревірити повідомлення</translation>
+        <translation>Перевірити повідомлення</translation>
     </message>
     <message>
         <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
         <translation>Введіть нижче адресу отримувача, повідомлення (впевніться, що ви точно скопіювали символи завершення рядка, табуляцію, пробіли тощо) та підпис для перевірки повідомлення. Впевніться, що в підпис не було додано зайвих символів: це допоможе уникнути атак типу «людина посередині». Зауважте, що це лише засвідчує можливість отримання транзакцій підписувачем, але не в стані підтвердити джерело жодної транзакції!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>Адреса Bitcoin, якою було підписано це повідомлення</translation>
+        <source>The Smartcoin address the message was signed with</source>
+        <translation>Адреса Smartcoin, якою було підписано це повідомлення</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною Bitcoin-адресою</translation>
+        <source>Verify the message to ensure it was signed with the specified Smartcoin address</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною Smartcoin-адресою</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>Пере&amp;вірити повідомлення</translation>
+        <translation>Перевірити повідомлення</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
@@ -2291,12 +2291,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
-        <translation>Розробники Bitcoin Core</translation>
+        <source>The Smartcoin developers</source>
+        <translation>Розробники Smartcoin</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2434,7 +2434,7 @@
     </message>
     <message>
         <source>Inputs</source>
-        <translation>Входи</translation>
+        <translation>витрати</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -2647,11 +2647,11 @@
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Скопіювати суму</translation>
+        <translation>Копіювати кількість</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Скопіювати ID транзакції </translation>
+        <translation>Копіювати ID транзакції </translation>
     </message>
     <message>
         <source>Edit label</source>
@@ -2845,8 +2845,8 @@
         <translation>Це тестова збірка пре-релізної версії - використовуйте на свій страх і ризик - не застосовувати для добування монет або торгівлі</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
-        <translation>Неможливо прив'язатися до %s на цьому комп'ютері. Можливо, Bitcoin Core вже запущено.</translation>
+        <source>Unable to bind to %s on this computer. Smartcoin is probably already running.</source>
+        <translation>Неможливо прив'язатися до %s на цьому комп'ютері. Можливо, Smartcoin вже запущено.</translation>
     </message>
     <message>
         <source>WARNING: abnormally high number of blocks generated, %d blocks received in the last %d hours (%d expected)</source>
@@ -2898,7 +2898,7 @@
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
-        <translation>Підключитись лише до вказаного вузла/вузлів</translation>
+        <translation>Підключитись лише до вказаного вузла</translation>
     </message>
     <message>
         <source>Connection options:</source>
@@ -2937,6 +2937,10 @@
         <translation>Помилка відкриття блоку бази даних </translation>
     </message>
     <message>
+        <source>Error: A fatal internal error occured, see debug.log for details</source>
+        <translation>Помилка: Сталася фатальна помилка (детальніший опис наведено в debug.log)</translation>
+    </message>
+    <message>
         <source>Error: Disk space is low!</source>
         <translation>Помилка: Мало вільного місця на диску!</translation>
     </message>
@@ -2966,7 +2970,7 @@
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>Підключатися тільки до вузлів в мережі &lt;net&gt; (ipv4, ipv6 або onion)</translation>
+        <translation>Підключити тільки до вузлів в мережі &lt;net&gt; (ipv4, ipv6 або onion)</translation>
     </message>
     <message>
         <source>Prune cannot be configured with a negative value.</source>
@@ -3037,8 +3041,8 @@
         <translation>Прив'язатися до даної адреси для прослуховування JSON-RPC підключень. Використовуйте запис виду [хост]:порт для IPv6. Цей параметр можна вказувати декілька разів (типово: прив'язуватися до всіх інтерфейсів)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
-        <translation>Не вдалося встановити блокування на каталог даних %s. Bitcoin Core, ймовірно, вже запущений.</translation>
+        <source>Cannot obtain a lock on data directory %s. Smartcoin is probably already running.</source>
+        <translation>Не вдалося встановити блокування на каталог даних %s. Smartcoin, ймовірно, вже запущений.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3061,16 +3065,12 @@
         <translation>Виконати команду при надходженні важливого сповіщення або при спостереженні тривалого розгалуження ланцюжка (замість %s буде підставлено повідомлення)</translation>
     </message>
     <message>
-        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Комісії (в BTC/КБ), що менші за вказану, вважатимуться нульовими (для ретрансляції) (типово: %s)</translation>
+        <source>Fees (in SMC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Комісії (в SMC/КБ), що менші за вказану, вважатимуться нульовими (для ретрансляції) (типово: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
         <translation>Якщо параметр paytxfee не встановлено, включити комісію для отримання перших підтверджень транзакцій протягом n блоків (типово: %u)</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Неприпустима сума для -maxtxfee = &lt;amount&gt;: «%s» ( плата повинна бути, принаймні %s, щоб запобігти зависанню транзакцій)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
@@ -3105,27 +3105,27 @@
         <translation>Цей продукт включає в себе програмне забезпечення, розроблене в рамках проекту OpenSSL &lt;https://www.openssl.org/&gt;, криптографічне програмне забезпечення, написане Еріком Янгом, та функції для роботи з UPnP, написані Томасом Бернардом.</translation>
     </message>
     <message>
-        <source>To use bitcoind, or the -server option to bitcoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use smartcoind, or the -server option to smartcoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=smartcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Smartcoin Alert" admin@foo.com
 </source>
-        <translation>Для використання bitcoind, або bitcoin-qt з параметром -server, ви повинні встановити rpcpassword в файлі конфігурації:
+        <translation>Для використання smartcoind, або smartcoin-qt з параметром -server, ви повинні встановити rpcpassword в файлі конфігурації:
 %s
 Рекомендується використати такий випадковий пароль:
-rpcuser=bitcoinrpc
+rpcuser=smartcoinrpc
 rpcpassword=%s
 (вам не треба запам'ятовувати цей пароль)
 Ім'я користувача та пароль ПОВИННІ бути різними.
 Якщо файлу не існує, створіть його, обмеживши доступ правом читання для власника.
 Також рекомендується використовувати alertnotify для того, щоб отримувати сповіщення про проблеми;
-наприклад: alertnotify=echo %%s | mail -s "Сповіщення Bitcoin" admin@foo.com
+наприклад: alertnotify=echo %%s | mail -s "Сповіщення Smartcoin" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3133,8 +3133,8 @@ rpcpassword=%s
         <translation>Увага: установлено дуже велике значення -maxtxfee! Такі великі комісії можуть бути сплачені в окремій транзакції.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
-        <translation>Увага: будь ласка, перевірте дату і час на своєму комп'ютері! Якщо ваш годинник йде неправильно, Bitcoin Core може працювати некоректно.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Smartcoin will not work properly.</source>
+        <translation>Увага: будь ласка, перевірте дату і час на своєму комп'ютері! Якщо ваш годинник йде неправильно, Smartcoin може працювати некоректно.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3173,44 +3173,40 @@ rpcpassword=%s
         <translation>Підключитись через SOCKS5-проксі</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>(C) 2009-%i Розробники Bitcoin Core</translation>
+        <source>Copyright (C) 2009-%i The Smartcoin Developers</source>
+        <translation>(C) 2009-%i Розробники Smartcoin</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
         <translation>Неможливо розпізнати мережеву адресу для параметру -rpcbind (%s)</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
-        <translation>Помилка при завантаженні wallet.dat: Гаманець потребує новішої версії Bitcoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Smartcoin</source>
+        <translation>Помилка при завантаженні wallet.dat: Гаманець потребує новішої версії Smartcoin</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
         <translation>Помилка читання бази даних, припиняю роботу.</translation>
     </message>
     <message>
-        <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Помилка: Сталася фатальна помилка (детальніший опис наведено в debug.log)</translation>
-    </message>
-    <message>
         <source>Error: Unsupported argument -tor found, use -onion.</source>
         <translation>Помилка: Параметр -tor не підтримується, використовуйте -onion</translation>
     </message>
     <message>
-        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Комісія (в BTC/КБ), що додаватиметься до вихідних транзакцій (типово: %s)</translation>
+        <source>Fee (in SMC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Комісія (в SMC/КБ), що додаватиметься до вихідних транзакцій (типово: %s)</translation>
     </message>
     <message>
         <source>Information</source>
         <translation>Інформація</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Bitcoin Core is shutting down.</source>
-        <translation>Не вдалося пройти базові перевірки під час ініціалізації. Bitcoin Core буде вимкнено.</translation>
+        <source>Initialization sanity check failed. Smartcoin is shutting down.</source>
+        <translation>Не вдалося пройти базові перевірки під час ініціалізації. Smartcoin буде вимкнено.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Неприпустима сума для -maxtxfee = &lt;amount&gt;: «%s»</translation>
+        <translation>Неприпустима сума для -maxtxfee = &lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
@@ -3241,12 +3237,8 @@ rpcpassword=%s
         <translation>Параметри вузла ретрансляції:</translation>
     </message>
     <message>
-        <source>Pruning blockstore...</source>
-        <translation>Скорочення кількості блоків...</translation>
-    </message>
-    <message>
-        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Параметри RPC SSL: (див. Bitcoin Wiki для налаштування SSL)</translation>
+        <source>RPC SSL options: (see the Smartcoin Wiki for SSL setup instructions)</source>
+        <translation>Параметри RPC SSL: (див. Smartcoin Wiki для налаштування SSL)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3259,10 +3251,6 @@ rpcpassword=%s
     <message>
         <source>Rebuild block chain index from current blk000??.dat files on startup</source>
         <translation>При запуску перебудувати індекс ланцюжка блоків з поточних файлів blk000??.dat</translation>
-    </message>
-    <message>
-        <source>Receive and display P2P network alerts (default: %u)</source>
-        <translation>Отримувати та відображати попередження з мережі (типово: %u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3341,8 +3329,8 @@ rpcpassword=%s
         <translation>Ім'я користувача для JSON-RPC-з'єднань</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin Core to complete</source>
-        <translation>Потрібно перезаписати гаманець: перезапустіть Bitcoin Core для завершення</translation>
+        <source>Wallet needed to be rewritten: restart Smartcoin to complete</source>
+        <translation>Потрібно перезаписати гаманець: перезапустіть Smartcoin для завершення</translation>
     </message>
     <message>
         <source>Warning</source>

@@ -66,12 +66,12 @@
         <translation>Adresses de réception</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Voici vos adresses Bitcoin pour envoyer des paiements. Vérifiez toujours le montant et l'adresse du destinataire avant d'envoyer des pièces.</translation>
+        <source>These are your Smartcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Voici vos adresses Smartcoin pour envoyer des paiements. Vérifiez toujours le montant et l'adresse du destinataire avant d'envoyer des pièces.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Voici vos adresses Bitcoin pour recevoir des paiements. Il est recommandé d'utiliser une nouvelle adresse de réception pour chaque transaction.</translation>
+        <source>These are your Smartcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Voici vos adresses Smartcoin pour recevoir des paiements. Il est recommandé d'utiliser une nouvelle adresse de réception pour chaque transaction.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -160,16 +160,16 @@
         <translation>Confirmer le chiffrement du portefeuille</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Avertissement : si vous chiffrez votre portefeuille et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS BITCOINS&lt;/b&gt; !</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMARTCOINS&lt;/b&gt;!</source>
+        <translation>Avertissement : si vous chiffrez votre portefeuille et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS SMARTCOINS&lt;/b&gt; !</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Êtes-vous sûr de vouloir chiffrer votre portefeuille ?</translation>
     </message>
     <message>
-        <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin Core va maintenant se fermer pour terminer le processus de chiffrement. Souvenez-vous que le chiffrement de votre portefeuille ne peut pas vous protéger complètement contre le vol de vos bitcoins par des programmes malveillants infectant votre ordinateur.</translation>
+        <source>Smartcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your smartcoins from being stolen by malware infecting your computer.</source>
+        <translation>Smartcoin va maintenant se fermer pour terminer le processus de chiffrement. Souvenez-vous que le chiffrement de votre portefeuille ne peut pas vous protéger complètement contre le vol de vos smartcoins par des programmes malveillants infectant votre ordinateur.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -295,8 +295,8 @@
         <translation>Ouvrir un &amp;URI...</translation>
     </message>
     <message>
-        <source>Bitcoin Core client</source>
-        <translation>Client Bitcoin Core</translation>
+        <source>Smartcoin client</source>
+        <translation>Client Smartcoin</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,8 +307,8 @@
         <translation>Réindexation des blocs sur le disque...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Envoyer des pièces à une adresse Bitcoin</translation>
+        <source>Send coins to a Smartcoin address</source>
+        <translation>Envoyer des pièces à une adresse Smartcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -331,8 +331,8 @@
         <translation>&amp;Vérifier un message...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -347,8 +347,8 @@
         <translation>&amp;Recevoir</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Core</source>
-        <translation>Montrer des informations à propos de Bitcoin Core</translation>
+        <source>Show information about Smartcoin</source>
+        <translation>Montrer des informations à propos de Smartcoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -363,12 +363,12 @@
         <translation>Chiffrer les clefs privées de votre portefeuille</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Signer les messages avec vos adresses Bitcoin pour prouver que vous les détenez</translation>
+        <source>Sign messages with your Smartcoin addresses to prove you own them</source>
+        <translation>Signer les messages avec vos adresses Smartcoin pour prouver que vous les détenez</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Vérifier les messages pour vous assurer qu'ils ont été signés avec les adresses Bitcoin spécifiées</translation>
+        <source>Verify messages to ensure they were signed with specified Smartcoin addresses</source>
+        <translation>Vérifier les messages pour vous assurer qu'ils ont été signés avec les adresses Smartcoin spécifiées</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -387,20 +387,20 @@
         <translation>Barre d'outils des onglets</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Demander des paiements (génère des codes QR et des URIs bitcoin:)</translation>
+        <source>Request payments (generates QR codes and smartcoin: URIs)</source>
+        <translation>Demander des paiements (génère des codes QR et des URIs smartcoin:)</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>À &amp;propos de Bitcoin Core</translation>
+        <source>&amp;About Smartcoin</source>
+        <translation>À &amp;propos de Smartcoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin Core</source>
-        <translation>Modifier les options de configuration de Bitcoin Core</translation>
+        <source>Modify configuration options for Smartcoin</source>
+        <translation>Modifier les options de configuration de Smartcoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,20 +411,20 @@
         <translation>Afficher la liste d'adresses de réception et d'étiquettes utilisées</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Ouvrir un URI bitcoin: ou une demande de paiement</translation>
+        <source>Open a smartcoin: URI or payment request</source>
+        <translation>Ouvrir un URI smartcoin: ou une demande de paiement</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Options de ligne de &amp;commande</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Afficher le message d'aide de Bitcoin Core pour obtenir une liste des options de ligne de commande Bitcoin possibles.</translation>
+        <source>Show the Smartcoin help message to get a list with possible Smartcoin command-line options</source>
+        <translation>Afficher le message d'aide de Smartcoin pour obtenir une liste des options de ligne de commande Smartcoin possibles.</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n connexion active avec le réseau Bitcoin</numerusform><numerusform>%n connexions actives avec le réseau Bitcoin</numerusform></translation>
+        <source>%n active connection(s) to Smartcoin network</source>
+        <translation><numerusform>%n connexion active avec le réseau Smartcoin</numerusform><numerusform>%n connexions actives avec le réseau Smartcoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -802,8 +802,8 @@
         <translation>L’adresse fournie « %1 » est déjà présente dans le carnet d'adresses.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>L'adresse fournie « %1 » n'est pas une adresse Bitcoin valide.</translation>
+        <source>The entered address "%1" is not a valid Smartcoin address.</source>
+        <translation>L'adresse fournie « %1 » n'est pas une adresse Smartcoin valide.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -840,8 +840,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -852,8 +852,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>À propos de Bitcoin Core</translation>
+        <source>About Smartcoin</source>
+        <translation>À propos de Smartcoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -875,16 +875,16 @@
         <translation>Bienvenue</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
-        <translation>Bienvenue à Bitcoin Core.</translation>
+        <source>Welcome to Smartcoin.</source>
+        <translation>Bienvenue à Smartcoin.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>Comme c'est la première fois que le logiciel est lancé, vous pouvez choisir où Bitcoin Core stockera ses données.</translation>
+        <source>As this is the first time the program is launched, you can choose where Smartcoin will store its data.</source>
+        <translation>Comme c'est la première fois que le logiciel est lancé, vous pouvez choisir où Smartcoin stockera ses données.</translation>
     </message>
     <message>
-        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Bitcoin Core va télécharger et stocker une copie de la chaîne de blocs Bitcoin. Au moins %1Go de données seront stockées dans ce répertoire et cela augmentera avec le temps. Le portefeuille sera également stocké dans ce répertoire.</translation>
+        <source>Smartcoin will download and store a copy of the Smartcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Smartcoin va télécharger et stocker une copie de la chaîne de blocs Smartcoin. Au moins %1Go de données seront stockées dans ce répertoire et cela augmentera avec le temps. Le portefeuille sera également stocké dans ce répertoire.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -895,8 +895,8 @@
         <translation>Utiliser un répertoire de données personnalisé :</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -973,8 +973,8 @@
         <translation>Minimiser au lieu de quitter l'application lorsque la fenêtre est fermée. Si cette option est activée, l'application ne sera fermée qu'en sélectionnant Quitter dans le menu.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Core.</source>
-        <translation>La langue de l'interface utilisateur peut être définie ici. Ce réglage sera pris en compte après redémarrage de Bitcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Smartcoin.</source>
+        <translation>La langue de l'interface utilisateur peut être définie ici. Ce réglage sera pris en compte après redémarrage de Smartcoin.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1001,12 +1001,12 @@
         <translation>&amp;Réseau</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin Core after logging in to the system.</source>
-        <translation>Démarrer Bitcoin Core automatiquement après avoir ouvert une session sur le système.</translation>
+        <source>Automatically start Smartcoin after logging in to the system.</source>
+        <translation>Démarrer Smartcoin automatiquement après avoir ouvert une session sur le système.</translation>
     </message>
     <message>
-        <source>&amp;Start Bitcoin Core on system login</source>
-        <translation>&amp;Démarrer Bitcoin Core lors de l'ouverture d'une session</translation>
+        <source>&amp;Start Smartcoin on system login</source>
+        <translation>&amp;Démarrer Smartcoin lors de l'ouverture d'une session</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1033,16 +1033,16 @@
         <translation>&amp;Dépenser la monnaie non confirmée</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir le port du client Bitcoin automatiquement sur le routeur. Ceci ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
+        <source>Automatically open the Smartcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir le port du client Smartcoin automatiquement sur le routeur. Ceci ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapper le port avec l'&amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Se connecter au réseau Bitcoin par un mandataire SOCKS5.</translation>
+        <source>Connect to the Smartcoin network through a SOCKS5 proxy.</source>
+        <translation>Se connecter au réseau Smartcoin par un mandataire SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1140,8 +1140,8 @@
         <translation>Formulaire</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Les informations affichées peuvent être obsolètes. Votre portefeuille est automatiquement synchronisé avec le réseau Bitcoin lorsque la connexion s'établit, or ce processus n'est pas encore terminé.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Smartcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Les informations affichées peuvent être obsolètes. Votre portefeuille est automatiquement synchronisé avec le réseau Smartcoin lorsque la connexion s'établit, or ce processus n'est pas encore terminé.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1239,16 +1239,16 @@
         <translation>Erreur de demande de paiement</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Impossible de démarrer le gestionnaire de cliquer-pour-payer bitcoin :</translation>
+        <source>Cannot start smartcoin: click-to-pay handler</source>
+        <translation>Impossible de démarrer le gestionnaire de cliquer-pour-payer smartcoin :</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>L'URL de récupération de la demande de paiement est invalide : %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>L'URI ne peut pas être analysé ! Ceci peut être causé par une adresse Bitcoin invalide ou par des paramètres d'URI mal formés.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Smartcoin address or malformed URI parameters.</source>
+        <translation>L'URI ne peut pas être analysé ! Ceci peut être causé par une adresse Smartcoin invalide ou par des paramètres d'URI mal formés.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1325,8 +1325,8 @@
         <translation>Montant</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Saisir une adresse Bitcoin (p. ex. %1)</translation>
+        <source>Enter a Smartcoin address (e.g. %1)</source>
+        <translation>Saisir une adresse Smartcoin (p. ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1435,7 +1435,7 @@
         <translation>Nombre actuel de blocs</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Smartcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Ouvrir le journal de débogage du répertoire de données actuel. Ceci pourrait prendre quelques secondes pour les gros fichiers de journalisation.</translation>
     </message>
     <message>
@@ -1555,8 +1555,8 @@
         <translation>Nettoyer la console</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
-        <translation>Bienvenue dans le console RPC de Bitcoin Core.</translation>
+        <source>Welcome to the Smartcoin RPC console.</source>
+        <translation>Bienvenue dans le console RPC de Smartcoin.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1630,8 +1630,8 @@
         <translation>Ré&amp;utiliser une adresse de réception existante (non recommandé)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Un message optionnel à joindre à la demande de paiement qui sera affiché à l'ouverture de celle-ci. Note : le message ne sera pas envoyé avec le paiement par le réseau Bitcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Smartcoin network.</source>
+        <translation>Un message optionnel à joindre à la demande de paiement qui sera affiché à l'ouverture de celle-ci. Note : le message ne sera pas envoyé avec le paiement par le réseau Smartcoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1863,7 +1863,7 @@
         <translation>total au moins</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for smartcoin transactions than the network can process.</source>
         <translation>Il est correct de payer les frais minimum tant que le volume transactionnel est inférieur à l'espace dans les blocs. Mais soyez conscient que ceci pourrait résulter en une transaction n'étant jamais confirmée une fois qu'il y aura plus de transactions que le réseau ne pourra en traiter.</translation>
     </message>
     <message>
@@ -1971,6 +1971,10 @@
         <translation>Copier la monnaie</translation>
     </message>
     <message>
+        <source>Total Amount %1 (= %2)</source>
+        <translation>Montant total %1 (= %2)</translation>
+    </message>
+    <message>
         <source>or</source>
         <translation>ou</translation>
     </message>
@@ -2011,10 +2015,6 @@
         <translation>Payer seulement les frais minimum de %1</translation>
     </message>
     <message>
-        <source>Total Amount %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</source>
-        <translation>Montant total %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</translation>
-    </message>
-    <message>
         <source>The recipient address is not valid. Please recheck.</source>
         <translation>L'adresse du destinataire est invalide. Veuillez la vérifier.</translation>
     </message>
@@ -2023,8 +2023,8 @@
         <translation>Adresse identique trouvée : chaque adresse ne devrait être utilisée qu'une fois.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Avertissement : adresse Bitcoin invalide</translation>
+        <source>Warning: Invalid Smartcoin address</source>
+        <translation>Avertissement : adresse Smartcoin invalide</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2074,8 +2074,8 @@
         <translation>Ceci est un paiement normal.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>L'adresse Bitcoin à laquelle envoyer le paiement</translation>
+        <source>The Smartcoin address to send the payment to</source>
+        <translation>L'adresse Smartcoin à laquelle envoyer le paiement</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2094,8 +2094,8 @@
         <translation>Enlever cette entrée</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Les frais seront déduits du montant envoyé. Le destinataire recevra moins de bitcoins que le montant saisi dans le champ de montant. Si plusieurs destinataires sont sélectionnés, les frais seront partagés également..</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less smartcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Les frais seront déduits du montant envoyé. Le destinataire recevra moins de smartcoins que le montant saisi dans le champ de montant. Si plusieurs destinataires sont sélectionnés, les frais seront partagés également..</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2118,8 +2118,8 @@
         <translation>Saisir une étiquette pour cette adresse afin de l'ajouter à la liste d'adresses utilisées</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Un message qui était joint à l'URI Bitcoin et qui sera stocké avec la transaction pour référence. Note : ce message ne sera pas envoyé par le réseau Bitcoin.</translation>
+        <source>A message that was attached to the smartcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Smartcoin network.</source>
+        <translation>Un message qui était joint à l'URI Smartcoin et qui sera stocké avec la transaction pour référence. Note : ce message ne sera pas envoyé par le réseau Smartcoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2133,8 +2133,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitcoin Core is shutting down...</source>
-        <translation>Arrêt de Bitcoin Core...</translation>
+        <source>Smartcoin is shutting down...</source>
+        <translation>Arrêt de Smartcoin...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2152,12 +2152,12 @@
         <translation>&amp;Signer un message</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Vous pouvez signer des messages/accords avec vos adresses pour prouver que vous pouvez recevoir des bitcoins à ces dernières. Faites attention de ne rien signer de vague ou au hasard, car des attaques d'hameçonnage pourraient essayer de vous faire signer avec votre identité afin de l'usurper. Ne signez que des déclarations entièrement détaillées et avec lesquelles vous êtes d'accord.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive smartcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Vous pouvez signer des messages/accords avec vos adresses pour prouver que vous pouvez recevoir des smartcoins à ces dernières. Faites attention de ne rien signer de vague ou au hasard, car des attaques d'hameçonnage pourraient essayer de vous faire signer avec votre identité afin de l'usurper. Ne signez que des déclarations entièrement détaillées et avec lesquelles vous êtes d'accord.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>L'adresse Bitcoin avec laquelle signer le message</translation>
+        <source>The Smartcoin address to sign the message with</source>
+        <translation>L'adresse Smartcoin avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2188,8 +2188,8 @@
         <translation>Copier la signature actuelle dans le presse-papiers</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Signer le message pour prouver que vous détenez cette adresse Bitcoin</translation>
+        <source>Sign the message to prove you own this Smartcoin address</source>
+        <translation>Signer le message pour prouver que vous détenez cette adresse Smartcoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2212,12 +2212,12 @@
         <translation>Saisissez ci-dessous l'adresse de destinataire, le message (assurez-vous de copier exactement les retours à la ligne, les espaces, les tabulations, etc.) et la signature pour vérifier le message. Faites attention à ne pas déduire davantage de la signature que ce qui est contenu dans le message signé même, pour éviter d'être trompé par une attaque d'homme du milieu. Notez que ceci ne fait que prouver que le signataire reçoit l'adresse et ne peut pas prouver la provenance d'une transaction.</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>L'adresse Bitcoin avec laquelle le message a été signé</translation>
+        <source>The Smartcoin address the message was signed with</source>
+        <translation>L'adresse Smartcoin avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Vérifier le message pour vous assurer qu'il a bien été signé par l'adresse Bitcoin spécifiée</translation>
+        <source>Verify the message to ensure it was signed with the specified Smartcoin address</source>
+        <translation>Vérifier le message pour vous assurer qu'il a bien été signé par l'adresse Smartcoin spécifiée</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2283,12 +2283,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
-        <translation>Les développeurs Bitcoin Core</translation>
+        <source>The Smartcoin developers</source>
+        <translation>Les développeurs Smartcoin</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2837,8 +2837,8 @@
         <translation>Ceci est une pré-version de test - l'utiliser à vos risques et périls - ne pas l'utiliser pour miner ou pour des applications marchandes</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
-        <translation>Impossible de se lier à %s sur cet ordinateur. Bitcoin Core fonctionne probablement déjà.</translation>
+        <source>Unable to bind to %s on this computer. Smartcoin is probably already running.</source>
+        <translation>Impossible de se lier à %s sur cet ordinateur. Smartcoin fonctionne probablement déjà.</translation>
     </message>
     <message>
         <source>WARNING: abnormally high number of blocks generated, %d blocks received in the last %d hours (%d expected)</source>
@@ -2927,6 +2927,10 @@
     <message>
         <source>Error opening block database</source>
         <translation>Erreur lors de l'ouverture de la base de données des blocs</translation>
+    </message>
+    <message>
+        <source>Error: A fatal internal error occured, see debug.log for details</source>
+        <translation>Erreur : une erreur interne fatale s'est produite. Voir debug.log pour des détails</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
@@ -3029,8 +3033,8 @@
         <translation>Se lier à l'adresse donnée pour écouter des connexions JSON-RPC. Utiliser la notation [host]:port pour l'IPv6. Cette option peut être spécifiée plusieurs fois (par défaut : se lier à toutes les interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
-        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. Bitcoin Core fonctionne probablement déjà.</translation>
+        <source>Cannot obtain a lock on data directory %s. Smartcoin is probably already running.</source>
+        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. Smartcoin fonctionne probablement déjà.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3053,8 +3057,8 @@
         <translation>Exécuter une commande lorsqu'une alerte pertinente est reçue ou si nous voyons une bifurcation vraiment étendue (%s dans la commande est remplacé par le message)</translation>
     </message>
     <message>
-        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Les frais (en BTC/Ko) inférieurs à ce seuil sont considérés comme étant nuls pour le relayage (par défaut : %s)</translation>
+        <source>Fees (in SMC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Les frais (en SMC/Ko) inférieurs à ce seuil sont considérés comme étant nuls pour le relayage (par défaut : %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3097,27 +3101,27 @@
         <translation>Ce produit comprend des logiciels développés par le projet OpenSSL pour être utilisés dans la boîte à outils OpenSSL &lt;https://www.openssl.org/&gt; et un logiciel cryptographique écrit par Eric Young, ainsi qu'un logiciel UPnP écrit par Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use bitcoind, or the -server option to bitcoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use smartcoind, or the -server option to smartcoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=smartcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Smartcoin Alert" admin@foo.com
 </source>
-        <translation>Pour utiliser bitcoind, ou l'option -server de bitcoin-qt, vous devez définir un mot de passe rpc dans le fichier de configuration :
+        <translation>Pour utiliser smartcoind, ou l'option -server de smartcoin-qt, vous devez définir un mot de passe rpc dans le fichier de configuration :
 %s
 Il est recommandé d'utiliser le mot de passe aléatoire suivant :
-rpcuser=bitcoinrpc
+rpcuser=smartcoinrpc
 rpcpassword=%s
 (vous n'avez pas à mémoriser ce mot de passe)
 Le nom d'utilisateur et le mot de passe NE DOIVENT PAS être identiques.
 Si le fichier n'existe pas, créez-le avec la permission lecture-seule-par-le-propriétaire.
 Il est aussi recommandé de définir alertnotify afin que les problèmes vous soient signalés ;
-par exemple : alertnotify=echo %%s | mail -s "Alerte Bitcoin" admin@foo.com
+par exemple : alertnotify=echo %%s | mail -s "Alerte Smartcoin" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3125,8 +3129,8 @@ par exemple : alertnotify=echo %%s | mail -s "Alerte Bitcoin" admin@foo.com
         <translation>Avertissement :-maxtxfee est défini très haut ! Des frais aussi élevés pourraient être payés sur une seule transaction.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
-        <translation>Avertissement : veuillez vérifier que l'heure et la date de votre ordinateur sont correctes ! Si votre horloge n'est pas à l'heure, Bitcoin Core ne fonctionnera pas correctement.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Smartcoin will not work properly.</source>
+        <translation>Avertissement : veuillez vérifier que l'heure et la date de votre ordinateur sont correctes ! Si votre horloge n'est pas à l'heure, Smartcoin ne fonctionnera pas correctement.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3165,40 +3169,36 @@ par exemple : alertnotify=echo %%s | mail -s "Alerte Bitcoin" admin@foo.com
         <translation>Se connecter par un mandataire SOCKS5</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Copyright © 2009-%i Les développeurs de Bitcoin Core</translation>
+        <source>Copyright (C) 2009-%i The Smartcoin Developers</source>
+        <translation>Copyright © 2009-%i Les développeurs de Smartcoin</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
         <translation>Impossible d'analyser la valeur -rpcbind %s comme adresse réseau</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
-        <translation>Erreur lors du chargement de wallet.dat : le portefeuille exige une version plus récente de Bitcoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Smartcoin</source>
+        <translation>Erreur lors du chargement de wallet.dat : le portefeuille exige une version plus récente de Smartcoin</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
         <translation>Erreur de lecture de la base de données, fermeture en cours.</translation>
     </message>
     <message>
-        <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Erreur : une erreur interne fatale s'est produite, voir debug.log pour plus de détails</translation>
-    </message>
-    <message>
         <source>Error: Unsupported argument -tor found, use -onion.</source>
         <translation>Erreur : argument non pris en charge -tor trouvé, utiliser -onion.</translation>
     </message>
     <message>
-        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Les frais (en BTC/ko) à ajouter aux transactions que vous envoyez (par défaut : %s)</translation>
+        <source>Fee (in SMC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Les frais (en SMC/ko) à ajouter aux transactions que vous envoyez (par défaut : %s)</translation>
     </message>
     <message>
         <source>Information</source>
         <translation>Informations</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Bitcoin Core is shutting down.</source>
-        <translation>L'initialisation du test de cohérence a échoué. Bitcoin est en cours de fermeture. </translation>
+        <source>Initialization sanity check failed. Smartcoin is shutting down.</source>
+        <translation>L'initialisation du test de cohérence a échoué. Smartcoin est en cours de fermeture. </translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3233,12 +3233,8 @@ par exemple : alertnotify=echo %%s | mail -s "Alerte Bitcoin" admin@foo.com
         <translation>Options de relais du nœud :</translation>
     </message>
     <message>
-        <source>Pruning blockstore...</source>
-        <translation>Élagage du magasin de blocs...</translation>
-    </message>
-    <message>
-        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Options RPC SSL : (voir le wiki Bitcoin pour les instructions de configuration de SSL)</translation>
+        <source>RPC SSL options: (see the Smartcoin Wiki for SSL setup instructions)</source>
+        <translation>Options RPC SSL : (voir le wiki Smartcoin pour les instructions de configuration de SSL)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3251,10 +3247,6 @@ par exemple : alertnotify=echo %%s | mail -s "Alerte Bitcoin" admin@foo.com
     <message>
         <source>Rebuild block chain index from current blk000??.dat files on startup</source>
         <translation>Reconstruire au démarrage l'index de la chaîne de blocs à partir des fichiers blk000??.dat actuels</translation>
-    </message>
-    <message>
-        <source>Receive and display P2P network alerts (default: %u)</source>
-        <translation>Recevoir et afficher les alertes du réseau poste à poste (par défaut : %u )</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3333,8 +3325,8 @@ par exemple : alertnotify=echo %%s | mail -s "Alerte Bitcoin" admin@foo.com
         <translation>Nom d'utilisateur pour les connexions JSON-RPC</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin Core to complete</source>
-        <translation>Le portefeuille avait besoin d'être réécrit : veuillez redémarrer Bitcoin Core pour terminer</translation>
+        <source>Wallet needed to be rewritten: restart Smartcoin to complete</source>
+        <translation>Le portefeuille avait besoin d'être réécrit : veuillez redémarrer Smartcoin pour terminer</translation>
     </message>
     <message>
         <source>Warning</source>

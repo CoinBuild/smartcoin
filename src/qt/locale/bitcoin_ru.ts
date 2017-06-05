@@ -66,12 +66,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши адреса Bitcoin для отправки платежей. Всегда проверяйте количество и адрес получателя перед отправкой перевода.</translation>
+        <source>These are your Smartcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши адреса Smartcoin для отправки платежей. Всегда проверяйте количество и адрес получателя перед отправкой перевода.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши адреса Bitcoin для приёма платежей. Рекомендуется использовать новый адрес получения для каждой транзакции.</translation>
+        <source>These are your Smartcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши адреса Smartcoin для приёма платежей. Рекомендуется использовать новый адрес получения для каждой транзакции.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -156,16 +156,12 @@
         <translation>Подтвердите шифрование бумажника</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMARTCOINS&lt;/b&gt;!</source>
         <translation>Внимание: если вы зашифруете бумажник и потеряете пароль, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ БИТКОЙНЫ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Вы уверены, что хотите зашифровать ваш бумажник?</translation>
-    </message>
-    <message>
-        <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши биткоины от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -182,10 +178,6 @@
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Введите новый пароль бумажника.&lt;br/&gt;Используйте пароль, состоящий из &lt;b&gt;десяти или более случайных символов&lt;/b&gt;, или &lt;b&gt;восьми или более слов&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Введите старый и новый пароль для кошелька.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -291,8 +283,8 @@
         <translation>Открыть &amp;URI...</translation>
     </message>
     <message>
-        <source>Bitcoin Core client</source>
-        <translation>Bitcoin Core клиент</translation>
+        <source>Smartcoin client</source>
+        <translation>Smartcoin клиент</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -303,8 +295,8 @@
         <translation>Идёт переиндексация блоков на диске...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Отправить монеты на указанный адрес Bitcoin</translation>
+        <source>Send coins to a Smartcoin address</source>
+        <translation>Отправить монеты на указанный адрес Smartcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -327,8 +319,8 @@
         <translation>&amp;Проверить сообщение...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -343,8 +335,8 @@
         <translation>&amp;Получить</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Core</source>
-        <translation>Показать информацию о Bitcoin Core</translation>
+        <source>Show information about Smartcoin</source>
+        <translation>Показать информацию о Smartcoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -359,12 +351,12 @@
         <translation>Зашифровать приватные ключи, принадлежащие вашему бумажнику</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Подписать сообщения вашим адресом Bitcoin, чтобы доказать, что вы им владеете</translation>
+        <source>Sign messages with your Smartcoin addresses to prove you own them</source>
+        <translation>Подписать сообщения вашим адресом Smartcoin, чтобы доказать, что вы им владеете</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом Bitcoin</translation>
+        <source>Verify messages to ensure they were signed with specified Smartcoin addresses</source>
+        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом Smartcoin</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -383,20 +375,16 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Запросить платежи (создаёт QR-коды и bitcoin: ссылки)</translation>
+        <source>Request payments (generates QR codes and smartcoin: URIs)</source>
+        <translation>Запросить платежи (создаёт QR-коды и smartcoin: ссылки)</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;О Bitcoin Core</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for Bitcoin Core</source>
-        <translation>Изменить опции конфигурации Bitcoin Core</translation>
+        <source>&amp;About Smartcoin</source>
+        <translation>&amp;О Smartcoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -407,24 +395,20 @@
         <translation>Показать список использованных адресов и меток получения</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Открыть bitcoin: URI или запрос платежа</translation>
+        <source>Open a smartcoin: URI or payment request</source>
+        <translation>Открыть smartcoin: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Параметры командной строки</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Показать помощь по Bitcoin Core и получить список доступных параметров командной строки.</translation>
+        <source>Show the Smartcoin help message to get a list with possible Smartcoin command-line options</source>
+        <translation>Показать помощь по Smartcoin и получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <source>No block source available...</source>
         <translation>Источник блоков недоступен...</translation>
-    </message>
-    <message numerus="yes">
-        <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>Обработан %n блок истории транзакций.</numerusform><numerusform>Обработано %n блока истории транзакций.</numerusform><numerusform>Обработано %n блоков истории транзакций.</numerusform><numerusform>Обработано %n блоков истории транзакций.</numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -461,36 +445,6 @@
     <message>
         <source>Catching up...</source>
         <translation>Синхронизируется...</translation>
-    </message>
-    <message>
-        <source>Date: %1
-</source>
-        <translation>Дата: %1
-</translation>
-    </message>
-    <message>
-        <source>Amount: %1
-</source>
-        <translation>Количество: %1
-</translation>
-    </message>
-    <message>
-        <source>Type: %1
-</source>
-        <translation>Тип: %1
-</translation>
-    </message>
-    <message>
-        <source>Label: %1
-</source>
-        <translation>Метка: %1
-</translation>
-    </message>
-    <message>
-        <source>Address: %1
-</source>
-        <translation>Адрес: %1
-</translation>
     </message>
     <message>
         <source>Sent transaction</source>
@@ -691,18 +645,6 @@
         <translation>ничего</translation>
     </message>
     <message>
-        <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
-        <translation>Эта метка становится красной, если размер транзакции будет больше, чем 1000 байт.</translation>
-    </message>
-    <message>
-        <source>This label turns red if the priority is smaller than "medium".</source>
-        <translation>Эта метка становится красной, если приоритет меньше, чем "среднее".</translation>
-    </message>
-    <message>
-        <source>This label turns red if any recipient receives an amount smaller than %1.</source>
-        <translation>Эта метка становится красной, если любой из получателей принимает количество меньше, чем %1.</translation>
-    </message>
-    <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
         <translation>Может отличаться на +/- %1 сатоши на вход.</translation>
     </message>
@@ -782,8 +724,8 @@
         <translation>Введённый адрес «%1» уже находится в адресной книге.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Введённый адрес "%1" не является правильным Bitcoin-адресом.</translation>
+        <source>The entered address "%1" is not a valid Smartcoin address.</source>
+        <translation>Введённый адрес "%1" не является правильным Smartcoin-адресом.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -820,8 +762,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -832,8 +774,8 @@
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>О Bitcoin Core</translation>
+        <source>About Smartcoin</source>
+        <translation>О Smartcoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -855,16 +797,16 @@
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
-        <translation>Добро пожаловать в Bitcoin Core.</translation>
+        <source>Welcome to Smartcoin.</source>
+        <translation>Добро пожаловать в Smartcoin.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>Так как вы впервые запустили программу, вы можете выбрать, где Bitcoin Core будет хранить данные.</translation>
+        <source>As this is the first time the program is launched, you can choose where Smartcoin will store its data.</source>
+        <translation>Так как вы впервые запустили программу, вы можете выбрать, где Smartcoin будет хранить данные.</translation>
     </message>
     <message>
-        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Bitcoin Core скачает и сохранит копию цепи блоков. Как минимум, %1ГБ данных будет храниться в этом каталоге, и со временем он будет расти. Бумажник будет также сохранён в этом каталоге.</translation>
+        <source>Smartcoin will download and store a copy of the Smartcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Smartcoin скачает и сохранит копию цепи блоков. Как минимум, %1ГБ данных будет храниться в этом каталоге, и со временем он будет расти. Бумажник будет также сохранён в этом каталоге.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -875,8 +817,8 @@
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -945,14 +887,6 @@
         <translation>IP-адрес прокси (например IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Сворачивать вместо закрытия. Если данная опция будет выбрана — приложение закроется только после выбора соответствующего пункта в меню.</translation>
-    </message>
-    <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Core.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Bitcoin Core.</translation>
-    </message>
-    <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
         <translation>Сторонние URL (например, block explorer), которые отображаются на вкладке транзакций как пункты контекстного меню. %s в URL заменяется хэшем транзакции. URL отделяются друг от друга вертикальной чертой |.</translation>
     </message>
@@ -975,14 +909,6 @@
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Сеть</translation>
-    </message>
-    <message>
-        <source>Automatically start Bitcoin Core after logging in to the system.</source>
-        <translation>Автоматически запускать Bitcoin Core после входа в систему</translation>
-    </message>
-    <message>
-        <source>&amp;Start Bitcoin Core on system login</source>
-        <translation>&amp;Запускать Bitcoin Core при входе в систему</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1009,20 +935,20 @@
         <translation>&amp;Тратить неподтверждённую сдачу</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для Bitcoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the Smartcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для Smartcoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Пробросить порт через &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Подключаться к сети Bitcoin через прокси SOCKS5</translation>
+        <source>Connect to the Smartcoin network through a SOCKS5 proxy.</source>
+        <translation>Подключаться к сети Smartcoin через прокси SOCKS5</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>&amp;Подключаться к сети Bitcoin через прокси SOCKS5 (прокси по умолчанию):</translation>
+        <translation>&amp;Подключаться к сети Smartcoin через прокси SOCKS5 (прокси по умолчанию):</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1097,10 +1023,6 @@
         <translation>Для применения изменений требуется перезапуск клиента.</translation>
     </message>
     <message>
-        <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Клиент будет выключен. Желаете продолжить?</translation>
-    </message>
-    <message>
         <source>This change would require a client restart.</source>
         <translation>Это изменение потребует перезапуска клиента.</translation>
     </message>
@@ -1116,8 +1038,8 @@
         <translation>Форма</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Bitcoin после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Smartcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Smartcoin после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1215,16 +1137,16 @@
         <translation>Ошибка запроса платежа</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Не удаётся запустить bitcoin: обработчик click-to-pay</translation>
+        <source>Cannot start smartcoin: click-to-pay handler</source>
+        <translation>Не удаётся запустить smartcoin: обработчик click-to-pay</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>Неверный URL запроса платежа: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Bitcoin или неправильными параметрами URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Smartcoin address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Smartcoin или неправильными параметрами URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1235,16 +1157,8 @@
         <translation>Файл запроса платежа не может быть прочитан! Обычно это происходит из-за неверного файла запроса платежа.</translation>
     </message>
     <message>
-        <source>Payment request expired.</source>
-        <translation>Запрос платежа просрочен.</translation>
-    </message>
-    <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>Непроверенные запросы платежей с нестандартными платёжными сценариями не поддерживаются.</translation>
-    </message>
-    <message>
-        <source>Invalid payment request.</source>
-        <translation>Неверный запрос платежа.</translation>
     </message>
     <message>
         <source>Refund from %1</source>
@@ -1286,10 +1200,6 @@
         <translation>Юзер-агент</translation>
     </message>
     <message>
-        <source>Node/Service</source>
-        <translation>Узел/сервис</translation>
-    </message>
-    <message>
         <source>Ping Time</source>
         <translation>Время задержки</translation>
     </message>
@@ -1301,8 +1211,8 @@
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Введите адрес Bitcoin (например, %1)</translation>
+        <source>Enter a Smartcoin address (e.g. %1)</source>
+        <translation>Введите адрес Smartcoin (например, %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1411,10 +1321,6 @@
         <translation>Текущее число блоков</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл Bitcoin Core из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
-    </message>
-    <message>
         <source>Received</source>
         <translation>Получено</translation>
     </message>
@@ -1483,10 +1389,6 @@
         <translation>Время задержки</translation>
     </message>
     <message>
-        <source>Time Offset</source>
-        <translation>Смещение времени</translation>
-    </message>
-    <message>
         <source>Last block time</source>
         <translation>Время последнего блока</translation>
     </message>
@@ -1529,10 +1431,6 @@
     <message>
         <source>Clear console</source>
         <translation>Очистить консоль</translation>
-    </message>
-    <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль Bitcoin Core.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1606,8 +1504,8 @@
         <translation>&amp;Повторно использовать существующий адрес получения (не рекомендуется)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса. Заметьте: сообщение не будет отправлено вместе с платежом через сеть Bitcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Smartcoin network.</source>
+        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса. Заметьте: сообщение не будет отправлено вместе с платежом через сеть Smartcoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1831,15 +1729,11 @@
         <translation>Если комиссия установлена в 1000 сатоши, а транзакция составляет лишь 250 байт, тогда комиссия "на килобайт" составит 250 сатоши, а "всего как минимум" — 1000 сатоши. Для транзакций крупнее килобайта в обоих случаях будет использоваться платёж "на килобайт".</translation>
     </message>
     <message>
-        <source>Hide</source>
-        <translation>Скрыть</translation>
-    </message>
-    <message>
         <source>total at least</source>
         <translation>Итого как минимум</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for smartcoin transactions than the network can process.</source>
         <translation>Уплата минимальной комиссии — не проблема, пока объём транзакций меньше, чем свободное место в блоках. Учтите, однако, что такая транзакция может никогда не подтвердиться, если спрос на транзакции превышает возможности сети по их обработке.</translation>
     </message>
     <message>
@@ -1947,6 +1841,10 @@
         <translation>Копировать размен</translation>
     </message>
     <message>
+        <source>Total Amount %1 (= %2)</source>
+        <translation>Общая сумма %1 (= %2)</translation>
+    </message>
+    <message>
         <source>or</source>
         <translation>или</translation>
     </message>
@@ -1975,24 +1873,8 @@
         <translation>Комиссия больше, чем %1, считается невероятно большой.</translation>
     </message>
     <message>
-        <source>Payment request expired.</source>
-        <translation>Запрос платежа просрочен.</translation>
-    </message>
-    <message>
-        <source>Total Amount %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</source>
-        <translation>Всего %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</translation>
-    </message>
-    <message>
-        <source>The recipient address is not valid. Please recheck.</source>
-        <translation>Адрес получателя неверный. Пожалуйста, перепроверьте.</translation>
-    </message>
-    <message>
-        <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>Обнаружен дублирующийся адрес: используйте каждый адрес только один раз.</translation>
-    </message>
-    <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Внимание: неверный адрес Bitcoin</translation>
+        <source>Warning: Invalid Smartcoin address</source>
+        <translation>Внимание: неверный адрес Smartcoin</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2042,8 +1924,8 @@
         <translation>Это нормальный платёж.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Адрес Bitcoin, на который отправить платёж</translation>
+        <source>The Smartcoin address to send the payment to</source>
+        <translation>Адрес Smartcoin, на который отправить платёж</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2062,32 +1944,16 @@
         <translation>Удалить эту запись</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>С отправляемой суммы будет удержана комиссия. Получателю придёт меньше биткоинов, чем вы вводите в поле количества. Если выбрано несколько получателей, комиссия распределяется поровну.</translation>
-    </message>
-    <message>
-        <source>S&amp;ubtract fee from amount</source>
-        <translation>Вычесть комиссию из суммы</translation>
-    </message>
-    <message>
         <source>Message:</source>
         <translation>Сообщение:</translation>
-    </message>
-    <message>
-        <source>This is an unauthenticated payment request.</source>
-        <translation>Это неавторизованный запрос платежа.</translation>
-    </message>
-    <message>
-        <source>This is an authenticated payment request.</source>
-        <translation>Это авторизованный запрос платежа.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
         <translation>Введите метку для этого адреса, чтобы добавить его в список использованных</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>К bitcoin: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Заметьте: сообщение не будет отправлено через сеть Bitcoin.</translation>
+        <source>A message that was attached to the smartcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Smartcoin network.</source>
+        <translation>К smartcoin: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Заметьте: сообщение не будет отправлено через сеть Smartcoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2101,8 +1967,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitcoin Core is shutting down...</source>
-        <translation>Bitcoin Core выключается...</translation>
+        <source>Smartcoin is shutting down...</source>
+        <translation>Smartcoin выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2120,12 +1986,8 @@
         <translation>&amp;Подписать сообщение</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Вы можете подписывать сообщения/соглашения своими адресами, чтобы доказать свою возможность получать биткоины на них. Будьте осторожны, не подписывайте что-то неопределённое или случайное, так как фишинговые атаки могут обманным путём заставить вас подписать нежелательные сообщения. Подписывайте только те сообщения, с которыми вы согласны вплоть до мелочей.</translation>
-    </message>
-    <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>Адрес Bitcoin, которым подписать сообщение</translation>
+        <source>The Smartcoin address to sign the message with</source>
+        <translation>Адрес Smartcoin, которым подписать сообщение</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2156,8 +2018,8 @@
         <translation>Скопировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Bitcoin</translation>
+        <source>Sign the message to prove you own this Smartcoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Smartcoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2176,16 +2038,12 @@
         <translation>&amp;Проверить сообщение</translation>
     </message>
     <message>
-        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>Введите ниже адрес получателя, сообщение (убедитесь, что переводы строк, пробелы, табы и т.п. в точности скопированы) и подпись, чтобы проверить сообщение. Убедитесь, что не скопировали лишнего в подпись, по сравнению с самим подписываемым сообщением, чтобы не стать жертвой атаки "man-in-the-middle". Заметьте, что эта операция удостоверяет лишь авторство подписавшего, но не может удостоверить отправителя транзакции.</translation>
+        <source>The Smartcoin address the message was signed with</source>
+        <translation>Адрес Smartcoin, которым было подписано сообщение</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>Адрес Bitcoin, которым было подписано сообщение</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Bitcoin</translation>
+        <source>Verify the message to ensure it was signed with the specified Smartcoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Smartcoin</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2251,12 +2109,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
-        <translation>Разработчики Bitcoin Core</translation>
+        <source>The Smartcoin developers</source>
+        <translation>Разработчики Smartcoin</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2509,10 +2367,6 @@
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
         <translation>Использовался ли в транзакции адрес для наблюдения.</translation>
-    </message>
-    <message>
-        <source>User-defined intent/purpose of the transaction.</source>
-        <translation>Определяемое пользователем намерение/цель транзакции.</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -2769,14 +2623,6 @@
         <translation>Выполнить команду, когда меняется транзакция в бумажнике (%s в команде заменяется на TxID)</translation>
     </message>
     <message>
-        <source>Maximum total fees to use in a single wallet transaction; setting this too low may abort large transactions (default: %s)</source>
-        <translation>Максимальная сумма комиссий для одной транзакции в бумажнике; слишком низкое значение может вызвать прерывание больших транзакций (по умолчанию: %s)</translation>
-    </message>
-    <message>
-        <source>Reduce storage requirements by pruning (deleting) old blocks. This mode disables wallet support and is incompatible with -txindex. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, &gt;%u = target size in MiB to use for block files)</source>
-        <translation>Уменьшить размер хранилища за счёт удаления (обрезания) старых блоков. Этот режим отключает поддержку бумажника и несовместим с -txindex. Внимание: переключение этой опции обратно потребует полной загрузки цепи блоков. (по умолчанию: 0 = отключить удаление блоков, &gt;%u = целевой размер в Мб для файлов блоков)</translation>
-    </message>
-    <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
         <translation>Задать число потоков проверки скрипта (от %u до %d, 0=авто, &lt;0 = оставить столько ядер свободными, по умолчанию: %d)</translation>
     </message>
@@ -2785,16 +2631,8 @@
         <translation>Это пре-релизная тестовая сборка - используйте на свой страх и риск - не используйте для добычи или торговых приложений</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
-        <translation>Не удалось забиндиться на %s на этом компьютере. Возможно, Bitcoin Core уже запущен.</translation>
-    </message>
-    <message>
-        <source>WARNING: abnormally high number of blocks generated, %d blocks received in the last %d hours (%d expected)</source>
-        <translation>ВНИМАНИЕ: сгенерировано ненормально большое число блоков, %d блоков получено за последние %d часов (ожидалось %d)</translation>
-    </message>
-    <message>
-        <source>WARNING: check your network connection, %d blocks received in the last %d hours (%d expected)</source>
-        <translation>ВНИМАНИЕ: проверьте сетевое подключение, получено %d блоков за последние %d часов (ожидалось %d)</translation>
+        <source>Unable to bind to %s on this computer. Smartcoin is probably already running.</source>
+        <translation>Не удалось забиндиться на %s на этом компьютере. Возможно, Smartcoin уже запущен.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2877,6 +2715,10 @@
         <translation>Не удалось открыть БД блоков</translation>
     </message>
     <message>
+        <source>Error: A fatal internal error occured, see debug.log for details</source>
+        <translation>Ошибка: произошла неустранимая ошибка, детали в debug.log</translation>
+    </message>
+    <message>
         <source>Error: Disk space is low!</source>
         <translation>Ошибка: мало места на диске!</translation>
     </message>
@@ -2907,14 +2749,6 @@
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
         <translation>Соединяться только по сети &lt;net&gt; (ipv4, ipv6 или onion)</translation>
-    </message>
-    <message>
-        <source>Prune cannot be configured with a negative value.</source>
-        <translation>Удаление блоков не может использовать отрицательное значение.</translation>
-    </message>
-    <message>
-        <source>Prune mode is incompatible with -txindex.</source>
-        <translation>Режим удаления блоков несовместим с -txindex.</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
@@ -2949,10 +2783,6 @@
         <translation>Настройки бумажника:</translation>
     </message>
     <message>
-        <source>Warning: This version is obsolete; upgrade required!</source>
-        <translation>Внимание: эта версия устарела; требуется обновление!</translation>
-    </message>
-    <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>Вам необходимо пересобрать базы данных с помощью -reindex, чтобы изменить -txindex</translation>
     </message>
@@ -2977,16 +2807,12 @@
         <translation>Привязаться к указанному адресу для прослушивания JSON-RPC подключений. Используйте запись [хост]:порт для IPv6. Эту опцию можно использовать многократно (по умолчанию: привязываться ко всем интерфейсам)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
-        <translation>Не удалось установить блокировку на каталог данных %s. Возможно, Bitcoin Core уже запущен.</translation>
+        <source>Cannot obtain a lock on data directory %s. Smartcoin is probably already running.</source>
+        <translation>Не удалось установить блокировку на каталог данных %s. Возможно, Smartcoin уже запущен.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
         <translation>Создавать новые файлы с системными правами по умолчанию вместо umask 077 (эффективно только при отключенном бумажнике)</translation>
-    </message>
-    <message>
-        <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
-        <translation>Обнаруживать собственный IP адрес (по умолчанию: 1 при прослушивании и без -externalip или -proxy)</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3001,8 +2827,8 @@
         <translation>Выполнить команду, когда приходит соответствующее сообщение о тревоге или наблюдается очень длинное расщепление цепи (%s в команде заменяется на сообщение)</translation>
     </message>
     <message>
-        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Комиссии (в BTC/Кб) меньшие этого значения считаются нулевыми для трансляции (по умолчанию: %s)</translation>
+        <source>Fees (in SMC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Комиссии (в SMC/Кб) меньшие этого значения считаются нулевыми для трансляции (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3017,16 +2843,8 @@
         <translation>Наибольший размер данных в носителе данных транзакций, которые мы передаем и генерируем (по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Prune configured below the minimum of %d MB.  Please use a higher number.</source>
-        <translation>Удаление блоков выставлено ниже, чем минимум в %d Мб. Пожалуйста, используйте большее значение.</translation>
-    </message>
-    <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Запрашивать адреса участников с помощью DNS, если адресов мало (по умолчанию: 1, если не указан -connect)</translation>
-    </message>
-    <message>
-        <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
-        <translation>Использовать случайные учётные данные для каждого прокси-подключения. Эта функция позволяет изолировать потоки Tor (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
@@ -3037,35 +2855,31 @@
         <translation>Задать число потоков генерации монет, если она включена (-1 = все ядра процессора, по умолчанию: %d)</translation>
     </message>
     <message>
-        <source>The transaction amount is too small to send after the fee has been deducted</source>
-        <translation>Сумма транзакции за вычетом комиссии слишком мала</translation>
-    </message>
-    <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Этот продукт включает ПО, разработанное OpenSSL Project для использования в OpenSSL Toolkit &lt;https://www.openssl.org/&gt; и криптографическое ПО, написанное Eric Young и ПО для работы с UPnP, написанное Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use bitcoind, or the -server option to bitcoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use smartcoind, or the -server option to smartcoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=smartcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Smartcoin Alert" admin@foo.com
 </source>
-        <translation>Для использования bitcoind или опции bitcoin-qt -server, вы должны установить опцию rpcpassword в конфигурационном файле:
+        <translation>Для использования smartcoind или опции smartcoin-qt -server, вы должны установить опцию rpcpassword в конфигурационном файле:
  %s
 Рекомендуется использовать следующий случайный пароль:
-rpcuser=bitcoinrpc
+rpcuser=smartcoinrpc
 rpcpassword=%s
 (вам не нужно запоминать этот пароль)
 Имя и пароль ДОЛЖНЫ различаться.
 Если файл не существует, создайте его и установите право доступа только для чтения только для владельца.
 Также рекомендуется включить alertnotify для оповещения о проблемах;
-Например: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+Например: alertnotify=echo %%s | mail -s "Smartcoin Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3073,32 +2887,16 @@ rpcpassword=%s
         <translation>Внимание: установлено очень большое значение -paytxfee. Такие большие комиссии могут быть уплачены в отдельной транзакции.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Bitcoin Core будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Smartcoin will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Smartcoin будет работать некорректно.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>Участники из белого списка не могуть быть забанены за DoS, и их транзакции всегда транслируются, даже если они уже содержатся в памяти. Полезно, например, для шлюза.</translation>
     </message>
     <message>
-        <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
-        <translation>Вам необходимо пересобрать базу данных с помощью -reindex, чтобы вернуться к полному режиму. Это приведёт к перезагрузке всей цепи блоков</translation>
-    </message>
-    <message>
-        <source>(default: %u)</source>
-        <translation>(по умолчанию: %u)</translation>
-    </message>
-    <message>
         <source>Accept public REST requests (default: %u)</source>
         <translation>Принимать публичные REST-запросы (по умолчанию: %u)</translation>
-    </message>
-    <message>
-        <source>Activating best chain...</source>
-        <translation>Активируется лучшая цепь...</translation>
-    </message>
-    <message>
-        <source>Can't run with a wallet in prune mode.</source>
-        <translation>Нельзя работать с бумажником в режиме с удалением блоков.</translation>
     </message>
     <message>
         <source>Cannot resolve -whitebind address: '%s'</source>
@@ -3113,40 +2911,36 @@ rpcpassword=%s
         <translation>Подключаться через SOCKS5 прокси</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Все права защищены © 2009-%i Разработчики Bitcoin Core</translation>
+        <source>Copyright (C) 2009-%i The Smartcoin Developers</source>
+        <translation>Все права защищены © 2009-%i Разработчики Smartcoin</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
         <translation>Не удалось разобрать значение %s параметра -rpcbind как сетевой адрес</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Bitcoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Smartcoin</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Smartcoin</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
         <translation>Ошибка чтения базы данных, работа завершается.</translation>
     </message>
     <message>
-        <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Ошибка: произошла неустранимая ошибка, подробности в debug.log</translation>
-    </message>
-    <message>
         <source>Error: Unsupported argument -tor found, use -onion.</source>
         <translation>Ошибка: обнаружен неподдерживаемый параметр -tor, используйте -onion.</translation>
     </message>
     <message>
-        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Комиссия (в BTC/Кб) для добавления к вашим транзакциям (по умолчанию: %s)</translation>
+        <source>Fee (in SMC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Комиссия (в SMC/Кб) для добавления к вашим транзакциям (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Information</source>
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Bitcoin Core is shutting down.</source>
-        <translation>Не удалось проверить чистоту. Bitcoin Core выключается.</translation>
+        <source>Initialization sanity check failed. Smartcoin is shutting down.</source>
+        <translation>Не удалось проверить чистоту. Smartcoin выключается.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3181,12 +2975,8 @@ rpcpassword=%s
         <translation>Параметры трансляции узла:</translation>
     </message>
     <message>
-        <source>Pruning blockstore...</source>
-        <translation>Очистка хранилища блоков...</translation>
-    </message>
-    <message>
-        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Параметры RPC SSL: (см. Bitcoin вики для инструкций по настройке SSL)</translation>
+        <source>RPC SSL options: (see the Smartcoin Wiki for SSL setup instructions)</source>
+        <translation>Параметры RPC SSL: (см. Smartcoin вики для инструкций по настройке SSL)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3195,14 +2985,6 @@ rpcpassword=%s
     <message>
         <source>RPC support for HTTP persistent connections (default: %d)</source>
         <translation>Поддержка RPC постоянных HTTP подключений (по умолчанию: %d)</translation>
-    </message>
-    <message>
-        <source>Rebuild block chain index from current blk000??.dat files on startup</source>
-        <translation>Перестроить при запуске индекс цепи блоков из текущих файлов blk000??.dat</translation>
-    </message>
-    <message>
-        <source>Receive and display P2P network alerts (default: %u)</source>
-        <translation>Получать и отображать P2P сетевые тревоги (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3241,10 +3023,6 @@ rpcpassword=%s
         <translation>Запускать свёрнутым</translation>
     </message>
     <message>
-        <source>The transaction amount is too small to pay the fee</source>
-        <translation>Сумма транзакции слишком мала для уплаты комиссии</translation>
-    </message>
-    <message>
         <source>This is experimental software.</source>
         <translation>Это экспериментальное ПО.</translation>
     </message>
@@ -3265,10 +3043,6 @@ rpcpassword=%s
         <translation>Транзакция слишком большая</translation>
     </message>
     <message>
-        <source>UI Options:</source>
-        <translation>Настройки интерфейса:</translation>
-    </message>
-    <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
         <translation>Невозможно привязаться к %s на этом компьютере (bind вернул ошибку %s)</translation>
     </message>
@@ -3281,8 +3055,8 @@ rpcpassword=%s
         <translation>Имя для подключений JSON-RPC</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin Core to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите Bitcoin Core для завершения операции.</translation>
+        <source>Wallet needed to be rewritten: restart Smartcoin to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите Smartcoin для завершения операции.</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -3411,10 +3185,6 @@ rpcpassword=%s
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
         <translation>Поддерживать не более &lt;n&gt; подключений к узлам (по умолчанию: %u)</translation>
-    </message>
-    <message>
-        <source>Make the wallet broadcast transactions</source>
-        <translation>Рассылать транзакции из бумажника</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>

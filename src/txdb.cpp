@@ -10,6 +10,7 @@
 #include "main.h"
 #include "pow.h"
 #include "uint256.h"
+#include "arith_uint256.h"
 
 #include <stdint.h>
 
@@ -110,7 +111,7 @@ bool CCoinsViewDB::GetStats(CCoinsStats &stats) const {
     CHashWriter ss(SER_GETHASH, PROTOCOL_VERSION);
     stats.hashBlock = GetBestBlock();
     ss << stats.hashBlock;
-    CAmount nTotalAmount = 0;
+    arith_uint256 nTotalAmount = 0;
     while (pcursor->Valid()) {
         boost::this_thread::interruption_point();
         try {
@@ -225,8 +226,14 @@ bool CBlockTreeDB::LoadBlockIndexGuts()
                 pindexNew->nStatus        = diskindex.nStatus;
                 pindexNew->nTx            = diskindex.nTx;
 
-                if (!CheckProofOfWork(pindexNew->GetBlockHash(), pindexNew->nBits, Params().GetConsensus()))
-                    return error("LoadBlockIndex(): CheckProofOfWork failed: %s", pindexNew->ToString());
+                // Litecoin: Disable PoW Sanity check while loading block index from disk.
+                // We use the sha256 hash for the block index for performance reasons, which is recorded for later use.
+                // CheckProofOfWork() uses the scrypt hash which is discarded after a block is accepted.
+                // While it is technically feasible to verify the PoW, doing so takes several minutes as it
+                // requires recomputing every PoW hash during every Litecoin startup.
+                // We opt instead to simply trust the data that is on your local disk.
+                //if (!CheckProofOfWork(pindexNew->GetBlockPoWHash(), pindexNew->nBits))
+                //    return error("LoadBlockIndex() : CheckProofOfWork failed: %s", pindexNew->ToString());
 
                 pcursor->Next();
             } else {

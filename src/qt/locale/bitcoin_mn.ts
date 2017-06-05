@@ -6,64 +6,16 @@
         <translation>Шинэ хаяг нээх</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation>&amp;Шинэ</translation>
-    </message>
-    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Одоогоор сонгогдсон байгаа хаягуудыг сануулах</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>&amp;Хуулах</translation>
-    </message>
-    <message>
-        <source>C&amp;lose</source>
-        <translation>&amp;Хаах</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
         <translation>Хаягийг &amp;Хуулбарлах</translation>
     </message>
     <message>
-        <source>Delete the currently selected address from the list</source>
-        <translation>Одоо сонгогдсон байгаа хаягуудыг жагсаалтаас устгах</translation>
-    </message>
-    <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Сонгогдсон таб дээрхи дата-г экспортлох</translation>
-    </message>
-    <message>
-        <source>&amp;Export</source>
-        <translation>&amp;Экспортдлох</translation>
-    </message>
-    <message>
         <source>&amp;Delete</source>
         <translation>&amp;Устгах</translation>
-    </message>
-    <message>
-        <source>Choose the address to send coins to</source>
-        <translation>Зооснуудыг илгээх хаягийг сонгоно уу</translation>
-    </message>
-    <message>
-        <source>Choose the address to receive coins with</source>
-        <translation>Зооснуудыг хүлээн авах хаягийг сонгоно уу</translation>
-    </message>
-    <message>
-        <source>Sending addresses</source>
-        <translation>Илгээх хаягууд</translation>
-    </message>
-    <message>
-        <source>Receiving addresses</source>
-        <translation>Хүлээн авах хаяг</translation>
-    </message>
-    <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Эдгээр Биткойн хаягууд нь илгээх хаягууд. Хүлээн авах хаяг болон тоо хэмжээг илгээхээсээ өмнө сайн нягталж үзэж байна уу</translation>
-    </message>
-    <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Эдгээр Биткойн хаягууд нь хүлээн авах хаягууд. Гүйлгээ болгонд шинээр хаяг үүсгэхийг бид санал болгож байна.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -72,10 +24,6 @@
     <message>
         <source>&amp;Edit</source>
         <translation>&amp;Ѳѳрчлѳх</translation>
-    </message>
-    <message>
-        <source>Export Address List</source>
-        <translation>Экспорт хийх хаягуудын жагсаалт</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
@@ -227,10 +175,6 @@
         <translation>&amp;Нууц Үгийг Солих...</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>Хүлээн авах хаяг</translation>
-    </message>
-    <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Түрүйвчийг цоожлох нууц үгийг солих</translation>
     </message>
@@ -239,7 +183,7 @@
         <translation>Оношилгоо ба засварын консолыг онгойлго</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
+        <source>Smartcoin</source>
         <translation>Биткойн</translation>
     </message>
     <message>
@@ -265,10 +209,6 @@
     <message>
         <source>Error</source>
         <translation>Алдаа</translation>
-    </message>
-    <message>
-        <source>Information</source>
-        <translation>Мэдээллэл</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -423,14 +363,6 @@
         <translation>проксигийн IP хаяг (жишээ нь: IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
-        <source>&amp;Network</source>
-        <translation>Сүлжээ</translation>
-    </message>
-    <message>
-        <source>W&amp;allet</source>
-        <translation>Түрүйвч</translation>
-    </message>
-    <message>
         <source>Client restart required to activate changes.</source>
         <translation>Ѳѳрчлѳлтүүдийг идэвхижүүлхийн тулд клиентийг ахин эхлүүлэх шаардлагтай</translation>
     </message>
@@ -532,16 +464,8 @@
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
-        <source>&amp;Amount:</source>
-        <translation>Хэмжээ:</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>&amp;Шошго:</translation>
-    </message>
-    <message>
-        <source>&amp;Message:</source>
-        <translation>Зурвас:</translation>
     </message>
     <message>
         <source>Show</source>
@@ -570,10 +494,6 @@
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
-    <message>
-        <source>Copy &amp;Address</source>
-        <translation>Хаягийг &amp;Хуулбарлах</translation>
-    </message>
     <message>
         <source>Address</source>
         <translation>Хаяг</translation>
@@ -677,6 +597,10 @@
         <translation>Ѳѳрчлѳлтийг санах</translation>
     </message>
     <message>
+        <source>Total Amount %1 (= %2)</source>
+        <translation>Нийт дүн %1 (= %2)</translation>
+    </message>
+    <message>
         <source>or</source>
         <translation>эсвэл</translation>
     </message>
@@ -693,7 +617,7 @@
         <translation>Гүйлгээний тѳлбѳр %1-ийг тооцхоор нийт дүн нь таны балансаас хэтрээд байна.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid Smartcoin address</source>
         <translation>Анхаар:Буруу Биткойны хаяг байна</translation>
     </message>
     <message>
@@ -735,15 +659,11 @@
         <source>Message:</source>
         <translation>Зурвас:</translation>
     </message>
-    <message>
-        <source>Pay To:</source>
-        <translation>Тѳлѳх хаяг:</translation>
-    </message>
     </context>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitcoin Core is shutting down...</source>
+        <source>Smartcoin is shutting down...</source>
         <translation>Биткойны цѳм хаагдаж байна...</translation>
     </message>
     <message>
@@ -1039,14 +959,6 @@
 </context>
 <context>
     <name>WalletView</name>
-    <message>
-        <source>&amp;Export</source>
-        <translation>&amp;Экспортдлох</translation>
-    </message>
-    <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Сонгогдсон таб дээрхи дата-г экспортлох</translation>
-    </message>
     </context>
 <context>
     <name>bitcoin-core</name>
@@ -1057,10 +969,6 @@
     <message>
         <source>Wallet options:</source>
         <translation>Түрүйвчийн сонголтууд:</translation>
-    </message>
-    <message>
-        <source>Information</source>
-        <translation>Мэдээллэл</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>

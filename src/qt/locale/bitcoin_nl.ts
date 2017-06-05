@@ -66,12 +66,12 @@
         <translation>Ontvang adressen</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw Bitcoinadressen om betalingen mee te verzenden. Controleer altijd het bedrag en het ontvang adres voordat u uw bitcoins verzendt.</translation>
+        <source>These are your Smartcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw Smartcoinadressen om betalingen mee te verzenden. Controleer altijd het bedrag en het ontvang adres voordat u uw smartcoins verzendt.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw Bitcoin-adressen waarmee u kunt betalen. We raden u aan om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <source>These are your Smartcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw Smartcoin-adressen waarmee u kunt betalen. We raden u aan om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -160,16 +160,16 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW BITCOINS VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMARTCOINS&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW SMARTCOINS VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin Core zal nu afsluiten om het versleutelingsproces te voltooien. Hou er rekening mee dat versleuteling van je portemonnee je niet volledig beschermt tegen diefstal van jouw bitcoins door malware op je computer.</translation>
+        <source>Smartcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your smartcoins from being stolen by malware infecting your computer.</source>
+        <translation>Smartcoin zal nu afsluiten om het versleutelingsproces te voltooien. Hou er rekening mee dat versleuteling van je portemonnee je niet volledig beschermt tegen diefstal van jouw smartcoins door malware op je computer.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -295,8 +295,8 @@
         <translation>Open &amp;URI...</translation>
     </message>
     <message>
-        <source>Bitcoin Core client</source>
-        <translation>Bitcoin Kern applicatie</translation>
+        <source>Smartcoin client</source>
+        <translation>Smartcoin Kern applicatie</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,8 +307,8 @@
         <translation>Bezig met herindexeren van blokken op harde schijf...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Verstuur munten naar een Bitcoinadres</translation>
+        <source>Send coins to a Smartcoin address</source>
+        <translation>Verstuur munten naar een Smartcoinadres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -331,8 +331,8 @@
         <translation>&amp;Verifiëer bericht...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -347,8 +347,8 @@
         <translation>&amp;Ontvangen</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Core</source>
-        <translation>Toon informatie over bitcoin kern</translation>
+        <source>Show information about Smartcoin</source>
+        <translation>Toon informatie over smartcoin kern</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -363,12 +363,12 @@
         <translation>Versleutel de geheime sleutels die bij uw portemonnee horen</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw Bitcoinadressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your Smartcoin addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw Smartcoinadressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Bitcoinadressen</translation>
+        <source>Verify messages to ensure they were signed with specified Smartcoin addresses</source>
+        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Smartcoinadressen</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -387,20 +387,16 @@
         <translation>Tab-werkbalk</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Kern</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin Kern</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR codes en bitcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and smartcoin: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR codes en smartcoin: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;Over Bitcoin Core</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for Bitcoin Core</source>
-        <translation>Wijzig configuratieopties voor Bitcoin Core</translation>
+        <source>&amp;About Smartcoin</source>
+        <translation>&amp;Over Smartcoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,20 +407,20 @@
         <translation>Toon de lijst met gebruikte ontvangst adressen en labels</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Open een bitcoin: URI of betalingsverzoek</translation>
+        <source>Open a smartcoin: URI or payment request</source>
+        <translation>Open een smartcoin: URI of betalingsverzoek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Commandoregel-opties</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Toon het Bitcoin Core hulpbericht om een lijst te krijgen met mogelijke Bitcoin commandoregelopties</translation>
+        <source>Show the Smartcoin help message to get a list with possible Smartcoin command-line options</source>
+        <translation>Toon het Smartcoin hulpbericht om een lijst te krijgen met mogelijke Smartcoin commandoregelopties</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n actieve connectie naar Bitcoinnetwerk</numerusform><numerusform>%n actieve connecties naar Bitcoinnetwerk</numerusform></translation>
+        <source>%n active connection(s) to Smartcoin network</source>
+        <translation><numerusform>%n actieve connectie naar Smartcoin netwerk</numerusform><numerusform>%n actieve connecties naar Smartcoin netwerk</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -432,11 +428,11 @@
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>%n blok aan transactiegeschiedenis verwerkt.</numerusform><numerusform>%n blokken aan transactiegeschiedenis verwerkt.</numerusform></translation>
+        <translation><numerusform>%n blok aan transactie geschiedenis verwerkt.</numerusform><numerusform>%n blokken aan transactie geschiedenis verwerkt.</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n uur</numerusform><numerusform>%n uren</numerusform></translation>
+        <translation><numerusform>%n uur</numerusform><numerusform>%n uur</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
@@ -452,7 +448,7 @@
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n jaar</numerusform><numerusform>%n jaren</numerusform></translation>
+        <translation><numerusform>%n jaar</numerusform><numerusform>%n jaar</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -806,8 +802,8 @@
         <translation>Het opgegeven adres "%1" bestaat al in uw adresboek.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Het opgegeven adres "%1" is een ongeldig Bitcoinadres</translation>
+        <source>The entered address "%1" is not a valid Smartcoin address.</source>
+        <translation>Het opgegeven adres "%1" is een ongeldig Smartcoinadres</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -844,8 +840,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Kern</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin Kern</translation>
     </message>
     <message>
         <source>version</source>
@@ -856,8 +852,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>Over Bitcoin Core</translation>
+        <source>About Smartcoin</source>
+        <translation>Over Smartcoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -879,16 +875,16 @@
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
-        <translation>Welkom bij Bitcoin Core</translation>
+        <source>Welcome to Smartcoin.</source>
+        <translation>Welkom bij Smartcoin</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>Omdat dit de eerste keer is dat het programma gestart is, kunt u nu kiezen waar Bitcoin Core de data moet opslaan.</translation>
+        <source>As this is the first time the program is launched, you can choose where Smartcoin will store its data.</source>
+        <translation>Omdat dit de eerste keer is dat het programma gestart is, kunt u nu kiezen waar Smartcoin de data moet opslaan.</translation>
     </message>
     <message>
-        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Bitcoin Core zal een kopie van de Bitcoin blokketen downloaden en opslaan. Tenminste %1 GB aan data wordt opgeslagen in deze map en het zal groeien in de tijd. De portemonnee wordt ook in deze map opgeslagen.</translation>
+        <source>Smartcoin will download and store a copy of the Smartcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Smartcoin zal een kopie van de Smartcoin blokketen downloaden en opslaan. Tenminste %1 GB aan data wordt opgeslagen in deze map en het zal groeien in de tijd. De portemonnee wordt ook in deze map opgeslagen.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -899,8 +895,8 @@
         <translation>Gebruik een persoonlijke gegevensmap:</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Kern</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin Kern</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -912,7 +908,7 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB aan vrije opslagruimte beschikbaar</numerusform><numerusform>%n GB aan vrije opslagruimte beschikbaar</numerusform></translation>
+        <translation><numerusform>%n GB aan vrije oplsagruimte beschikbaar</numerusform><numerusform>%n GB aan vrije oplsagruimte beschikbaar</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
@@ -977,11 +973,7 @@
         <translation>IP-adres van de proxy (bijv. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Minimaliseren in plaats van de applicatie af te sluiten wanneer het venster is afgesloten. Als deze optie is ingeschakeld, zal de toepassing pas worden afgesloten na het selecteren van Exit in het menu.</translation>
-    </message>
-    <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Core.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Smartcoin.</source>
         <translation>Stel hier de taal van de applicatie in. Deze instelling zal van kracht worden na het herstarten van de applicatie.</translation>
     </message>
     <message>
@@ -1009,12 +1001,12 @@
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin Core after logging in to the system.</source>
-        <translation>Bitcoin Kern automatisch starten bij inloggen.</translation>
+        <source>Automatically start Smartcoin after logging in to the system.</source>
+        <translation>Smartcoin Kern automatisch starten bij inloggen.</translation>
     </message>
     <message>
-        <source>&amp;Start Bitcoin Core on system login</source>
-        <translation>&amp;Start Bitcoin Kern tijdens login.</translation>
+        <source>&amp;Start Smartcoin on system login</source>
+        <translation>&amp;Start Smartcoin Kern tijdens login.</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1041,16 +1033,16 @@
         <translation>&amp;Spendeer onbevestigd wisselgeld</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de Bitcoin-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
+        <source>Automatically open the Smartcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de Smartcoin-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Portmapping via &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Verbind met het Bitcoin netwerk via een SOCKS5 proxy.</translation>
+        <source>Connect to the Smartcoin network through a SOCKS5 proxy.</source>
+        <translation>Verbind met het Smartcoin netwerk via een SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1148,8 +1140,8 @@
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het Bitcoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Smartcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het Smartcoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1247,16 +1239,16 @@
         <translation>Fout bij betalingsverzoek</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Kan bitcoin niet starten: click-to-pay handler</translation>
+        <source>Cannot start smartcoin: click-to-pay handler</source>
+        <translation>Kan smartcoin niet starten: click-to-pay handler</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>URL om betalingsverzoek te verkrijgen is ongeldig: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI kan niet verwerkt worden! Dit kan het gevolg zijn van een ongeldig Bitcoin adres of misvormde URI parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Smartcoin address or malformed URI parameters.</source>
+        <translation>URI kan niet verwerkt worden! Dit kan het gevolg zijn van een ongeldig Smartcoin adres of misvormde URI parameters.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1267,16 +1259,8 @@
         <translation>Betalingsverzoek-bestand kan niet gelezen of verwerkt worden! Dit kan veroorzaakt worden door een ongeldig betalingsverzoek-bestand.</translation>
     </message>
     <message>
-        <source>Payment request expired.</source>
-        <translation>Betalingsverzoek verlopen.</translation>
-    </message>
-    <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>Niet-geverifieerde betalingsverzoeken naar aangepaste betaling scripts worden niet ondersteund.</translation>
-    </message>
-    <message>
-        <source>Invalid payment request.</source>
-        <translation>Ongeldig betalingsverzoek.</translation>
     </message>
     <message>
         <source>Refund from %1</source>
@@ -1318,10 +1302,6 @@
         <translation>User Agent</translation>
     </message>
     <message>
-        <source>Node/Service</source>
-        <translation>Node/Service</translation>
-    </message>
-    <message>
         <source>Ping Time</source>
         <translation>Ping tijd</translation>
     </message>
@@ -1333,8 +1313,8 @@
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Voer een Bitcoin-adres in (bijv. %1)</translation>
+        <source>Enter a Smartcoin address (e.g. %1)</source>
+        <translation>Voer een Smartcoin-adres in (bijv. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1443,10 +1423,6 @@
         <translation>Huidig aantal blokken</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het Bitcoin Core debug logbestand van de huidige gegevens directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
-    </message>
-    <message>
         <source>Received</source>
         <translation>Ontvangen</translation>
     </message>
@@ -1515,10 +1491,6 @@
         <translation>Ping Tijd</translation>
     </message>
     <message>
-        <source>Time Offset</source>
-        <translation>Tijdcompensatie</translation>
-    </message>
-    <message>
         <source>Last block time</source>
         <translation>Tijd laatste blok</translation>
     </message>
@@ -1561,10 +1533,6 @@
     <message>
         <source>Clear console</source>
         <translation>Maak console leeg</translation>
-    </message>
-    <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
-        <translation>Welkom op de Bitcoin Core RPC console.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1638,8 +1606,8 @@
         <translation>H&amp;ergebruik en bestaand ontvangstadres (niet aanbevolen)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Een optioneel bericht om bij te voegen aan het betalingsverzoek, dewelke zal getoond worden wanneer het verzoek is geopend. Opermerking: Het bericht zal niet worden verzonden met de betaling over het Bitcoin netwerk.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Smartcoin network.</source>
+        <translation>Een optioneel bericht om bij te voegen aan het betalingsverzoek, dewelke zal getoond worden wanneer het verzoek is geopend. Opermerking: Het bericht zal niet worden verzonden met de betaling over het Smartcoin netwerk.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1863,16 +1831,12 @@
         <translation>Als de aangepaste toeslag is ingesteld op 1000 satoshis en de transactie is maar 250 bytes, dan wordt bij "per kilobyte" 250 satoshis aan toeslag berekend, terwijl er bij "totaal tenminste" 1000 satoshis worden berekend. Voor transacties die groter zijn dan een kilobyte, wordt in beide gevallen per kilobyte de toeslag berekend.</translation>
     </message>
     <message>
-        <source>Hide</source>
-        <translation>Verbergen</translation>
-    </message>
-    <message>
         <source>total at least</source>
         <translation>totaal ten minste</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation>De minimale toeslag betalen is prima mits het transactievolume kleiner is dan de ruimte in de blokken. Let wel op dat dit tot gevolg kan hebben dat een transactie nooit wordt bevestigd als er meer vraag is naar bitcointransacties dan het netwerk kan verwerken.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for smartcoin transactions than the network can process.</source>
+        <translation>De minimale toeslag betalen is prima mits het transactievolume kleiner is dan de ruimte in de blokken. Let wel op dat dit tot gevolg kan hebben dat een transactie nooit wordt bevestigd als er meer vraag is naar smartcointransacties dan het netwerk kan verwerken.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -1979,6 +1943,10 @@
         <translation>Kopieer wijziging</translation>
     </message>
     <message>
+        <source>Total Amount %1 (= %2)</source>
+        <translation>Totaal bedrag %1 (= %2)</translation>
+    </message>
+    <message>
         <source>or</source>
         <translation>of</translation>
     </message>
@@ -2003,32 +1971,12 @@
         <translation>De transactie was afgewezen. Dit kan gebeuren als u eerder uitgegeven munten opnieuw wilt versturen, zoals wanneer u een kopie van uw wallet.dat heeft gebruikt en in de kopie deze munten zijn gemarkeerd als uitgegeven, maar in de huidige nog niet.</translation>
     </message>
     <message>
-        <source>Payment request expired.</source>
-        <translation>Betalingsverzoek verlopen.</translation>
-    </message>
-    <message numerus="yes">
-        <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Schatting is bevestiging wordt gestart binnen %n blok.</numerusform><numerusform>Schatting is bevestiging wordt gestart binnen %n blokken.</numerusform></translation>
-    </message>
-    <message>
         <source>Pay only the minimum fee of %1</source>
         <translation>Betaal alleen de minimale transactiekosten van %1</translation>
     </message>
     <message>
-        <source>Total Amount %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</source>
-        <translation>Totaalbedrag %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</translation>
-    </message>
-    <message>
-        <source>The recipient address is not valid. Please recheck.</source>
-        <translation>Het adres van de ontvanger is niet geldig. Gelieve opnieuw te controleren..</translation>
-    </message>
-    <message>
-        <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>Dubbel adres gevonden: adressen mogen maar één keer worden gebruikt worden.</translation>
-    </message>
-    <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Waarschuwing: Ongeldig Bitcoin adres</translation>
+        <source>Warning: Invalid Smartcoin address</source>
+        <translation>Waarschuwing: Ongeldig Smartcoin adres</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2078,8 +2026,8 @@
         <translation>Dit is een normale betaling.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Het Bitcoin adres om betaling aan te voldoen</translation>
+        <source>The Smartcoin address to send the payment to</source>
+        <translation>Het Smartcoin adres om betaling aan te voldoen</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2098,32 +2046,16 @@
         <translation>Verwijder deze toevoeging</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>De vergoeding zal worden afgetrokken van het bedrag dat verzonden wordt. De ontvangers zullen minder bitcoins ontvangen dan ingevoerd is in het hoeveelheids veld. Als er meerdere ontvangers geselecteerd zijn, dan wordt de vergoeding gelijk verdeeld.</translation>
-    </message>
-    <message>
-        <source>S&amp;ubtract fee from amount</source>
-        <translation>Trek de vergoeding af van het bedrag.</translation>
-    </message>
-    <message>
         <source>Message:</source>
         <translation>Bericht:</translation>
-    </message>
-    <message>
-        <source>This is an unauthenticated payment request.</source>
-        <translation>Dit is een niet-geverifieerd betalingsverzoek.</translation>
-    </message>
-    <message>
-        <source>This is an authenticated payment request.</source>
-        <translation>Dit is een geverifieerd betalingsverzoek.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
         <translation>Vul een label voor dit adres in om het aan de lijst met gebruikte adressen toe te voegen</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Een bericht dat werd toegevoegd aan de bitcoin: URI dewelke wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het Bitcoin netwerk.</translation>
+        <source>A message that was attached to the smartcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Smartcoin network.</source>
+        <translation>Een bericht dat werd toegevoegd aan de smartcoin: URI dewelke wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het Smartcoin netwerk.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2137,8 +2069,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitcoin Core is shutting down...</source>
-        <translation>Bitcoin Core is aan het afsluiten...</translation>
+        <source>Smartcoin is shutting down...</source>
+        <translation>Smartcoin is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2156,12 +2088,8 @@
         <translation>O&amp;nderteken Bericht</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>U kunt berichten/overeenkomsten ondertekenen met uw adres om te bewijzen dat u Bitcoins kunt versturen. Wees voorzichtig met het ondertekenen van iets vaags of willekeurigs, omdat phishing-aanvallen u kunnen proberen te misleiden tot het ondertekenen van overeenkomsten om uw identiteit aan hen toe te vertrouwen. Onderteken alleen volledig gedetailleerde verklaringen voordat u akkoord gaat.</translation>
-    </message>
-    <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>Het Bitcoin adres om bericht mee te ondertekenen</translation>
+        <source>The Smartcoin address to sign the message with</source>
+        <translation>Het Smartcoin adres om bericht mee te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2192,8 +2120,8 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Bitcoinadres bezit</translation>
+        <source>Sign the message to prove you own this Smartcoin address</source>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Smartcoinadres bezit</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2212,16 +2140,12 @@
         <translation>&amp;Verifiëer Bericht</translation>
     </message>
     <message>
-        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>Voer het adres van de ontvanger in, bericht (zorg ervoor dat de regeleinden, spaties, tabs etc. precies kloppen) en onderteken onderaan om het bericht te verifiëren. Wees voorzicht om niet meer in de ondertekening te lezen dan in het getekende bericht zelf, om te voorkomen dat je wordt aangevallen met een man-in-the-middle attack. Houd er mee rekening dat dit alleen de ondertekende partij bewijst met het ontvangen adres, er kan niet bewezen worden dat er een transactie heeft plaatsgevonden!</translation>
+        <source>The Smartcoin address the message was signed with</source>
+        <translation>Het Smartcoin adres waarmee het bericht ondertekend is</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>Het Bitcoin adres waarmee het bericht ondertekend is</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Bitcoinadres het bericht heeft ondertekend.</translation>
+        <source>Verify the message to ensure it was signed with the specified Smartcoin address</source>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Smartcoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2287,12 +2211,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Kern</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin Kern</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
-        <translation>De Bitcoin Core ontwikkelaars</translation>
+        <source>The Smartcoin developers</source>
+        <translation>De Smartcoin ontwikkelaars</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2567,10 +2491,6 @@
         <translation>Of er een alleen-bekijken adres is betrokken bij deze transactie.</translation>
     </message>
     <message>
-        <source>User-defined intent/purpose of the transaction.</source>
-        <translation>Door gebruiker gedefinieerde intentie/doel van de transactie</translation>
-    </message>
-    <message>
         <source>Amount removed from or added to balance.</source>
         <translation>Bedrag verwijderd van of toegevoegd aan saldo</translation>
     </message>
@@ -2825,14 +2745,6 @@
         <translation>Voer opdracht uit zodra een portemonneetransactie verandert (%s in cmd wordt vervangen door TxID)</translation>
     </message>
     <message>
-        <source>Maximum total fees to use in a single wallet transaction; setting this too low may abort large transactions (default: %s)</source>
-        <translation>Maximum totale transactiekosten om te gebruiken in een enkele portemoneetransactie; als dit te laag is ingesteld kunnen grote transacties worden verhinderd (standaard: %s)</translation>
-    </message>
-    <message>
-        <source>Reduce storage requirements by pruning (deleting) old blocks. This mode disables wallet support and is incompatible with -txindex. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, &gt;%u = target size in MiB to use for block files)</source>
-        <translation>Beperk benodigde opslag door snoeien (verwijderen) van oude blokken. Deze modus is niet-compatibele met -txindex. Waarschuwing: Terugzetten van deze instellingen vereist opnieuw downloaden van gehele de blokketen. (standaard:0 = uitzetten snoeimodus, &gt;%u = doelgrootte in MiB voor blokbestanden)</translation>
-    </message>
-    <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
         <translation>Kies het aantal script verificatie processen (%u tot %d, 0 = auto, &lt;0 = laat dit aantal kernen vrij, standaard: %d)</translation>
     </message>
@@ -2841,16 +2753,8 @@
         <translation>Dit is een pre-release testversie - gebruik op eigen risico! Gebruik deze niet voor het delven van munten of handelsdoeleinden</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
-        <translation>Niet in staat om %s te verbinden op deze computer. Bitcoin Core draait waarschijnlijk al.</translation>
-    </message>
-    <message>
-        <source>WARNING: abnormally high number of blocks generated, %d blocks received in the last %d hours (%d expected)</source>
-        <translation>WAARSCHUWING: abnormaal hoog aantal blokken is gegenereerd, %d blokken ontvangen in de laatste %d uren (%d verwacht)</translation>
-    </message>
-    <message>
-        <source>WARNING: check your network connection, %d blocks received in the last %d hours (%d expected)</source>
-        <translation>WAARSCHUWING: controleer uw netwerkverbinding, %d blokken ontvangen in de laatste %d uren (%d verwacht)</translation>
+        <source>Unable to bind to %s on this computer. Smartcoin is probably already running.</source>
+        <translation>Niet in staat om %s te verbinden op deze computer. Smartcoin draait waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2933,6 +2837,10 @@
         <translation>Fout bij openen blokkendatabase</translation>
     </message>
     <message>
+        <source>Error: A fatal internal error occured, see debug.log for details</source>
+        <translation>Fout: Een fatale interne fout is opgetreden, zie debug.log voor details</translation>
+    </message>
+    <message>
         <source>Error: Disk space is low!</source>
         <translation>Fout: Weinig vrije diskruimte!</translation>
     </message>
@@ -2963,14 +2871,6 @@
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
         <translation>Verbind alleen met nodes in netwerk &lt;net&gt; (ipv4, ipv6 of onion)</translation>
-    </message>
-    <message>
-        <source>Prune cannot be configured with a negative value.</source>
-        <translation>Snoeien mag niet worden ingesteld met een negatieve waarde.</translation>
-    </message>
-    <message>
-        <source>Prune mode is incompatible with -txindex.</source>
-        <translation>Snoeimodus is niet-compatibel met -txindex</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
@@ -3005,10 +2905,6 @@
         <translation>Portemonnee instellingen:</translation>
     </message>
     <message>
-        <source>Warning: This version is obsolete; upgrade required!</source>
-        <translation>Waarschuwing: Deze versie is verouderd; upgraden verplicht!</translation>
-    </message>
-    <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>Om -txindex te kunnen veranderen dient u de database opnieuw te bouwen met gebruik van -reindex.</translation>
     </message>
@@ -3033,16 +2929,12 @@
         <translation>Bind aan gegeven adres om te luisteren voor JSON-RPC verbindingen. Gebruik [host]:poort notatie voor IPv6. Deze optie kan meerdere keren gespecificeerd worden (standaard: bind aan alle interfaces.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
-        <translation>Kan geen lock verkrijgen op gegevensmap %s. Bitcoin Core draait waarschijnlijk al.</translation>
+        <source>Cannot obtain a lock on data directory %s. Smartcoin is probably already running.</source>
+        <translation>Kan geen lock verkrijgen op gegevensmap %s. Smartcoin draait waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
         <translation>Creër nieuwe bestanden met standaard systeem bestandsrechten in plaats van umask 077 (alleen effectief met uitgeschakelde portemonnee functionaliteit)</translation>
-    </message>
-    <message>
-        <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
-        <translation>Ontdek eigen IP-adressen (standaard: 1 voor luisteren en geen -externalip of -proxy)</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3057,8 +2949,8 @@
         <translation>Voer commando uit zodra een waarschuwing is ontvangen of wanneer we een erg lange fork detecteren (%s in commando wordt vervangen door bericht)</translation>
     </message>
     <message>
-        <source>Fees (in BTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Toeslagen (in BTC/Kb) kleiner dan dit worden beschouwd als geen vergoeding (voor doorgeven) (standaard: %s)</translation>
+        <source>Fees (in SMC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Toeslagen (in SMC/Kb) kleiner dan dit worden beschouwd als geen vergoeding (voor doorgeven) (standaard: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3074,16 +2966,8 @@
 (default: %u)</translation>
     </message>
     <message>
-        <source>Prune configured below the minimum of %d MB.  Please use a higher number.</source>
-        <translation>Snoeimodus geconfigureerd onder minimum van %d MB. Gebruik a.u.b. een hoger aantal.</translation>
-    </message>
-    <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Query voor peer- adressen via DNS- lookup , als laag op adressen  (default: 1 unless -connect)</translation>
-    </message>
-    <message>
-        <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
-        <translation>Gebruik willekeurige inloggegevens voor elke proxyverbinding. Dit maakt streamislatie voor Tor mogelijk (standaard: %u)</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
@@ -3094,67 +2978,24 @@
         <translation>Stel het aantal threads in voor het genereren van coins indien ingesteld (-1 = alle kernen, standaard: %d)</translation>
     </message>
     <message>
-        <source>The transaction amount is too small to send after the fee has been deducted</source>
-        <translation>Het transactiebedrag is te klein om te versturen nadat de vergoeding in mindering is gebracht</translation>
-    </message>
-    <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Dit product bevat software dat ontwikkeld is door het OpenSSL Project voor gebruik in de OpenSSL Toolkit &lt;https://www.openssl.org/&gt; en cryptografische software geschreven door Eric Young en UPnP software geschreven door Thomas Bernard.</translation>
-    </message>
-    <message>
-        <source>To use bitcoind, or the -server option to bitcoin-qt, you must set an rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=bitcoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
-</source>
-        <translation>Om bitcoind of de -server optie naar bitcoin-gt te gebruiken, dient u een rpcwachtwoord in te stellen in het configuratiebestand:
- %s
-Wij raden u aan om het volgende wachtwoord willekeurig te gebruiken: 
-rpcuser=bitcoinrpc 
-rpcpassword=%s 
-(u hoeft dit wachtwoord niet te onthouden)
-De gebruikersnaam en het wachtwoorden moeten NIET hetzelfde zijn. 
-Indien het bestand niet bestaat, maak het bestand aan met bestandsrechten: alleen lezen voor eigenaar.
-Het is ook aan te raden om een alarmnotificatie in te stellen, zodat u op de hoogte bent van de problemen;
-Voorbeeld: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com</translation>
     </message>
     <message>
         <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
         <translation>Let op: -maxtxfee is erg hoog ingesteld! Transactiekosten van dergelijke groottes kunnen in een enkele transactie worden betaald.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
-        <translation>Waarschuwing: Controleer dat de datum en tijd van uw computer correct zijn ingesteld! Bij een onjuist ingestelde klok zal Bitcoin Core niet goed werken.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Smartcoin will not work properly.</source>
+        <translation>Waarschuwing: Controleer dat de datum en tijd van uw computer correct zijn ingesteld! Bij een onjuist ingestelde klok zal Smartcoin niet goed werken.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>Goedgekeurde peers kunnen niet ge-DoS-banned worden en hun transacties worden altijd doorgestuurd, zelfs als ze reeds in de mempool aanwezig zijn, nuttig voor bijv. een gateway</translation>
     </message>
     <message>
-        <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
-        <translation>U moet de database </translation>
-    </message>
-    <message>
-        <source>(default: %u)</source>
-        <translation>(standaard: %u)</translation>
-    </message>
-    <message>
         <source>Accept public REST requests (default: %u)</source>
         <translation>Accepteer publieke REST-requests (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Activating best chain...</source>
-        <translation>Beste reeks activeren...</translation>
-    </message>
-    <message>
-        <source>Can't run with a wallet in prune mode.</source>
-        <translation>Kan niet opstarten met portemonnee in snoeimodus.</translation>
     </message>
     <message>
         <source>Cannot resolve -whitebind address: '%s'</source>
@@ -3169,40 +3010,36 @@ Voorbeeld: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com</transla
         <translation>Verbind door SOCKS5 proxy</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Auteursrecht (C) 2009-%i De Bitcoin Core Ontwikkelaars</translation>
+        <source>Copyright (C) 2009-%i The Smartcoin Developers</source>
+        <translation>Auteursrecht (C) 2009-%i De Smartcoin Ontwikkelaars</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
         <translation>Niet mogelijk om -rpcbind waarde %s te verwerken als netwerk adres</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
-        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Bitcoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Smartcoin</source>
+        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Smartcoin</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
         <translation>Fout bij het lezen van de database, afsluiten. </translation>
     </message>
     <message>
-        <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Fout: er is een fout opgetreden,  zie debug.log voor details</translation>
-    </message>
-    <message>
         <source>Error: Unsupported argument -tor found, use -onion.</source>
         <translation>Fout: Niet ondersteund argument -tor gevonden, gebruik -onion.</translation>
     </message>
     <message>
-        <source>Fee (in BTC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Transactiekosten (in BTC/kB) om toe te voegen aan transacties die u verstuurd (standaard: %s)</translation>
+        <source>Fee (in SMC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Transactiekosten (in SMC/kB) om toe te voegen aan transacties die u verstuurd (standaard: %s)</translation>
     </message>
     <message>
         <source>Information</source>
         <translation>Informatie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Bitcoin Core is shutting down.</source>
-        <translation>Initialisatie sanity check mislukt. Bitcoin Core is aan het afsluiten.</translation>
+        <source>Initialization sanity check failed. Smartcoin is shutting down.</source>
+        <translation>Initialisatie sanity check mislukt. Smartcoin is aan het afsluiten.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3237,12 +3074,8 @@ Voorbeeld: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com</transla
         <translation>Node relay opties:</translation>
     </message>
     <message>
-        <source>Pruning blockstore...</source>
-        <translation>Snoei blokopslag...</translation>
-    </message>
-    <message>
-        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>RPC SSL opties: (zie de Bitcoin Wiki voor SSL installatie-instructies)</translation>
+        <source>RPC SSL options: (see the Smartcoin Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL opties: (zie de Smartcoin Wiki voor SSL installatie-instructies)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3251,14 +3084,6 @@ Voorbeeld: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com</transla
     <message>
         <source>RPC support for HTTP persistent connections (default: %d)</source>
         <translation>RPC ondersteuning voor HTTP persisten verbindingen (default: %d)</translation>
-    </message>
-    <message>
-        <source>Rebuild block chain index from current blk000??.dat files on startup</source>
-        <translation>Herbouwen blokketenindex vanuit huidige blk000??.dat-bestanden bij opstarten?</translation>
-    </message>
-    <message>
-        <source>Receive and display P2P network alerts (default: %u)</source>
-        <translation>Ontvang en toon P2P-netwerkwaarschuwingen (default: %u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3297,10 +3122,6 @@ Voorbeeld: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com</transla
         <translation>Geminimaliseerd starten</translation>
     </message>
     <message>
-        <source>The transaction amount is too small to pay the fee</source>
-        <translation>Het transactiebedrag is te klein om de vergoeding te betalen</translation>
-    </message>
-    <message>
         <source>This is experimental software.</source>
         <translation>Dit is experimentele software.</translation>
     </message>
@@ -3321,10 +3142,6 @@ Voorbeeld: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com</transla
         <translation>Transactie te groot</translation>
     </message>
     <message>
-        <source>UI Options:</source>
-        <translation>UI Opties:</translation>
-    </message>
-    <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
         <translation>Niet in staat om aan %s te binden op deze computer (bind gaf error %s)</translation>
     </message>
@@ -3337,8 +3154,8 @@ Voorbeeld: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com</transla
         <translation>Gebruikersnaam voor JSON-RPC-verbindingen</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin Core to complete</source>
-        <translation>Portemonnee moest herschreven worden: Herstart Bitcoin Core om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart Smartcoin to complete</source>
+        <translation>Portemonnee moest herschreven worden: Herstart Smartcoin om te voltooien</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -3463,10 +3280,6 @@ Voorbeeld: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com</transla
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
         <translation>Onderhoud maximaal &lt;n&gt; verbindingen naar peers (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Make the wallet broadcast transactions</source>
-        <translation>Laat de portemonnee transacties uitsturen</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>

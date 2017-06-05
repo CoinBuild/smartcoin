@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Valitse hiiren oikealla painikkeella muokataksesi osoitetta tai nimikettä</translation>
+        <translation>Klikkaa hiiren oikealla painikkeella muokataksesi osoitetta tai nimikettä</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Kopioi osoite</translation>
+        <translation>&amp;Kopioi Osoite</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -66,12 +66,12 @@
         <translation>Vastaanottava osoite</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun Bitcoin osoitteita maksujen lähetykseen. Tarkista aina summa ja vastaanottajan osoite ennenkuin lähetät kolikkoja.</translation>
+        <source>These are your Smartcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun Smartcoin osoitteita maksujen lähetykseen. Tarkista aina summa ja vastaanottajan osoite ennenkuin lähetät kolikkoja.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun Bitcoin-osoitteesi suoritusten vastaanottamiseen. Suositellaan että annat uuden osoitteen kullekin transaktiolle.</translation>
+        <source>These are your Smartcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun Smartcoin-osoitteesi suoritusten vastaanottamiseen. Suositellaan että annat uuden osoitteen kullekin transaktiolle.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -160,16 +160,12 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja menetät tunnuslauseesi, &lt;b&gt;MENETÄT KAIKKI BITCOINISI&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMARTCOINS&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja menetät tunnuslauseesi, &lt;b&gt;MENETÄT KAIKKI SMARTCOINISI&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Haluatko varmasti salata lompakkosi?</translation>
-    </message>
-    <message>
-        <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin Core sammuu nyt viimeistelläkseen kryptaamisen. Muista että lompakon kryptaaminen ei voi täysin suojata bitcoinejasi varkaudelta malwaren saastuttamalla tietokoneella.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -186,10 +182,6 @@
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Anna salauslause lompakkoon. &lt;br/&gt;Ole hyvä ja käytä lausetta jossa on &lt;b&gt;kymmenen tai enemmän satunnaista merkkiä&lt;/b&gt; tai &lt;b&gt;kahdeksan tai useampi sanaa&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Syötä vanha ja uusi salasana lompakolle.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -264,7 +256,7 @@
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Näytä tietoja Qt:ta</translation>
+        <translation>Näytä tietoja QT:ta</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
@@ -295,8 +287,8 @@
         <translation>Avaa &amp;URI...</translation>
     </message>
     <message>
-        <source>Bitcoin Core client</source>
-        <translation>Bitcoin Core ohjelma</translation>
+        <source>Smartcoin client</source>
+        <translation>Smartcoin ohjelma</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,8 +299,8 @@
         <translation>Ladataan lohkoindeksiä...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Lähetä kolikoita Bitcoin-osoitteeseen</translation>
+        <source>Send coins to a Smartcoin address</source>
+        <translation>Lähetä kolikoita Smartcoin-osoitteeseen</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -331,8 +323,8 @@
         <translation>Varmista &amp;viesti...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -347,8 +339,8 @@
         <translation>&amp;Vastaanota</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Core</source>
-        <translation>Näytä tietoja Bitcoin Core:sta</translation>
+        <source>Show information about Smartcoin</source>
+        <translation>Näytä tietoja Smartcoin:sta</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -356,19 +348,19 @@
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Näytä tai piilota Bitcoin-ikkuna</translation>
+        <translation>Näytä tai piilota Smartcoin-ikkuna</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Suojaa yksityiset avaimet, jotka kuuluvat lompakkoosi</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Allekirjoita viestisi omalla Bitcoin -osoitteellasi todistaaksesi, että omistat ne</translation>
+        <source>Sign messages with your Smartcoin addresses to prove you own them</source>
+        <translation>Allekirjoita viestisi omalla Smartcoin -osoitteellasi todistaaksesi, että omistat ne</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä Bitcoin -osoitteella</translation>
+        <source>Verify messages to ensure they were signed with specified Smartcoin addresses</source>
+        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä Smartcoin -osoitteella</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -387,20 +379,16 @@
         <translation>Välilehtipalkki</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin-ydin</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin-ydin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Pyydä maksuja (Luo QR koodit ja bitcoin: URIt)</translation>
+        <source>Request payments (generates QR codes and smartcoin: URIs)</source>
+        <translation>Pyydä maksuja (Luo QR koodit ja smartcoin: URIt)</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;Tietoja Bitcoin Core</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for Bitcoin Core</source>
-        <translation>Muokkaa kokoonpanoasetuksia Bitcoin Corelle</translation>
+        <source>&amp;About Smartcoin</source>
+        <translation>&amp;Tietoja Smartcoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,28 +399,24 @@
         <translation>Näytä vastaanottamiseen käytettyjen osoitteiden ja nimien lista</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Avaa bitcoin: URI tai maksupyyntö</translation>
+        <source>Open a smartcoin: URI or payment request</source>
+        <translation>Avaa smartcoin: URI tai maksupyyntö</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Komentorivin valinnat</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Näytä Bitcoin Core ohjeet saadaksesi listan mahdollisista Bitcoinin komentorivivalinnoista</translation>
+        <source>Show the Smartcoin help message to get a list with possible Smartcoin command-line options</source>
+        <translation>Näytä Smartcoin ohjeet saadaksesi listan mahdollisista Smartcoinin komentorivivalinnoista</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktiivinen yhteys Bitcoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Bitcoin-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to Smartcoin network</source>
+        <translation><numerusform>%n aktiivinen yhteys Smartcoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Smartcoin-verkkoon</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
         <translation>Lohkojen lähdettä ei saatavilla...</translation>
-    </message>
-    <message numerus="yes">
-        <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>Prosessoitu %n lohko rahansiirtohistoriasta.</numerusform><numerusform>Prosessoitu %n lohkoa rahansiirtohistoriasta.</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -485,36 +469,6 @@
     <message>
         <source>Catching up...</source>
         <translation>Saavutetaan verkkoa...</translation>
-    </message>
-    <message>
-        <source>Date: %1
-</source>
-        <translation>Päivämäärä: %1
-</translation>
-    </message>
-    <message>
-        <source>Amount: %1
-</source>
-        <translation>Määrä: %1
-</translation>
-    </message>
-    <message>
-        <source>Type: %1
-</source>
-        <translation>Tyyppi: %1
-</translation>
-    </message>
-    <message>
-        <source>Label: %1
-</source>
-        <translation>Nimike: %1
-</translation>
-    </message>
-    <message>
-        <source>Address: %1
-</source>
-        <translation>Osoite: %1
-</translation>
     </message>
     <message>
         <source>Sent transaction</source>
@@ -715,18 +669,6 @@
         <translation>ei mitään</translation>
     </message>
     <message>
-        <source>This label turns red if the transaction size is greater than 1000 bytes.</source>
-        <translation>Tämä nimi muuttuu punaiseksi mikäli rahansiirron koko on suurempi kuin 1000 tavua.</translation>
-    </message>
-    <message>
-        <source>This label turns red if the priority is smaller than "medium".</source>
-        <translation>Tämä nimi muuttuu punaiseksi mikäli prioriteetti on pienempi kuin "medium".</translation>
-    </message>
-    <message>
-        <source>This label turns red if any recipient receives an amount smaller than %1.</source>
-        <translation>Tämä nimike muuttuu punaiseksi mikäli mikä tahansa saaja vastaanottaa pienemmän määrän kuin %1.</translation>
-    </message>
-    <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
         <translation>Saattaa vaihdella +/- %1 satoshia per syöte.</translation>
     </message>
@@ -806,8 +748,8 @@
         <translation>Osoite "%1" on jo osoitekirjassa.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Antamasi osoite "%1" ei ole validi Bitcoin-osoite.</translation>
+        <source>The entered address "%1" is not a valid Smartcoin address.</source>
+        <translation>Antamasi osoite "%1" ei ole validi Smartcoin-osoite.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -844,8 +786,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin-ydin</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin-ydin</translation>
     </message>
     <message>
         <source>version</source>
@@ -856,8 +798,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>Tietoja Bitcoin Core</translation>
+        <source>About Smartcoin</source>
+        <translation>Tietoja Smartcoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -879,16 +821,16 @@
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
-        <translation>Tervetuloa Bitcoin Core</translation>
+        <source>Welcome to Smartcoin.</source>
+        <translation>Tervetuloa Smartcoin</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>Tämän on ensimmäinen kerta kun Bitcoin Core on käynnistetty joten voit valita data-hakemiston paikan.</translation>
+        <source>As this is the first time the program is launched, you can choose where Smartcoin will store its data.</source>
+        <translation>Tämän on ensimmäinen kerta kun Smartcoin on käynnistetty joten voit valita data-hakemiston paikan.</translation>
     </message>
     <message>
-        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Bitcoin Core lataa ja tallentaa kopion Bitcoinin lohkoketjusta. Vähintään %1GB dataa tullaan tallentamaan tähän hakemistoon ja tarve kasvaa ajan myötä. Lomakko tullaan myös tallentamaan tähän hakemistoon.</translation>
+        <source>Smartcoin will download and store a copy of the Smartcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Smartcoin lataa ja tallentaa kopion Smartcoinin lohkoketjusta. Vähintään %1GB dataa tullaan tallentamaan tähän hakemistoon ja tarve kasvaa ajan myötä. Lomakko tullaan myös tallentamaan tähän hakemistoon.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -899,8 +841,8 @@
         <translation>Määritä oma kansio:</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin-ydin</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin-ydin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -977,14 +919,6 @@
         <translation>IP osoite proxille (esim. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Minimoi ikkuna ohjelman sulkemisen sijasta kun ikkuna suljetaan. Kun tämä asetus on käytössä, ohjelma suljetaan vain valittaessa valikosta Poistu.</translation>
-    </message>
-    <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Core.</source>
-        <translation>Käyttöliittymän kieli voidaan asettaa tässä. Tämä asetus tulee käyttöön vasta kun Bitcoin Core käynnistetään uudelleen.</translation>
-    </message>
-    <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
         <translation>Ulkopuoliset URL-osoitteet (esim. block explorer,) jotka esiintyvät siirrot-välilehdellä valikossa. %s URL-osoitteessa korvataan siirtotunnuksella. Useampi URL-osoite on eroteltu pystyviivalla |.</translation>
     </message>
@@ -1007,14 +941,6 @@
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Verkko</translation>
-    </message>
-    <message>
-        <source>Automatically start Bitcoin Core after logging in to the system.</source>
-        <translation>Käynnistä Bitcoin Core automaattisesti järjestelmään kirjautumisen jälkeen.</translation>
-    </message>
-    <message>
-        <source>&amp;Start Bitcoin Core on system login</source>
-        <translation>&amp;Käynnistä Bitcoin Core järjestelmään kirjautuessa</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1041,16 +967,16 @@
         <translation>&amp;Käytä varmistamattomia vaihtorahoja</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa Bitcoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the Smartcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa Smartcoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Portin uudelleenohjaus &amp;UPnP:llä</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä Bitcoin-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
+        <source>Connect to the Smartcoin network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä Smartcoin-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1094,11 +1020,11 @@
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>Yksikkö jona bitcoin-määrät näytetään</translation>
+        <translation>Yksikkö jona smartcoin-määrät näytetään</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Valitse mitä yksikköä käytetään ensisijaisesti bitcoin-määrien näyttämiseen.</translation>
+        <translation>Valitse mitä yksikköä käytetään ensisijaisesti smartcoin-määrien näyttämiseen.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1129,10 +1055,6 @@
         <translation>Ohjelman uudelleenkäynnistys aktivoi muutokset.</translation>
     </message>
     <message>
-        <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Asiakasohjelma sammutetaan. Haluatko jatkaa?</translation>
-    </message>
-    <message>
         <source>This change would require a client restart.</source>
         <translation>Tämä muutos vaatii ohjelman uudelleenkäynnistyksen.</translation>
     </message>
@@ -1148,8 +1070,8 @@
         <translation>Lomake</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Bitcoin-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Smartcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Smartcoin-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1189,7 +1111,7 @@
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Tililläsi tällä hetkellä olevien Bitcoinien määrä</translation>
+        <translation>Tililläsi tällä hetkellä olevien Smartcoinien määrä</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
@@ -1247,44 +1169,28 @@
         <translation>Maksupyyntövirhe</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Ei voida käynnistää bitcoin: klikkaa-maksu käsittelijää</translation>
+        <source>Cannot start smartcoin: click-to-pay handler</source>
+        <translation>Ei voida käynnistää smartcoin: klikkaa-maksu käsittelijää</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>Maksupyynnön haku URL on virheellinen: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URIa ei voitu jäsentää! Tämä voi johtua kelvottomasta Bitcoin-osoitteesta tai virheellisistä URI parametreista.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Smartcoin address or malformed URI parameters.</source>
+        <translation>URIa ei voitu jäsentää! Tämä voi johtua kelvottomasta Smartcoin-osoitteesta tai virheellisistä URI parametreista.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
         <translation>Maksupyynnön tiedoston käsittely</translation>
     </message>
     <message>
-        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Maksupyynnön tiedostoa ei voida lukea! Tämä voi aiheutua sopimattomasta maksupyyntötiedostosta.</translation>
-    </message>
-    <message>
-        <source>Payment request expired.</source>
-        <translation>Maksupyyntö on vanhentunut.</translation>
-    </message>
-    <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>Varmistamattomia maksupyyntöjä kustomoituun maksupalveluun ei tueta.</translation>
     </message>
     <message>
-        <source>Invalid payment request.</source>
-        <translation>Epäkelpo maksupyyntö.</translation>
-    </message>
-    <message>
         <source>Refund from %1</source>
         <translation>Maksupalautus %1:sta</translation>
-    </message>
-    <message>
-        <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Maksupyyntö %1 on liian suuri (%2 tavua, sallittu %3 tavua).</translation>
     </message>
     <message>
         <source>Payment request DoS protection</source>
@@ -1293,10 +1199,6 @@
     <message>
         <source>Error communicating with %1: %2</source>
         <translation>Virhe kommunikoidessa %1n kanssa: %2</translation>
-    </message>
-    <message>
-        <source>Payment request cannot be parsed!</source>
-        <translation>Maksupyyntöä ei voida jäsentää!</translation>
     </message>
     <message>
         <source>Bad response from server %1</source>
@@ -1318,10 +1220,6 @@
         <translation>Käyttöliittymä</translation>
     </message>
     <message>
-        <source>Node/Service</source>
-        <translation>Noodi/Palvelu</translation>
-    </message>
-    <message>
         <source>Ping Time</source>
         <translation>Vasteaika</translation>
     </message>
@@ -1333,8 +1231,8 @@
         <translation>Määrä</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Syötä Bitcoin-osoite (esim. %1)</translation>
+        <source>Enter a Smartcoin address (e.g. %1)</source>
+        <translation>Syötä Smartcoin-osoite (esim. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1443,10 +1341,6 @@
         <translation>Nykyinen Lohkojen määrä</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa Bitcoin Coren debug-loki tämänhetkisestä datahakemistosta. Tämä voi viedä muutaman sekunnin suurille lokitiedostoille.</translation>
-    </message>
-    <message>
         <source>Received</source>
         <translation>Vastaanotetut</translation>
     </message>
@@ -1515,10 +1409,6 @@
         <translation>Vasteaika</translation>
     </message>
     <message>
-        <source>Time Offset</source>
-        <translation>Ajan poikkeama</translation>
-    </message>
-    <message>
         <source>Last block time</source>
         <translation>Viimeisimmän lohkon aika</translation>
     </message>
@@ -1561,10 +1451,6 @@
     <message>
         <source>Clear console</source>
         <translation>Tyhjennä konsoli</translation>
-    </message>
-    <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
-        <translation>Tervetuloa Bitcoin Coren RPC-konsoliin.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1638,8 +1524,8 @@
         <translation>&amp;Uudelleenkäytä vastaanotto-osoitetta (ei suositella)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä Bitcoin-verkkoon.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Smartcoin network.</source>
+        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä Smartcoin-verkkoon.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1788,7 +1674,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Lähetä Bitcoineja</translation>
+        <translation>Lähetä Smartcoineja</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1859,10 +1745,6 @@
         <translation>per kilotavu</translation>
     </message>
     <message>
-        <source>Hide</source>
-        <translation>Piilota</translation>
-    </message>
-    <message>
         <source>total at least</source>
         <translation>yhteensä ainakin</translation>
     </message>
@@ -1877,10 +1759,6 @@
     <message>
         <source>Custom:</source>
         <translation>Muokattu:</translation>
-    </message>
-    <message>
-        <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Älykästä rahansiirtokulua ei ole vielä alustettu. Tähän kuluu yleensä aikaa muutaman lohkon verran...)</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
@@ -1936,7 +1814,7 @@
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Hyväksy Bitcoinien lähettäminen</translation>
+        <translation>Hyväksy Smartcoinien lähettäminen</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -1971,12 +1849,16 @@
         <translation>Kopioi vaihtoraha</translation>
     </message>
     <message>
+        <source>Total Amount %1 (= %2)</source>
+        <translation>Yhteensä %1 (= %2)</translation>
+    </message>
+    <message>
         <source>or</source>
         <translation>tai</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Maksettavan summan tulee olla suurempi kuin 0 Bitcoinia.</translation>
+        <translation>Maksettavan summan tulee olla suurempi kuin 0 Smartcoinia.</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
@@ -1995,28 +1877,12 @@
         <translation>Rahansiirto hylättiin! Tämä saattaa tapahtua jos lompakossa olevat kolikot on jo kulutettu, kuten jos käytät kopioita wallet.dat tiedostosta ja kolikot oli jos käytetty mutta ei merkattu täällä.</translation>
     </message>
     <message>
-        <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation>Rahansiirtokulua %1 ja sitä suurempia määriä pidetään järjenvastaisen korkeana kuluna.</translation>
-    </message>
-    <message>
-        <source>Payment request expired.</source>
-        <translation>Maksupyyntö on vanhentunut.</translation>
-    </message>
-    <message>
         <source>Pay only the minimum fee of %1</source>
         <translation>Maksa vain vähimmäiskulu %1</translation>
     </message>
     <message>
-        <source>The recipient address is not valid. Please recheck.</source>
-        <translation>Vastaanottajan osoite ei ole kelvollinen. Tarkistathan uudelleen.</translation>
-    </message>
-    <message>
-        <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>Duplikaattiosoite löytyi: kutakin osoitetta pitäisi käyttää vain kerran.</translation>
-    </message>
-    <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Varoitus: Virheellinen Bitcoin osoite</translation>
+        <source>Warning: Invalid Smartcoin address</source>
+        <translation>Varoitus: Virheellinen Smartcoin osoite</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2066,8 +1932,8 @@
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Bitcoin-osoite johon maksu lähetetään</translation>
+        <source>The Smartcoin address to send the payment to</source>
+        <translation>Smartcoin-osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2086,28 +1952,16 @@
         <translation>Poista tämä alkio</translation>
     </message>
     <message>
-        <source>S&amp;ubtract fee from amount</source>
-        <translation>V&amp;ähennä maksukulu määrästä</translation>
-    </message>
-    <message>
         <source>Message:</source>
         <translation>Viesti:</translation>
-    </message>
-    <message>
-        <source>This is an unauthenticated payment request.</source>
-        <translation>Tämä on todentamaton maksupyyntö.</translation>
-    </message>
-    <message>
-        <source>This is an authenticated payment request.</source>
-        <translation>Tämä on todennettu maksupyyntö.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
         <translation>Aseta nimi tälle osoitteelle lisätäksesi sen käytettyjen osoitteiden listalle.</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Viesti joka liitettiin bitcoin: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä Bitcoin-verkkoon.</translation>
+        <source>A message that was attached to the smartcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Smartcoin network.</source>
+        <translation>Viesti joka liitettiin smartcoin: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä Smartcoin-verkkoon.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2121,8 +1975,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitcoin Core is shutting down...</source>
-        <translation>Bitcoin core sulkeutuu...</translation>
+        <source>Smartcoin is shutting down...</source>
+        <translation>Smartcoin core sulkeutuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2140,8 +1994,8 @@
         <translation>&amp;Allekirjoita viesti</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>Bitcoin-osoite jolla viesti allekirjoitetaan</translation>
+        <source>The Smartcoin address to sign the message with</source>
+        <translation>Smartcoin-osoite jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2172,8 +2026,8 @@
         <translation>Kopioi tämänhetkinen allekirjoitus leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Bitcoin-osoitteen</translation>
+        <source>Sign the message to prove you own this Smartcoin address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Smartcoin-osoitteen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2192,12 +2046,12 @@
         <translation>&amp;Varmista viesti</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>Bitcoin-osoite jolla viesti on allekirjoitettu</translation>
+        <source>The Smartcoin address the message was signed with</source>
+        <translation>Smartcoin-osoite jolla viesti on allekirjoitettu</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Bitcoin-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified Smartcoin address</source>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Smartcoin-osoitteella</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2263,12 +2117,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin-ydin</translation>
+        <source>Smartcoin</source>
+        <translation>Smartcoin-ydin</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
-        <translation>Bitcoin Core kehittäjät</translation>
+        <source>The Smartcoin developers</source>
+        <translation>Smartcoin kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2539,14 +2393,6 @@
         <translation>Rahansiirron laatu.</translation>
     </message>
     <message>
-        <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>Onko rahansiirrossa mukana ainoastaan katseltava osoite vai ei.</translation>
-    </message>
-    <message>
-        <source>User-defined intent/purpose of the transaction.</source>
-        <translation>Käyttäjän määrittämä käyttötarkoitus rahansiirrolle.</translation>
-    </message>
-    <message>
         <source>Amount removed from or added to balance.</source>
         <translation>Saldoon lisätty tai siitä vähennetty määrä.</translation>
     </message>
@@ -2712,7 +2558,7 @@
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Lähetä Bitcoineja</translation>
+        <translation>Lähetä Smartcoineja</translation>
     </message>
 </context>
 <context>
@@ -2801,16 +2647,8 @@
         <translation>Tämä on esi-julkaistu testiversio - Käytä omalla riskillä - Ei saa käytää louhimiseen tai kauppasovelluksiin.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
-        <translation>Ei voida yhdistää %s tässä tietokoneessa. Bitcoin Core on luultavasti jo käynnissä.</translation>
-    </message>
-    <message>
-        <source>WARNING: abnormally high number of blocks generated, %d blocks received in the last %d hours (%d expected)</source>
-        <translation>VAROITUS: epätavallisen monta lohkoa generoitu, vastaanotettu %d lohkoa viimeisen %d tunnin aikana (odotettavissa %d)</translation>
-    </message>
-    <message>
-        <source>WARNING: check your network connection, %d blocks received in the last %d hours (%d expected)</source>
-        <translation>VAROITUS: tarkista verkkoyhteytesi, lohkoja on vastaanotettu vain %d kpl viimeisen %d tunnin aikana (odotettavissa %d kpl)</translation>
+        <source>Unable to bind to %s on this computer. Smartcoin is probably already running.</source>
+        <translation>Ei voida yhdistää %s tässä tietokoneessa. Smartcoin on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2831,10 +2669,6 @@
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
         <translation>Varoitus: wallet.dat -lompakkotiedosto on korruptoitunut, tiedot pelastettu. Alkuperäinen wallet.dat -lompakkotiedosto on tallennettu wallet.{timestamp}.bak kansioon %s; jos balanssisi tai siirtohistoria on virheellinen, sinun tulisi palauttaa lompakkotiedosto varmuuskopiosta.</translation>
-    </message>
-    <message>
-        <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
-        <translation>Salli vertaisten yhdistää annetusta verkkomaskista tai IP-osoitteesta. Voidaan määrittää useampia kertoja.</translation>
     </message>
     <message>
         <source>(default: 1)</source>
@@ -2921,14 +2755,6 @@
         <translation>Ei tarpeeksi tiedostomerkintöjä vapaana.</translation>
     </message>
     <message>
-        <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>Yhdistä vain solmukohtiin &lt;net&gt;-verkossa (ipv4, ipv6 tai onion)</translation>
-    </message>
-    <message>
-        <source>Prune mode is incompatible with -txindex.</source>
-        <translation>Karsittu tila ei ole yhteensopiva -txindex:n kanssa.</translation>
-    </message>
-    <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
         <translation>Aseta tietokannan välimuistin koko megatavuissa (%d - %d, oletus: %d</translation>
     </message>
@@ -2961,10 +2787,6 @@
         <translation>Lompakon valinnat:</translation>
     </message>
     <message>
-        <source>Warning: This version is obsolete; upgrade required!</source>
-        <translation>Varoitus: Tämä versio on vanhentunut; päivittämistä vaaditaan!</translation>
-    </message>
-    <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>Sinun tulee uudelleenrakentaa tietokanta käyttäen -reindex vaihtaen -txindex</translation>
     </message>
@@ -2973,16 +2795,8 @@
         <translation>Tuodaan lohkoja ulkoisesta blk000??.dat tiedostosta</translation>
     </message>
     <message>
-        <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>Salli JSON-RPC-yhteydet määritetystä lähteestä. Kelvolliset arvot &lt;ip&gt; ovat yksittäinen IP (esim. 1.2.3.4), verkko/verkkomaski (esim. 1.2.3.4/255.255.255.0) tai verkko/luokaton reititys (esim. 1.2.3.4/24). Tätä valintatapaa voidaan käyttää useita kertoja</translation>
-    </message>
-    <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
-        <translation>Ei voida lukita data-hakemistoa %s. Bitcoin Core on luultavasti jo käynnissä.</translation>
-    </message>
-    <message>
-        <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
-        <translation>Paljasta omat IP-osoitteet (oletus: 1 kun kuunnellaan ja -externalip tai -proxy ei ole käytössä)</translation>
+        <source>Cannot obtain a lock on data directory %s. Smartcoin is probably already running.</source>
+        <translation>Ei voida lukita data-hakemistoa %s. Smartcoin on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -2997,26 +2811,6 @@
         <translation>Aseta kolikoiden luomiseen tarkoitettujen säikeiden lukumäärä (-1 = kaikki ytimet, oletus: %d)</translation>
     </message>
     <message>
-        <source>(default: %u)</source>
-        <translation>(oletus: %u)</translation>
-    </message>
-    <message>
-        <source>Accept public REST requests (default: %u)</source>
-        <translation>Hyväksy julkisia REST-pyyntöjä (oletus: %u)</translation>
-    </message>
-    <message>
-        <source>Activating best chain...</source>
-        <translation>Aktivoidaan parhainta ketjua...</translation>
-    </message>
-    <message>
-        <source>Can't run with a wallet in prune mode.</source>
-        <translation>Lompakkoa ei voida ajaa karsitussa tilassa.</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -whitebind address: '%s'</source>
-        <translation>-whitebind -osoitetta '%s' ei voida jäsentää</translation>
-    </message>
-    <message>
         <source>Choose data directory on startup (default: 0)</source>
         <translation>Valitse data-hakemisto käynnistyksessä (oletus: 0)</translation>
     </message>
@@ -3025,28 +2819,16 @@
         <translation>Yhdistä SOCKS5 proxin kautta</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i  Bitcoin kehittäjät</translation>
+        <source>Copyright (C) 2009-%i The Smartcoin Developers</source>
+        <translation>Copyright (C) 2009-%i  Smartcoin kehittäjät</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version Bitcoinista</translation>
-    </message>
-    <message>
-        <source>Error reading from database, shutting down.</source>
-        <translation>Virheitä tietokantaa luettaessa, ohjelma pysäytetään.</translation>
-    </message>
-    <message>
-        <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Virhe: Kriittinen sisäinen virhe kohdattiin, katso debug.log lisätietoja varten</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Smartcoin</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version Smartcoinista</translation>
     </message>
     <message>
         <source>Information</source>
         <translation>Tietoa</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Virheellinen määrä -maxtxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
@@ -3057,32 +2839,16 @@
         <translation>Virheellinen määrä -mintxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
-        <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>Pidä enimmillään &lt;n&gt; yhdistämiskelvotonta rahansiirtoa muistissa (oletus: %u)</translation>
-    </message>
-    <message>
         <source>Node relay options:</source>
         <translation>Välityssolmukohdan asetukset:</translation>
     </message>
     <message>
-        <source>Pruning blockstore...</source>
-        <translation>Karsitaan lohkovarastoa...</translation>
-    </message>
-    <message>
-        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>RPC SSL valinnat: (katso Bitcoin Wikistä SSL-asennuksen ohjeet)</translation>
+        <source>RPC SSL options: (see the Smartcoin Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL valinnat: (katso Smartcoin Wikistä SSL-asennuksen ohjeet)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
         <translation>RPC-palvelimen valinnat:</translation>
-    </message>
-    <message>
-        <source>RPC support for HTTP persistent connections (default: %d)</source>
-        <translation>RPC-tuki pysyville HTTP-yhteyksille (oletus: %d)</translation>
-    </message>
-    <message>
-        <source>Receive and display P2P network alerts (default: %u)</source>
-        <translation>Vastaanota ja näytä P2P-verkon hälytyksiä (oletus: %u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3117,10 +2883,6 @@
         <translation>Käynnistä pienennettynä</translation>
     </message>
     <message>
-        <source>The transaction amount is too small to pay the fee</source>
-        <translation>Rahansiirron määrä on liian pieni kattaakseen maksukulun</translation>
-    </message>
-    <message>
         <source>This is experimental software.</source>
         <translation>Tämä on ohjelmistoa kokeelliseen käyttöön.</translation>
     </message>
@@ -3133,16 +2895,8 @@
         <translation>Siirtosumman tulee olla positiivinen</translation>
     </message>
     <message>
-        <source>Transaction too large for fee policy</source>
-        <translation>Rahansiirto on liian suuri maksukulukäytännölle</translation>
-    </message>
-    <message>
         <source>Transaction too large</source>
         <translation>Siirtosumma liian iso</translation>
-    </message>
-    <message>
-        <source>UI Options:</source>
-        <translation>Ulkoasun asetukset:</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
@@ -3153,8 +2907,8 @@
         <translation>Käyttäjätunnus JSON-RPC-yhteyksille</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin Core to complete</source>
-        <translation>Lompakko tarvitsee uudelleenkirjoittaa: käynnistä Bitcoin uudelleen</translation>
+        <source>Wallet needed to be rewritten: restart Smartcoin to complete</source>
+        <translation>Lompakko tarvitsee uudelleenkirjoittaa: käynnistä Smartcoin uudelleen</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -3209,24 +2963,12 @@
         <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko vioittunut</translation>
     </message>
     <message>
-        <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
-        <translation>Kuinka läpikäyvä lohkojen -checkblocks -todennus on (0-4, oletus: %u)</translation>
-    </message>
-    <message>
-        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Käytä erillistä SOCKS5-proxyä tavoittaaksesi vertaisia Tor-piilopalveluiden kautta (oletus: %s)</translation>
-    </message>
-    <message>
         <source>(default: %s)</source>
         <translation>(oletus: %s)</translation>
     </message>
     <message>
         <source>Acceptable ciphers (default: %s)</source>
         <translation>Hyväksyttävät salaukset (oletus: %s)</translation>
-    </message>
-    <message>
-        <source>Always query for peer addresses via DNS lookup (default: %u)</source>
-        <translation>Pyydä vertaisten osoitteita aina DNS-kyselyjen avulla (oletus: %u)</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
@@ -3247,38 +2989,6 @@
     <message>
         <source>Invalid -proxy address: '%s'</source>
         <translation>Virheellinen proxy-osoite '%s'</translation>
-    </message>
-    <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Kuuntele JSON-RPC-yhteyksiä portissa &lt;port&gt; (oletus: %u tai testnet: %u)</translation>
-    </message>
-    <message>
-        <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Kuuntele yhteyksiä portissa &lt;port&gt; (oletus: %u tai testnet: %u)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Käsittele enimmillään &lt;n&gt; yhteyttä vertaisiin (oletus: %u)</translation>
-    </message>
-    <message>
-        <source>Make the wallet broadcast transactions</source>
-        <translation>Aseta lompakko kuuluttamaan rahansiirtoja</translation>
-    </message>
-    <message>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maksimi yhteyttä kohden käytettävä vastaanottopuskurin koko, &lt;n&gt;*1000 tavua (oletus: %u)</translation>
-    </message>
-    <message>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maksimi yhteyttä kohden käytettävä lähetyspuskurin koko, &lt;n&gt;*1000 tavua (oletus: %u)</translation>
-    </message>
-    <message>
-        <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>Lisää debug-tietojen alkuun aikaleimat (oletus: %u)</translation>
-    </message>
-    <message>
-        <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation>Välitä ja louhi dataa kantavia rahansiirtoja (oletus: %u)</translation>
     </message>
     <message>
         <source>Relay non-P2SH multisig (default: %u)</source>
@@ -3309,20 +3019,8 @@
         <translation>Määritä asetustiedosto (oletus: %s)</translation>
     </message>
     <message>
-        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Määritä yhteyden aikakatkaisu millisekunneissa (minimi: 1, oletus: %d)</translation>
-    </message>
-    <message>
         <source>Specify pid file (default: %s)</source>
         <translation>Määritä pid-tiedosto (oletus: %s)</translation>
-    </message>
-    <message>
-        <source>Spend unconfirmed change when sending transactions (default: %u)</source>
-        <translation>Käytä vahvistamattomia vaihtorahoja lähetettäessä rahansiirtoja (oletus: %u)</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Aikaväli sopimattomien vertaisten yhteyksien katkaisuun (oletus: %u)</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>

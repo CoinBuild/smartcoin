@@ -43,6 +43,9 @@ extern bool fPrintToConsole;
 extern bool fPrintToDebugLog;
 extern bool fServer;
 extern std::string strMiscWarning;
+
+
+extern bool fBloomFilters;
 extern bool fLogTimestamps;
 extern bool fLogIPs;
 extern volatile bool fReopenDebugLog;
@@ -207,7 +210,7 @@ void RenameThread(const char* name);
  */
 template <typename Callable> void TraceThread(const char* name,  Callable func)
 {
-    std::string s = strprintf("bitcoin-%s", name);
+    std::string s = strprintf("smartcoin-%s", name);
     RenameThread(s.c_str());
     try
     {
