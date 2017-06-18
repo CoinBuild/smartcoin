@@ -10,9 +10,7 @@ qt5_linux_packages= qt expat dbus libxcb xcb_proto libXau xproto freetype fontco
 qt_darwin_packages=qt
 qt_mingw32_packages=qt
 
-qt_linux_$(USE_LINUX_STATIC_QT5):=$(qt5_linux_packages)
-qt_linux_:=$(qt46_linux_packages)
-qt_linux_packages:=$(qt_linux_$(USE_LINUX_STATIC_QT5))
+qt_linux_packages:=$(qt5_linux_packages)
 
 wallet_packages=bdb
 
