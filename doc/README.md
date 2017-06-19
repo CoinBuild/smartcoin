@@ -17,14 +17,14 @@ You need the Qt4 run-time libraries to run Bitcoin-Qt. On Debian or Ubuntu:
 
 Unpack the files into a directory and run:
 
-- bin/32/bitcoin-qt (GUI, 32-bit) or bin/32/bitcoind (headless, 32-bit)
-- bin/64/bitcoin-qt (GUI, 64-bit) or bin/64/bitcoind (headless, 64-bit)
+- bin/32/smartcoin-qt (GUI, 32-bit) or bin/32/smartcoind (headless, 32-bit)
+- bin/64/smartcoin-qt (GUI, 64-bit) or bin/64/smartcoind (headless, 64-bit)
 
 
 
 ### Windows
 
-Unpack the files into a directory, and then run bitcoin-qt.exe.
+Unpack the files into a directory, and then run smartcoin-qt.exe.
 
 ### OS X
 

@@ -22,7 +22,7 @@ make
 make install # optional
 ```
 
-This will build bitcoin-qt as well if the dependencies are met.
+This will build smartcoin-qt as well if the dependencies are met.
 
 Dependencies
 ---------------------
@@ -100,12 +100,12 @@ libqrencode (optional) can be installed with:
 
     sudo apt-get install libqrencode-dev
 
-Once these are installed, they will be found by configure and a bitcoin-qt executable will be
+Once these are installed, they will be found by configure and a smartcoin-qt executable will be
 built by default.
 
 Notes
 -----
-The release is built with GCC and then "strip bitcoind" to strip the debug
+The release is built with GCC and then "strip smartcoind" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 
