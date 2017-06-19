@@ -103,7 +103,7 @@ script: |
     make ${MAKEOPTS}
     make deploy
     make install-strip
-    cp -f smartcoin-*setup.exe $OUTDIR/
+    cp -f smartcoin-*setup*.exe $OUTDIR/
     cd installed
     mv ${DISTNAME}/bin/*.dll ${DISTNAME}/lib/
     find . -name "lib*.la" -delete
