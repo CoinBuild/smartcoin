@@ -3,11 +3,11 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
+#include "bignum.h"
 #include "pow.h"
 #include "chain.h"
 #include "chainparams.h"
 #include "primitives/block.h"
-#include "bignum.h"
 #include "uint256.h"
 #include "arith_uint256.h"
 #include "util.h"
