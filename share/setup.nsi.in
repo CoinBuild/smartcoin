@@ -6,7 +6,7 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION @CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@
-!define COMPANY "Bitcoin Core project"
+!define COMPANY "Smartcoin Core project"
 !define URL http://www.bitcoin.org/
 
 # MUI Symbol Definitions
@@ -48,18 +48,18 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile @abs_top_srcdir@/bitcoin-${VERSION}-win@WINDOWS_BITS@-setup.exe
+OutFile @abs_top_srcdir@/smartcoin-${VERSION}-win@WINDOWS_BITS@-setup.exe
 !if "@WINDOWS_BITS@" == "64"
-InstallDir $PROGRAMFILES64\Bitcoin
+InstallDir $PROGRAMFILES64\Smartcoin
 !else
-InstallDir $PROGRAMFILES\Bitcoin
+InstallDir $PROGRAMFILES\Smartcoin
 !endif
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion ${VERSION}.@CLIENT_VERSION_BUILD@
-VIAddVersionKey ProductName "Bitcoin Core"
+VIAddVersionKey ProductName "Smartcoin Core"
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -78,14 +78,14 @@ Section -Main SEC0000
     File /oname=readme.txt @abs_top_srcdir@/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
     File @abs_top_srcdir@/release/smartcoind.exe
-    File @abs_top_srcdir@/release/bitcoin-cli.exe
+    File @abs_top_srcdir@/release/smartcoin-cli.exe
     SetOutPath $INSTDIR\doc
     File /r @abs_top_srcdir@/doc\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
     # Remove old wxwidgets-based-bitcoin executable and locales:
-    Delete /REBOOTOK $INSTDIR\bitcoin.exe
+    Delete /REBOOTOK $INSTDIR\smartcoin.exe
     RMDir /r /REBOOTOK $INSTDIR\locale
 SectionEnd
 
@@ -106,10 +106,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "bitcoin" "URL Protocol" ""
-    WriteRegStr HKCR "bitcoin" "" "URL:Bitcoin"
-    WriteRegStr HKCR "bitcoin\DefaultIcon" "" $INSTDIR\smartcoin-qt.exe
-    WriteRegStr HKCR "bitcoin\shell\open\command" "" '"$INSTDIR\smartcoin-qt.exe" "%1"'
+    WriteRegStr HKCR "smartcoin" "URL Protocol" ""
+    WriteRegStr HKCR "smartcoin" "" "URL:Smartcoin"
+    WriteRegStr HKCR "smartcoin\DefaultIcon" "" $INSTDIR\smartcoin-qt.exe
+    WriteRegStr HKCR "smartcoin\shell\open\command" "" '"$INSTDIR\smartcoin-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -139,7 +139,7 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-    Delete /REBOOTOK "$SMSTARTUP\Bitcoin.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\Smartcoin.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log
@@ -147,7 +147,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "bitcoin"
+    DeleteRegKey HKCR "smartcoin"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0
