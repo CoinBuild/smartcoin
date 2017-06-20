@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#  smartcoind The bitcoin core server.
+#  smartcoind The smartcoin core server.
 #
 #
 # chkconfig: 345 80 20
