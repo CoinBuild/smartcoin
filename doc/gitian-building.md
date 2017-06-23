@@ -1,9 +1,9 @@
 Gitian building
 ================
 
-*Setup instructions for a Gitian build of Bitcoin using a Debian VM or physical system.*
+*Setup instructions for a Gitian build of Smartcoin using a Debian VM or physical system.*
 
-Gitian is the deterministic build process that is used to build the Bitcoin
+Gitian is the deterministic build process that is used to build the Smartcoin
 Core executables. It provides a way to be reasonably sure that the
 executables are really built from source on GitHub. It also makes sure that
 the same, tested dependencies are used and statically built into the executable.
@@ -26,7 +26,7 @@ Table of Contents
 - [Installing Gitian](#installing-gitian)
 - [Setting up the Gitian image](#setting-up-the-gitian-image)
 - [Getting and building the inputs](#getting-and-building-the-inputs)
-- [Building Bitcoin](#building-bitcoin)
+- [Building Smartcoin](#building-smartcoin)
 - [Building an alternative repository](#building-an-alternative-repository)
 - [Signing externally](#signing-externally)
 - [Uploading signatures](#uploading-signatures)
@@ -277,11 +277,11 @@ cd ..
 
 **Note**: When sudo asks for a password, enter the password for the user *debian* not for *root*.
 
-Clone the git repositories for bitcoin and Gitian.
+Clone the git repositories for smartcoin and Gitian.
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/bitcoin/bitcoin
+git clone https://github.com/psionin/smartcoin
 ```
 
 Setting up the Gitian image
@@ -361,11 +361,11 @@ and inputs.
 
 For example:
 ```bash
-URL=https://github.com/laanwj/bitcoin.git
-COMMIT=2014_03_windows_unicode_path
-./bin/gbuild --commit bitcoin=${COMMIT} --url bitcoin=${URL} ../bitcoin/contrib/gitian-descriptors/gitian-linux.yml
-./bin/gbuild --commit bitcoin=${COMMIT} --url bitcoin=${URL} ../bitcoin/contrib/gitian-descriptors/gitian-win.yml
-./bin/gbuild --commit bitcoin=${COMMIT} --url bitcoin=${URL} ../bitcoin/contrib/gitian-descriptors/gitian-osx.yml
+URL=https://github.com/psionin/smartcoin.git
+COMMIT=f08a9b4e7d3aab15cb46547bfd83dc53b4b5d661
+./bin/gbuild --commit smartcoin=${COMMIT} --url smartcoin=${URL} ../smartcoin/contrib/gitian-descriptors/gitian-linux.yml
+./bin/gbuild --commit smartcoin=${COMMIT} --url smartcoin=${URL} ../smartcoin/contrib/gitian-descriptors/gitian-win.yml
+./bin/gbuild --commit smartcoin=${COMMIT} --url smartcoin=${URL} ../smartcoin/contrib/gitian-descriptors/gitian-osx.yml
 ```
 
 Signing externally
@@ -380,9 +380,9 @@ When you execute `gsign` you will get an error from GPG, which can be ignored. C
 in `gitian.sigs` to your signing machine and do
 
 ```bash
-    gpg --detach-sign ${VERSION}-linux/${SIGNER}/bitcoin-linux-build.assert
-    gpg --detach-sign ${VERSION}-win/${SIGNER}/bitcoin-win-build.assert
-    gpg --detach-sign ${VERSION}-osx-unsigned/${SIGNER}/bitcoin-osx-build.assert
+    gpg --detach-sign ${VERSION}-linux/${SIGNER}/smartcoin-linux-build.assert
+    gpg --detach-sign ${VERSION}-win/${SIGNER}/smartcoin-win-build.assert
+    gpg --detach-sign ${VERSION}-osx-unsigned/${SIGNER}/smartcoin-osx-build.assert
 ```
 
 This will create the `.sig` files that can be committed together with the `.assert` files to assert your

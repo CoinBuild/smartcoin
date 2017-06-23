@@ -29,11 +29,11 @@ Release Process
 
 ###perform Gitian builds
 
- From a directory containing the bitcoin source, gitian-builder and gitian.sigs
+ From a directory containing the smartcoin source, gitian-builder and gitian.sigs
   
     export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
 	export VERSION=(new version, e.g. 0.8.0)
-	pushd ./bitcoin
+	pushd ./smartcoin
 	git checkout v${VERSION}
 	popd
 	pushd ./gitian-builder
@@ -60,26 +60,26 @@ Release Process
 
   Only missing files will be fetched, so this is safe to re-run for each build.
 
-###Build Bitcoin Core for Linux, Windows, and OS X:
+###Build Smartcoin Core for Linux, Windows, and OS X:
 
-	./bin/gbuild --commit bitcoin=v${VERSION} ../bitcoin/contrib/gitian-descriptors/gitian-linux.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../bitcoin/contrib/gitian-descriptors/gitian-linux.yml
-	mv build/out/bitcoin-*.tar.gz build/out/src/bitcoin-*.tar.gz ../
-	./bin/gbuild --commit bitcoin=v${VERSION} ../bitcoin/contrib/gitian-descriptors/gitian-win.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../bitcoin/contrib/gitian-descriptors/gitian-win.yml
-	mv build/out/bitcoin-*-win-unsigned.tar.gz inputs/bitcoin-win-unsigned.tar.gz
-	mv build/out/bitcoin-*.zip build/out/bitcoin-*.exe ../
-	./bin/gbuild --commit bitcoin=v${VERSION} ../bitcoin/contrib/gitian-descriptors/gitian-osx.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../bitcoin/contrib/gitian-descriptors/gitian-osx.yml
-	mv build/out/bitcoin-*-osx-unsigned.tar.gz inputs/bitcoin-osx-unsigned.tar.gz
-	mv build/out/bitcoin-*.tar.gz build/out/bitcoin-*.dmg ../
+	./bin/gbuild --commit smartcoin=v${VERSION} ../smartcoin/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../smartcoin/contrib/gitian-descriptors/gitian-linux.yml
+	mv build/out/smartcoin-*.tar.gz build/out/src/smartcoin-*.tar.gz ../
+	./bin/gbuild --commit smartcoin=v${VERSION} ../smartcoin/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../smartcoin/contrib/gitian-descriptors/gitian-win.yml
+	mv build/out/smartcoin-*-win-unsigned.tar.gz inputs/smartcoin-win-unsigned.tar.gz
+	mv build/out/smartcoin-*.zip build/out/smartcoin-*.exe ../
+	./bin/gbuild --commit smartcoin=v${VERSION} ../smartcoin/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../smartcoin/contrib/gitian-descriptors/gitian-osx.yml
+	mv build/out/smartcoin-*-osx-unsigned.tar.gz inputs/smartcoin-osx-unsigned.tar.gz
+	mv build/out/smartcoin-*.tar.gz build/out/smartcoin-*.dmg ../
 	popd
   Build output expected:
 
-  1. source tarball (bitcoin-${VERSION}.tar.gz)
-  2. linux 32-bit and 64-bit dist tarballs (bitcoin-${VERSION}-linux[32|64].tar.gz)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (bitcoin-${VERSION}-win[32|64]-setup-unsigned.exe, bitcoin-${VERSION}-win[32|64].zip)
-  4. OS X unsigned installer and dist tarball (bitcoin-${VERSION}-osx-unsigned.dmg, bitcoin-${VERSION}-osx64.tar.gz)
+  1. source tarball (smartcoin-${VERSION}.tar.gz)
+  2. linux 32-bit and 64-bit dist tarballs (smartcoin-${VERSION}-linux[32|64].tar.gz)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (smartcoin-${VERSION}-win[32|64]-setup-unsigned.exe, smartcoin-${VERSION}-win[32|64].zip)
+  4. OS X unsigned installer and dist tarball (smartcoin-${VERSION}-osx-unsigned.dmg, smartcoin-${VERSION}-osx64.tar.gz)
   5. Gitian signatures (in gitian.sigs/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/
 
 ###Next steps:
@@ -101,18 +101,18 @@ Commit your signature to gitian.sigs:
   Create the signed OS X binary:
 
 	pushd ./gitian-builder
-	./bin/gbuild -i --commit signature=v${VERSION} ../bitcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../bitcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	mv build/out/bitcoin-osx-signed.dmg ../bitcoin-${VERSION}-osx.dmg
+	./bin/gbuild -i --commit signature=v${VERSION} ../smartcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../smartcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	mv build/out/smartcoin-osx-signed.dmg ../smartcoin-${VERSION}-osx.dmg
 	popd
 
   Create the signed Windows binaries:
 
 	pushd ./gitian-builder
-	./bin/gbuild -i --commit signature=v${VERSION} ../bitcoin/contrib/gitian-descriptors/gitian-win-signer.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../bitcoin/contrib/gitian-descriptors/gitian-win-signer.yml
-	mv build/out/bitcoin-*win64-setup.exe ../bitcoin-${VERSION}-win64-setup.exe
-	mv build/out/bitcoin-*win32-setup.exe ../bitcoin-${VERSION}-win32-setup.exe
+	./bin/gbuild -i --commit signature=v${VERSION} ../smartcoin/contrib/gitian-descriptors/gitian-win-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../smartcoin/contrib/gitian-descriptors/gitian-win-signer.yml
+	mv build/out/smartcoin-*win64-setup.exe ../smartcoin-${VERSION}-win64-setup.exe
+	mv build/out/smartcoin-*win32-setup.exe ../smartcoin-${VERSION}-win32-setup.exe
 	popd
 
 Commit your signature for the signed OS X/Windows binaries:
