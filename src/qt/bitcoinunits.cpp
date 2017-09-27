@@ -18,8 +18,8 @@ QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
     unitlist.append(SMC);
-    unitlist.append(mBTC);
-    unitlist.append(uBTC);
+    unitlist.append(mSMC);
+    unitlist.append(uSMC);
     return unitlist;
 }
 
@@ -28,8 +28,8 @@ bool BitcoinUnits::valid(int unit)
     switch(unit)
     {
     case SMC:
-    case mBTC:
-    case uBTC:
+    case mSMC:
+    case uSMC:
         return true;
     default:
         return false;
@@ -41,8 +41,8 @@ QString BitcoinUnits::name(int unit)
     switch(unit)
     {
     case SMC: return QString("SMC");
-    case mBTC: return QString("mBTC");
-    case uBTC: return QString::fromUtf8("μBTC");
+    case mSMC: return QString("mSMC");
+    case uSMC: return QString::fromUtf8("μSMC");
     default: return QString("???");
     }
 }
@@ -52,8 +52,8 @@ QString BitcoinUnits::description(int unit)
     switch(unit)
     {
     case SMC: return QString("Bitcoins");
-    case mBTC: return QString("Milli-Bitcoins (1 / 1" THIN_SP_UTF8 "000)");
-    case uBTC: return QString("Micro-Bitcoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case mSMC: return QString("Milli-Bitcoins (1 / 1" THIN_SP_UTF8 "000)");
+    case uSMC: return QString("Micro-Bitcoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }
 }
@@ -63,8 +63,8 @@ qint64 BitcoinUnits::factor(int unit)
     switch(unit)
     {
     case SMC:  return 100000000;
-    case mBTC: return 100000;
-    case uBTC: return 100;
+    case mSMC: return 100000;
+    case uSMC: return 100;
     default:   return 100000000;
     }
 }
@@ -74,8 +74,8 @@ int BitcoinUnits::decimals(int unit)
     switch(unit)
     {
     case SMC: return 8;
-    case mBTC: return 5;
-    case uBTC: return 2;
+    case mSMC: return 5;
+    case uSMC: return 2;
     default: return 0;
     }
 }
