@@ -57,8 +57,8 @@ public:
     enum Unit
     {
         SMC,
-        mBTC,
-        uBTC
+        mSMC,
+        uSMC
     };
 
     enum SeparatorStyle
